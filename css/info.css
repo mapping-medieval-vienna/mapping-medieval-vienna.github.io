@@ -1,0 +1,128 @@
+/* ── Info page layout ── */
+#info-layout {
+  display: flex;
+  height: 100vh;
+  padding-top: var(--header-h);
+}
+
+/* ── Sidebar nav ── */
+#info-nav {
+  width: 220px;
+  flex-shrink: 0;
+  border-right: 1px solid var(--col-border);
+  overflow-y: auto;
+  background: #fff;
+  padding: 0.75rem 0 2rem;
+}
+
+.info-nav-section {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--col-muted);
+  padding: 1rem 1rem 0.3rem;
+}
+.info-nav-section:first-child { padding-top: 0.5rem; }
+
+.info-nav-link {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.3rem 1rem;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--col-text);
+  text-decoration: none;
+}
+.info-nav-link:hover { background: var(--col-accent-light); }
+.info-nav-link.active {
+  background: var(--col-accent-light);
+  font-weight: 600;
+  color: var(--col-accent);
+}
+
+.wip-badge {
+  font-size: 10px;
+  font-family: var(--font-ui);
+  color: var(--col-muted);
+  background: #ece8e0;
+  border-radius: 3px;
+  padding: 1px 5px;
+  white-space: nowrap;
+  margin-left: auto;
+}
+.info-nav-link.active .wip-badge {
+  background: #d8d0c4;
+}
+
+/* ── Main content ── */
+#info-main {
+  flex: 1;
+  overflow-y: auto;
+  padding: 2.5rem 3rem;
+  max-width: 780px;
+}
+
+/* ── Markdown prose styles ── */
+#info-content h1 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--col-border);
+  color: var(--col-accent);
+}
+#info-content h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 2rem 0 0.6rem;
+}
+#info-content h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.4rem;
+}
+#info-content p {
+  margin-bottom: 0.9rem;
+}
+#info-content ul, #info-content ol {
+  margin: 0.5rem 0 0.9rem 1.5rem;
+}
+#info-content li { margin-bottom: 0.25rem; }
+#info-content a { color: var(--col-accent); }
+#info-content code {
+  font-family: var(--font-ui);
+  font-size: 0.88em;
+  background: #ece8e0;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+#info-content pre {
+  background: #ece8e0;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+#info-content pre code { background: none; padding: 0; }
+#info-content table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
+#info-content th, #info-content td {
+  border: 1px solid var(--col-border);
+  padding: 0.4rem 0.75rem;
+  text-align: left;
+}
+#info-content th { background: #ece8e0; font-weight: 600; }
+
+/* ── WIP notice ── */
+.wip-notice {
+  color: var(--col-muted);
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 0.5rem;
+}

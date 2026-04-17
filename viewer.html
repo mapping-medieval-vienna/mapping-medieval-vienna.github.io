@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mapping Medieval Vienna</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header id="site-header">
+  <span id="site-title">Mapping Medieval Vienna</span>
+  <span id="header-sep"></span>
+  <span id="edition-title" style="font-family:var(--font-ui);font-size:13px;opacity:0.9;"></span>
+  <a href="index.html" style="margin-left:1rem;">← Übersicht</a>
+</header>
+
+<div id="layout">
+
+  <nav id="page-nav"></nav>
+
+  <div id="content">
+
+    <div id="transcript-pane">
+      <div id="pane-controls">
+        <button class="nav-btn" id="btn-prev" title="Vorherige Seite">&#8592;</button>
+        <button class="nav-btn" id="btn-next" title="Nächste Seite">&#8594;</button>
+        <label>
+          <input type="checkbox" id="toggle-form">
+          Formularansicht
+        </label>
+      </div>
+    </div>
+
+    <div id="facsimile-pane">
+      <h3 id="facs-label">Faksimile</h3>
+      <div id="openseadragon"></div>
+    </div>
+
+  </div>
+</div>
+
+<script src="lib/openseadragon.min.js"></script>
+<script src="js/viewer.js"></script>
+</body>
+</html>

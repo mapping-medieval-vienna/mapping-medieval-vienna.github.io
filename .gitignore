@@ -1,0 +1,9 @@
+# Optional: comment out these lines if you want to commit the TEI files directly
+# data/*.xml
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+*.swp
