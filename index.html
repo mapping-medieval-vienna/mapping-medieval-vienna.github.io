@@ -104,6 +104,34 @@
       vertical-align: middle; white-space: nowrap;
     }
 
+
+    /* ── Quick search bar ── */
+    .search-bar-wrap { margin-bottom: 2rem; }
+    #quick-search { display: flex; gap: 0; max-width: 520px; }
+    #quick-search input {
+      flex: 1;
+      font-family: var(--font);
+      font-size: 14px;
+      padding: 0.5rem 0.75rem;
+      border: 1px solid var(--border);
+      border-right: none;
+      border-radius: 4px 0 0 4px;
+      background: #fff;
+      color: #1a1714;
+    }
+    #quick-search input:focus { outline: none; border-color: var(--accent); }
+    #quick-search button {
+      font-family: var(--font-ui);
+      font-size: 13px;
+      padding: 0.5rem 1rem;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    #quick-search button:hover { background: #4a3020; }
     /* ── Footer ── */
     footer {
       margin-top: 3rem; padding: 1.5rem; border-top: 1px solid var(--border);
@@ -134,7 +162,14 @@
     Hinweise und Verbesserungen an: <a href="mailto:thomas.ertl@fu-berlin.de">thomas.ertl@fu-berlin.de</a>
   </div>
 
-  <h2>Editionen</h2>
+  <div class="search-bar-wrap">
+    <form id="quick-search" action="search.html" method="get" autocomplete="off">
+      <input type="search" name="q" placeholder="Suche nach Personen, Orten, Objekt-IDs …" aria-label="Suche">
+      <button type="submit">Suchen</button>
+    </form>
+  </div>
+
+    <h2>Editionen</h2>
   <p class="section-intro">Die Transkriptionen bieten sowohl eine zeilengetreue Wiedergabe als auch eine strukturierte Formularansicht der einzelnen Einträge.</p>
   <div class="editions">
     <a class="edition-card" href="viewer.html?e=KB-E">

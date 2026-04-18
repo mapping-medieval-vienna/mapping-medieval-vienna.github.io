@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suche – Mapping Medieval Vienna</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+
+<header id="site-header">
+  <span id="site-title">Mapping Medieval Vienna</span>
+  <span id="header-sep"></span>
+  <a href="index.html">← Übersicht</a>
+</header>
+
+<div id="search-layout">
+  <main id="search-main">
+
+    <h1 id="search-heading">Suche</h1>
+
+    <form id="search-form" autocomplete="off">
+      <div class="field-grid">
+
+        <div class="field-group full-width">
+          <label for="q-text">Freitext (von, an, Ort, Objekt)</label>
+          <input type="search" id="q-text" placeholder="z.B. Munsser, Scheffstraße, DB6000">
+        </div>
+
+        <div class="field-group">
+          <label for="q-von">Von (Person / Verkäufer)</label>
+          <input type="search" id="q-von" placeholder="Name">
+        </div>
+
+        <div class="field-group">
+          <label for="q-an">An (Person / Käufer)</label>
+          <input type="search" id="q-an" placeholder="Name">
+        </div>
+
+        <div class="field-group">
+          <label for="q-objekt">Objekt</label>
+          <input type="search" id="q-objekt" placeholder="Beschreibung oder ID, z.B. DB6000">
+        </div>
+
+        <div class="field-group">
+          <label for="q-lage">Lage</label>
+          <input type="search" id="q-lage" placeholder="Straße, Viertel …">
+        </div>
+
+        <div class="field-group">
+          <label for="q-neben">Neben</label>
+          <input type="search" id="q-neben" placeholder="Nachbargebäude …">
+        </div>
+
+        <div class="field-group year-range">
+          <label>Zeitraum</label>
+          <div class="year-inputs">
+            <input type="number" id="q-year-from" placeholder="von" min="1400" max="1600">
+            <span>–</span>
+            <input type="number" id="q-year-to"   placeholder="bis" min="1400" max="1600">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="form-footer">
+        <button type="submit" id="btn-search">Suchen</button>
+        <button type="button" id="btn-reset">Zurücksetzen</button>
+        <span id="result-count"></span>
+      </div>
+    </form>
+
+    <div id="results"></div>
+
+  </main>
+</div>
+
+<script src="js/search.js"></script>
+</body>
+</html>
