@@ -3,6 +3,8 @@
 Digitale Edition von vier mittelalterlichen Wiener Grundbüchern des frühen 15. Jahrhunderts,
 gehostet als statische Website auf GitHub Pages.
 
+**Live:** https://mapping-medieval-vienna.github.io/
+
 ## Projektstruktur
 
 ```
@@ -10,22 +12,27 @@ gehostet als statische Website auf GitHub Pages.
 ├── index.html                  Startseite
 ├── viewer.html                 Edition-Viewer
 ├── info.html                   Info-Seiten-Renderer
+├── search.html                 Suchseite
 ├── anno-domini.jpg             Header-Bild
+├── build-search-index.py       Erzeugt data/search-index.json
 ├── css/
 │   ├── main.css                Haupt-CSS (Viewer)
-│   └── info.css                CSS für Infoseiten
+│   ├── info.css                CSS für Infoseiten
+│   └── search.css              CSS für Suchseite
 ├── js/
 │   ├── viewer.js               TEI-Parsing, Navigation, IIIF
 │   ├── info.js                 Markdown-Laden, Sidebar
-│   └── marked.min.js           Markdown-Renderer (lokal)
+│   └── search.js               Suchlogik
 ├── lib/
 │   ├── openseadragon.min.js    IIIF-Viewer (lokal)
-│   └── images/                 OSD-Navigations-Icons
-├── data/                       TEI-Dateien (nicht im Repo)
-│   ├── KB-E.xml
-│   ├── KB-E2_GB-C.xml
-│   ├── GB-D.xml
-│   └── GB-E.xml
+│   ├── marked.min.js           Markdown-Renderer (lokal)
+│   └── openseadragon-images/   OSD-Navigations-Icons
+├── data/
+│   ├── KB-E.xml                TEI-Edition Kaufbuch E
+│   ├── KB-E2_GB-C.xml          TEI-Edition Kaufbuch E2 / Gewährbuch C
+│   ├── GB-D.xml                TEI-Edition Gewährbuch D
+│   ├── GB-E.xml                TEI-Edition Gewährbuch E
+│   └── search-index.json       Suchindex (erzeugt von build-search-index.py)
 └── pages/                      Markdown-Infoseiten
     ├── projekt/index.md
     ├── edition/
@@ -38,23 +45,30 @@ gehostet als statische Website auf GitHub Pages.
 
 ## Die vier Editionen
 
-| URL-Kürzel | Titel |
-|------------|-------|
-| `KB-E` | Kaufbuch E |
-| `KB-E2_GB-C` | Kaufbuch E2 / Gewährbuch C |
-| `GB-D` | Gewährbuch D |
-| `GB-E` | Gewährbuch E |
+| URL-Kürzel | Titel | Zeitraum |
+|------------|-------|----------|
+| `KB-E` | Kaufbuch E | |
+| `KB-E2_GB-C` | Kaufbuch E2 / Gewährbuch C | |
+| `GB-D` | Gewährbuch D | ca. 1438–1473 |
+| `GB-E` | Gewährbuch E | ca. 1474–1517 |
 
-## TEI-Dateien
+Kaufbuch E2 und Gewährbuch C liegen in einer gemeinsamen TEI-Datei und einem
+gemeinsamen Viewer-Aufruf. Sinnvolle Einstiegspunkte: S. 3 (KB-E2) und S. 81 (GB-C).
 
-Die TEI-Dateien (`data/*.xml`) sind nicht im Repository versioniert – sie sind zu groß
-für GitHub (größte Datei ca. 12 MB) und werden separat bereitgestellt.
-Vor dem Deployment müssen sie manuell in `data/` abgelegt werden.
+## Suchindex aktualisieren
+
+Nach Änderungen an den TEI-Dateien muss der Suchindex neu erzeugt werden:
+
+```bash
+python3 build-search-index.py
+```
+
+Das Skript liest alle vier TEI-Dateien aus `data/` und schreibt `data/search-index.json`.
 
 ## Lokale Entwicklung
 
-Da die TEI- und Markdown-Dateien per `fetch()` geladen werden, ist ein lokaler
-HTTP-Server nötig (direktes Öffnen als `file://` funktioniert nicht):
+Da Dateien per `fetch()` geladen werden, ist ein lokaler HTTP-Server nötig
+(direktes Öffnen als `file://` funktioniert nicht):
 
 ```bash
 python3 -m http.server 8000
@@ -63,12 +77,12 @@ python3 -m http.server 8000
 Dann im Browser:
 - Startseite: `http://localhost:8000/`
 - Edition: `http://localhost:8000/viewer.html?e=GB-D`
+- Suche: `http://localhost:8000/search.html`
 - Infoseite: `http://localhost:8000/info.html?p=edition/ueber-die-edition`
 
 ## Deployment auf GitHub Pages
 
 Push auf `main` löst automatisch das Deployment aus (`.github/workflows/deploy.yml`).
-Die TEI-Dateien müssen vor dem Push in `data/` liegen, oder separat hochgeladen werden.
 
 Einmalige Einrichtung im Repository unter *Settings → Pages*:
 - Source: **GitHub Actions**
