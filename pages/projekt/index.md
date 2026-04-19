@@ -1,6 +1,6 @@
 # Über das Projekt
 
-Im Projekt _Mapping Medieval Vienna_ wurden die Wiener Kauf- und Gewerbücher des 15. Jahrhunderts transkribiert und ausgewertet. Das Projekt wurde 2021 bis 2025 von der DFG gefördert und ist am Friedrich-Meinecke-Institut der Freie Universität angesiedelt. Geleitet wird das Projekt von Prof. Thomas Ertl. Wissenschaftliche Mitarbeiter sind Julian Helmchen und Wolfgang Schmidle. Unsere wichtigsten Kooperationspartner waren unsere Kolleg:innen in Wien (Universität, Wien Museum und Wiener Stadt- und Landesarchiv) sowie das Center für Digitale Systeme (CeDiS) der Freien Universität Berlin.
+Im Projekt _Mapping Medieval Vienna_ wurden die Wiener Kauf- und Gewerbücher des 15. Jahrhunderts transkribiert und ausgewertet. Das Projekt wurde 2021 bis 2025 <a href="https://gepris.dfg.de/gepris/projekt/460256739">durch die DFG gefördert</a> und ist am Friedrich-Meinecke-Institut der Freien Universität angesiedelt. Geleitet wird das Projekt von Prof. **Thomas Ertl**. Wissenschaftliche Mitarbeiter sind **Julian Helmchen** und **Wolfgang Schmidle**. Unsere wichtigsten Kooperationspartner waren unsere Kolleg:innen in Wien (Universität, Wien Museum und Wiener Stadt- und Landesarchiv) sowie das Center für Digitale Systeme (CeDiS) der Freien Universität Berlin.
 
 ## Die Wiener Grundbücher
 
@@ -15,14 +15,14 @@ Für die Wissenschaft bedeutet dies, dass tausende Nennungen von Personen und Im
 Bei den von uns edierten Grundbüchern handelt es sich um die heute im Wiener Stadt- und Landesarchiv befindlichen Handschriften:
 
 1420-1437:
-* WStLA Einzelstück 2.1.2.1.B1.6a - [Kaufbuch E (Buchstaben A bis R)](../edition/KB-E.xml?id=img_003)
-* WStLA Einzelstück 2.1.2.1.B1.6b.1 - [Kaufbuch E2 (Buchstaben S bis W)](../edition/KB-E2_GB-C.xml?id=img_003)<br/>
-WStLA Einzelstück 2.1.2.1.B1.6b.2 - [Gewährbuch C](../edition/KB-E2_GB-C.xml?id=img_081)
+* WStLA Einzelstück 2.1.2.1.B1.6a - [Kaufbuch E (Buchstaben A bis R)](viewer.html?e=KB-E)
+* WStLA Einzelstück 2.1.2.1.B1.6b.1 - [Kaufbuch E2 (Buchstaben S bis W)](viewer.html?e=KB-E2_GB-C#3)<br/>
+WStLA Einzelstück 2.1.2.1.B1.6b.2 - [Gewährbuch C](viewer.html?e=KB-E2_GB-C#81)
 
 1438-1473:
-* WStLA Einzelstück 2.1.2.1.B1.7 - [Gewährbuch D](../edition/GB-D.xml?id=img_0002)
+* WStLA Einzelstück 2.1.2.1.B1.7 - [Gewährbuch D](viewer.html?e=GB-D)
 
 1474-1517:
-* WStLA Einzelstück 2.1.2.1.B1.8 - [Gewährbuch E](../edition/GB-E.xml?id=img_0002)
+* WStLA Einzelstück 2.1.2.1.B1.8 - [Gewährbuch E](viewer.html?e=GB-E)
 
-Details zur Edition finden Sie [hier](edition.md).
+Details zur Edition finden Sie unter [Über die Edition](info.html?p=edition/ueber-die-edition).

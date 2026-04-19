@@ -53,6 +53,13 @@
       max-width: 680px;
     }
     .intro p + p { margin-top: 0.8rem; }
+    .intro a {
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: var(--border);
+      text-underline-offset: 2px;
+    }
+    .intro a:hover { text-decoration-color: var(--accent); }
 
     .notice {
       background: var(--accent-light); border-left: 3px solid var(--accent);
@@ -181,9 +188,11 @@
 
 <main>
   <div class="intro">
-    <p>Das Projekt Mapping Medieval Vienna erschließt vier Grundbücher der Stadt Wien aus dem
+    <p>Das Projekt <a href="info.html?p=projekt/index">Mapping Medieval Vienna</a> erschließt 
+    <a href="info.html?p=edition/ueber-die-edition">vier Grundbücher der Stadt Wien</a> aus dem
     15. Jahrhundert, die im Wiener Stadt- und Landesarchiv überliefert sind.
-    Das Projekt wurde 2021–2025 durch die DFG gefördert.</p>
+    Das Projekt wurde 2021–2025 
+    <a href="https://gepris.dfg.de/gepris/projekt/460256739">durch die DFG gefördert</a>.</p>
   </div>
 
   <div class="notice">

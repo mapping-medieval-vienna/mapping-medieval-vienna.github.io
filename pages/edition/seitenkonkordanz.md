@@ -1,10 +1,10 @@
 # Seitenkonkordanz
 
-Die Seitenkonkordanz für jedes Grundbuch ist auf [GitHub](https://github.com/medieval-vienna/gesamt/tree/main/konkordanz) 
-([KB-E](https://github.com/medieval-vienna/gesamt/blob/main/konkordanz/Konkordanz%20-%20KB-E.csv), 
+Die Seitenkonkordanz für jedes Grundbuch ist im [GitHub-Repository für die Projektdaten](https://github.com/medieval-vienna/gesamt/tree/main/konkordanz). Direkte Links zu den vier Grundbüchern:
+[KB-E](https://github.com/medieval-vienna/gesamt/blob/main/konkordanz/Konkordanz%20-%20KB-E.csv), 
 [KB-E2 / GB-C](https://github.com/medieval-vienna/gesamt/blob/main/konkordanz/Konkordanz%20-%20KB-E2_GB-C.csv),
 [GB-D](https://github.com/medieval-vienna/gesamt/blob/main/konkordanz/Konkordanz%20-%20GB-D.csv), 
-[GB-E](https://github.com/medieval-vienna/gesamt/blob/main/konkordanz/Konkordanz%20-%20GB-E.csv)).
+[GB-E](https://github.com/medieval-vienna/gesamt/blob/main/konkordanz/Konkordanz%20-%20GB-E.csv)
 
 Die Konkordanz gleicht für jedes Grundbuch ab:
 
@@ -17,7 +17,7 @@ Beachte:
 
 * Das [Wien Geschichte Wiki](https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki) verwendet wie Czeike die im Band eingetragene Foliierung mit arabischen Zahlen. Zum Beispiel der Artikel 
 [Wo der Wolf den Gänsen predigt](https://www.geschichtewiki.wien.gv.at/Wo_der_Wolf_den_Gänsen_predigt)
-verweist auf Gewährbuch D fol. 251v, das entspricht bei uns der Seite GB-D 0503 (und genauer dem Eintrag GB-D 0503-1).
+verweist auf Gewährbuch D fol. 251v, das entspricht bei uns der Seite [GB-D 0503](viewer.html?e=GB-D#503%20war%20509) (und genauer dem Eintrag GB-D 0503-1).
 * Im Gegensatz dazu zählt Julian Helmchen alle Blätter im Band, anstatt der mittelalterlichen Foliierung zu folgen, da sich die Schreiber manchmal verzählt haben. Dadurch ergeben sich kleine Abweichungen.
 * Bei den im Band eingetragenen Foliierungen steht `{ }` für `<unclear>` und `-- --` für `<del>`.
 * Wir zitieren eintragsweise. Eine konkrete Textstelle kann dann in seltenen Fällen auch auf der nächsten Seite und in äußerst seltenen Fällen auch auf der übernächsten Seite sein.
