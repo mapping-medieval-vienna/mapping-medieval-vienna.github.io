@@ -7,33 +7,63 @@ const EDITION_LABELS = {
   'GB-E':       'Gewährbuch E',
 };
 
+const YEAR_MIN = 1420;
+const YEAR_MAX = 1517;
+
 let index = null;
 
 /* ── Bootstrap ── */
 document.addEventListener('DOMContentLoaded', () => {
-  // Pre-fill from URL params
   const p = new URLSearchParams(location.search);
-  if (p.get('q'))         document.getElementById('q-text').value    = p.get('q');
-  if (p.get('von'))       document.getElementById('q-von').value     = p.get('von');
-  if (p.get('an'))        document.getElementById('q-an').value      = p.get('an');
-  if (p.get('objekt'))    document.getElementById('q-objekt').value  = p.get('objekt');
-  if (p.get('lage'))      document.getElementById('q-lage').value    = p.get('lage');
-  if (p.get('neben'))     document.getElementById('q-neben').value   = p.get('neben');
-  if (p.get('from'))      document.getElementById('q-year-from').value = p.get('from');
-  if (p.get('to'))        document.getElementById('q-year-to').value   = p.get('to');
+
+  if (p.get('q'))       document.getElementById('q-text').value        = p.get('q');
+  if (p.get('person'))  document.getElementById('q-person').value      = p.get('person');
+  if (p.get('rolle'))   document.getElementById('q-person-rolle').value = p.get('rolle');
+  if (p.get('objekt'))  document.getElementById('q-objekt').value      = p.get('objekt');
+  if (p.get('lage'))    document.getElementById('q-lage').value        = p.get('lage');
+
+  // Year defaults: only override if param present
+  const fromEl = document.getElementById('q-year-from');
+  const toEl   = document.getElementById('q-year-to');
+  if (p.get('from')) fromEl.value = p.get('from');
+  if (p.get('to'))   toEl.value   = p.get('to');
+
+  // Year validation on blur
+  fromEl.addEventListener('blur', () => {
+    let from = parseInt(fromEl.value) || YEAR_MIN;
+    let to   = parseInt(toEl.value)   || YEAR_MAX;
+    from = Math.max(YEAR_MIN, Math.min(YEAR_MAX, from));
+    if (from > to) to = from;
+    fromEl.value = from;
+    toEl.value   = to;
+  });
+  toEl.addEventListener('blur', () => {
+    let from = parseInt(fromEl.value) || YEAR_MIN;
+    let to   = parseInt(toEl.value)   || YEAR_MAX;
+    to = Math.max(YEAR_MIN, Math.min(YEAR_MAX, to));
+    if (to < from) from = to;
+    fromEl.value = from;
+    toEl.value   = to;
+  });
 
   document.getElementById('search-form').addEventListener('submit', e => {
     e.preventDefault();
     runSearch();
   });
+
   document.getElementById('btn-reset').addEventListener('click', () => {
-    document.getElementById('search-form').reset();
-    document.getElementById('results').innerHTML = '';
+    document.getElementById('q-text').value           = '';
+    document.getElementById('q-person').value         = '';
+    document.getElementById('q-person-rolle').value   = 'alle';
+    document.getElementById('q-objekt').value         = '';
+    document.getElementById('q-lage').value           = '';
+    fromEl.value = YEAR_MIN;
+    toEl.value   = YEAR_MAX;
+    document.getElementById('results').innerHTML      = '';
     document.getElementById('result-count').textContent = '';
     history.replaceState(null, '', 'search.html');
   });
 
-  // Load index then run if params present
   loadIndex().then(() => {
     if ([...p.values()].some(v => v)) runSearch();
   });
@@ -58,28 +88,30 @@ function runSearch() {
   if (!index) return;
 
   const q        = norm(document.getElementById('q-text').value);
-  const qVon     = norm(document.getElementById('q-von').value);
-  const qAn      = norm(document.getElementById('q-an').value);
+  const qPerson  = norm(document.getElementById('q-person').value);
+  const qRolle   = document.getElementById('q-person-rolle').value;
   const qObjekt  = norm(document.getElementById('q-objekt').value);
   const qLage    = norm(document.getElementById('q-lage').value);
-  const qNeben   = norm(document.getElementById('q-neben').value);
   const yearFrom = parseInt(document.getElementById('q-year-from').value) || null;
   const yearTo   = parseInt(document.getElementById('q-year-to').value)   || null;
 
   // Update URL
   const params = new URLSearchParams();
-  if (q)       params.set('q',      document.getElementById('q-text').value.trim());
-  if (qVon)    params.set('von',    document.getElementById('q-von').value.trim());
-  if (qAn)     params.set('an',     document.getElementById('q-an').value.trim());
-  if (qObjekt) params.set('objekt', document.getElementById('q-objekt').value.trim());
-  if (qLage)   params.set('lage',   document.getElementById('q-lage').value.trim());
-  if (qNeben)  params.set('neben',  document.getElementById('q-neben').value.trim());
-  if (yearFrom) params.set('from',  yearFrom);
-  if (yearTo)   params.set('to',    yearTo);
-  history.replaceState(null, '', 'search.html?' + params.toString());
+  if (q)                     params.set('q',      document.getElementById('q-text').value.trim());
+  if (qPerson)               params.set('person', document.getElementById('q-person').value.trim());
+  if (qPerson && qRolle !== 'alle') params.set('rolle', qRolle);
+  if (qObjekt)               params.set('objekt', document.getElementById('q-objekt').value.trim());
+  if (qLage)                 params.set('lage',   document.getElementById('q-lage').value.trim());
+  // Only store year params if non-default
+  if (yearFrom && yearFrom !== YEAR_MIN) params.set('from', yearFrom);
+  if (yearTo   && yearTo   !== YEAR_MAX) params.set('to',   yearTo);
+  history.replaceState(null, '', 'search.html' + (params.toString() ? '?' + params.toString() : ''));
 
-  // Nothing entered
-  if (!q && !qVon && !qAn && !qObjekt && !qLage && !qNeben && !yearFrom && !yearTo) {
+  // Nothing entered (year defaults don't count as "something entered")
+  const anythingEntered = q || qPerson || qObjekt || qLage
+    || (yearFrom && yearFrom !== YEAR_MIN)
+    || (yearTo   && yearTo   !== YEAR_MAX);
+  if (!anythingEntered) {
     document.getElementById('results').innerHTML = '';
     document.getElementById('result-count').textContent = '';
     return;
@@ -88,25 +120,30 @@ function runSearch() {
   const results = index.filter(r => {
     // Year filter
     const year = r.datum ? parseInt(r.datum.split('/')[0].trim().slice(0, 4)) : null;
-    if (yearFrom && (!year || year < yearFrom)) return false;
-    if (yearTo   && (!year || year > yearTo))   return false;
+    if (yearFrom && yearFrom !== YEAR_MIN && (!year || year < yearFrom)) return false;
+    if (yearTo   && yearTo   !== YEAR_MAX && (!year || year > yearTo))   return false;
 
-    // Field-specific filters
-    if (qVon    && !matchesAny(r.von,    qVon))    return false;
-    if (qAn     && !matchesAny(r.an,     qAn))     return false;
-    if (qObjekt && !matchesObjekt(r, qObjekt))      return false;
-    if (qLage   && !matchesAny(r.lage,   qLage))   return false;
-    if (qNeben  && !matchesAny(r.neben,  qNeben))  return false;
+    // Person filter
+    if (qPerson) {
+      if (!matchesPerson(r, qPerson, qRolle)) return false;
+    }
 
-    // Free text: search across von, an, objekt, objId, lage, neben
+    // Objekt filter (includes neben-IDs)
+    if (qObjekt && !matchesObjekt(r, qObjekt)) return false;
+
+    // Lage filter
+    if (qLage && !matchesAny(r.lage, qLage)) return false;
+
+    // Free text: von, an, objekt, objIds, lage, neben text, neben IDs
     if (q) {
       const haystack = [
-        ...(r.von    || []),
-        ...(r.an     || []),
-        ...(r.objekt || []),
-        r.objId || '',
-        ...(r.lage   || []),
-        ...(r.neben  || []),
+        ...(r.von      || []),
+        ...(r.an       || []),
+        ...(r.objekt   || []),
+        ...(r.objIds   || []),
+        ...(r.lage     || []),
+        ...(r.neben    || []),
+        ...(r.nebenIds || []),
       ].map(norm).join(' ');
       if (!haystack.includes(q)) return false;
     }
@@ -114,12 +151,18 @@ function runSearch() {
     return true;
   });
 
-  renderResults(results);
+  results.sort((a, b) => {
+    const ya = a.datum ? parseInt(a.datum.slice(0, 4)) : -Infinity;
+    const yb = b.datum ? parseInt(b.datum.slice(0, 4)) : -Infinity;
+    return ya - yb;
+  });
+
+  renderResults(results, [q, qPerson, qObjekt, qLage].filter(t => t.length > 0));
 }
 
 /* ── Render results ── */
-function renderResults(results) {
-  const countEl = document.getElementById('result-count');
+function renderResults(results, activeTerms = []) {
+  const countEl   = document.getElementById('result-count');
   const resultsEl = document.getElementById('results');
 
   if (results.length === 0) {
@@ -131,7 +174,7 @@ function renderResults(results) {
   countEl.textContent = results.length === 1 ? '1 Treffer' : results.length + ' Treffer';
 
   resultsEl.innerHTML = '';
-  const MAX = 200;
+  const MAX   = 200;
   const shown = results.slice(0, MAX);
 
   shown.forEach(r => {
@@ -146,20 +189,26 @@ function renderResults(results) {
     if (r.page) html += `<span class="result-page">S. ${esc(r.page)}</span>`;
     html += `</div><dl class="result-fields">`;
 
-    if (r.von?.length)    html += field('Von',    r.von.join('; '));
-    if (r.an?.length)     html += field('An',     r.an.join('; '));
+    const joinArr = (v) => Array.isArray(v) ? v.map(String).join('; ') : String(v ?? '');
+
+    if (r.von?.length)    html += field('Von',    joinArr(r.von));
+    if (r.an?.length)     html += field('An',     joinArr(r.an));
     if (r.objekt?.length) {
-      const objTxt = r.objekt.join('; ');
-      const objId  = r.objId ? ` <span class="obj-id">${esc(r.objId)}</span>` : '';
-      html += field('Objekt', objTxt, objId);
+      const objTxt = joinArr(r.objekt);
+      const objIds = (r.objIds || []).map(id => `<span class="obj-id">${esc(String(id))}</span>`).join(' ');
+      html += field('Objekt', objTxt, objIds ? ' ' + objIds : '');
     }
-    if (r.lage?.length)   html += field('Lage',   r.lage.join('; '));
-    if (r.neben?.length)  html += field('Neben',  r.neben.join('; '));
-    if (r.datum)          html += field('Datum',  r.datum);
-    if (r.preis)          html += field('Preis',  r.preis);
+    if (r.lage?.length)   html += field('Lage',   joinArr(r.lage));
+    if (r.neben?.length)  html += field('Neben',  joinArr(r.neben));
+    if (r.datum)          html += field('Datum',  String(r.datum));
+    if (r.preis?.length)  {
+      const preisArr = Array.isArray(r.preis) ? r.preis : [r.preis];
+      html += field('Preis', preisArr.map(v => esc(String(v))).join('<br>'), '', true);
+    }
 
     html += `</dl>`;
     card.innerHTML = html;
+    highlightCard(card, activeTerms);
     resultsEl.appendChild(card);
   });
 
@@ -171,24 +220,91 @@ function renderResults(results) {
   }
 }
 
-function field(label, value, extra = '') {
-  return `<div class="result-field"><dt>${label}</dt><dd>${esc(value)}${extra}</dd></div>`;
+function field(label, value, extra = '', raw = false) {
+  const val = raw ? value : esc(value);
+  return `<div class="result-field"><dt>${label}</dt><dd>${val}${extra}</dd></div>`;
 }
 
 /* ── Helpers ── */
 function norm(s) {
   return (s || '').toLowerCase().trim();
 }
+
 function matchesAny(arr, q) {
   if (!arr || !arr.length) return false;
   return arr.some(v => norm(v).includes(q));
 }
+
+/**
+ * Person search:
+ * - "alle": von + an + neben-Text
+ * - "von":  only von
+ * - "an":   only an
+ * - "neben": only neben-Text
+ */
+function matchesPerson(r, q, rolle) {
+  switch (rolle) {
+    case 'von':   return matchesAny(r.von, q);
+    case 'an':    return matchesAny(r.an,  q);
+    case 'neben': return matchesAny(r.neben, q);
+    default:      // "alle"
+      return matchesAny(r.von, q) || matchesAny(r.an, q) || matchesAny(r.neben, q);
+  }
+}
+
+/**
+ * Objekt search: text + own ID + neben-IDs
+ */
 function matchesObjekt(r, q) {
-  // Match against objekt text OR objId
   if (matchesAny(r.objekt, q)) return true;
-  if (r.objId && norm(r.objId).includes(q)) return true;
+  if (r.objIds && r.objIds.some(id => norm(id).includes(q))) return true;
+  if (r.nebenIds && r.nebenIds.some(id => norm(id).includes(q))) return true;
   return false;
 }
+
 function esc(s) {
-  return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  return (s == null ? '' : String(s)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+/**
+ * Highlight all activeTerms in the text nodes of <dd> elements within a card.
+ * Works on the DOM after innerHTML is set, so it's safe with existing HTML structure.
+ */
+function highlightCard(card, activeTerms) {
+  if (!activeTerms.length) return;
+  // Build a single regex that matches any of the terms (case-insensitive)
+  const escaped = activeTerms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  const re = new RegExp('(' + escaped.join('|') + ')', 'gi');
+
+  card.querySelectorAll('dd').forEach(dd => {
+    highlightTextNodes(dd, re);
+  });
+}
+
+function highlightTextNodes(node, re) {
+  // Walk child nodes; replace text nodes that match
+  for (let i = node.childNodes.length - 1; i >= 0; i--) {
+    const child = node.childNodes[i];
+    if (child.nodeType === 3) { // text node
+      const text = child.textContent;
+      if (re.test(text)) {
+        re.lastIndex = 0;
+        const frag = document.createDocumentFragment();
+        let last = 0, m;
+        re.lastIndex = 0;
+        while ((m = re.exec(text)) !== null) {
+          if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+          const mark = document.createElement('mark');
+          mark.textContent = m[0];
+          frag.appendChild(mark);
+          last = m.index + m[0].length;
+        }
+        if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+        node.replaceChild(frag, child);
+      }
+      re.lastIndex = 0;
+    } else if (child.nodeType === 1 && child.tagName !== 'MARK') {
+      highlightTextNodes(child, re);
+    }
+  }
 }

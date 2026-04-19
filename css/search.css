@@ -46,6 +46,40 @@ h1#search-heading {
   border-color: var(--col-accent);
 }
 
+/* ── Person field with role dropdown ── */
+.person-inputs {
+  display: flex;
+  gap: 0;
+}
+.person-inputs input {
+  flex: 1;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+.person-inputs input:focus {
+  outline: none;
+  border-color: var(--col-accent);
+  /* keep right border gone even on focus */
+  border-right: none;
+}
+.person-inputs select {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--col-border);
+  border-radius: 0 4px 4px 0;
+  background: var(--col-accent-light);
+  color: var(--col-accent);
+  cursor: pointer;
+  /* prevent shrinking */
+  flex-shrink: 0;
+  appearance: auto;
+}
+.person-inputs select:focus {
+  outline: none;
+  border-color: var(--col-accent);
+}
+
 .year-range .year-inputs {
   display: flex;
   align-items: center;
@@ -129,8 +163,8 @@ h1#search-heading {
 
 .result-fields {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 0.2rem 1.5rem;
+  grid-template-columns: 5rem 1fr;
+  gap: 0.15rem 0.75rem;
   font-size: 14px;
 }
 .result-field { display: contents; }
@@ -140,9 +174,10 @@ h1#search-heading {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--col-muted);
-  padding-top: 0.1rem;
+  padding-top: 0.15rem;
+  white-space: nowrap;
 }
-.result-field dd { color: var(--col-text); }
+.result-field dd { color: var(--col-text); margin: 0; }
 
 .obj-id {
   font-family: var(--font-ui);
@@ -152,6 +187,13 @@ h1#search-heading {
   padding: 1px 5px;
   margin-left: 0.4rem;
   color: var(--col-accent);
+}
+
+.result-field dd mark {
+  background: #f5e9a0;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
 }
 
 .result-truncated {

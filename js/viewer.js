@@ -236,7 +236,7 @@ function loadFacsimile(idx) {
 function initOSD() {
   viewer = OpenSeadragon({
     id:                    "openseadragon",
-    prefixUrl:             "lib/images/",
+    prefixUrl:             "lib/openseadragon-images/",
     showNavigationControl: true,
     visibilityRatio:       0.8,
     minZoomLevel:          0.3,

@@ -34,6 +34,13 @@
       padding: 2rem 2rem 1.4rem;
       background: linear-gradient(to bottom, transparent 0%, rgba(50, 30, 15, 0.72) 100%);
     }
+    .header-caption {
+      position: absolute;
+      bottom: 0.4rem; right: 0.75rem;
+      font-family: var(--font-ui); font-size: 10px;
+      color: rgba(255,255,255,0.75);
+      text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    }
     header h1 { font-size: 1.9rem; font-weight: normal; text-shadow: 0 1px 4px rgba(0,0,0,0.5); }
     header p  { margin-top: 0.2rem; font-family: var(--font-ui); font-size: 14px; opacity: 0.9; text-shadow: 0 1px 3px rgba(0,0,0,0.5); }
 
@@ -80,7 +87,28 @@
     .edition-card .sigel { font-family: var(--font-ui); font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); margin-bottom: 0.35rem; }
     .edition-card .title { font-size: 15px; color: #1a1714; line-height: 1.4; }
 
-    /* ── Info sections ── */
+    /* ── Edition group (two books in one file) ── */
+    .edition-group {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: #fff;
+      padding: 0.4rem;
+      min-width: 0;
+    }
+    .edition-group-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.4rem;
+    }
+    .edition-group .edition-card {
+      padding: 0.85rem 0.6rem;
+      margin: 0;
+      min-width: 0;
+    }
+    .edition-group .edition-card .title {
+      word-break: break-word;
+      hyphens: auto;
+    }
     .info-sections {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -148,6 +176,7 @@
     <h1>Mapping Medieval Vienna</h1>
     <p>Digitale Edition mittelalterlicher Wiener Grundbücher</p>
   </div>
+  <div class="header-caption">KB-E fol. 6r (Ausschnitt), Quelle: WStLA CC BY-NC-ND 4.0</div>
 </header>
 
 <main>
@@ -176,11 +205,18 @@
       <div class="sigel">KB-E</div>
       <div class="title">Kaufbuch E</div>
     </a>
-    <a class="edition-card" href="viewer.html?e=KB-E2_GB-C">
-      <div class="sigel">KB-E2 / GB-C</div>
-      <div class="title">Kaufbuch E2 &amp; Gewährbuch C</div>
-    </a>
-    <a class="edition-card" href="viewer.html?e=GB-D">
+    <div class="edition-group">
+      <div class="edition-group-cards">
+        <a class="edition-card" href="viewer.html?e=KB-E2_GB-C#3">
+          <div class="sigel">KB-E2</div>
+          <div class="title">Kaufbuch E2</div>
+        </a>
+        <a class="edition-card" href="viewer.html?e=KB-E2_GB-C#81">
+          <div class="sigel">GB-C</div>
+          <div class="title">Ge&shy;währ&shy;buch C</div>
+        </a>
+      </div>
+    </div>    <a class="edition-card" href="viewer.html?e=GB-D">
       <div class="sigel">GB-D</div>
       <div class="title">Gewährbuch D</div>
     </a>

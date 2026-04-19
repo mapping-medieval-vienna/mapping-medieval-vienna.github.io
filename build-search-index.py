@@ -29,7 +29,6 @@ def clean_marker_text(s):
 
 def extract_before_marker(ab_xml_str, marker):
     """Extract standardized text appearing directly before a circled marker."""
-    # Capture text after last lb/tag boundary up to the marker
     pattern = r'(?:/>|>)([^<\n]{1,80})' + re.escape(marker)
     m = re.search(pattern, ab_xml_str)
     if m:
@@ -50,14 +49,25 @@ def rs_texts(ab, rs_type):
             vals.append(t)
     return vals
 
-def extract_measure(ab, measure_type='preis'):
-    """Get standardised measure text for a given type only."""
-    for m in ab.findall(f'.//{{{NS}}}measure'):
-        if m.get('type') == measure_type:
-            t = text(m)
-            if t:
-                return t
-    return ''
+DB_ID_RE = re.compile(r'^DB\d{4}$')
+
+def extract_neben_ids(ab_xml_str):
+    """
+    Extract object IDs (before Ⓞ) that appear within neben rs elements.
+    These are IDs of neighbouring houses, used for object search.
+    Strategy: find all Ⓞ occurrences and check if they fall inside a neben rs.
+    Since we're working with the raw XML string, we use a simple approach:
+    extract text before each Ⓞ that is inside a neben context.
+    """
+    # Find all <rs type="neben">...</rs> blocks as strings
+    neben_blocks = re.findall(
+        r'<rs\b[^>]*type="neben"[^>]*>.*?</rs>', ab_xml_str, re.DOTALL
+    )
+    ids = []
+    for block in neben_blocks:
+        found = [v for v in extract_all_before_marker(block, 'Ⓞ') if DB_ID_RE.match(v)]
+        ids.extend(found)
+    return ids
 
 def build_page_map(root):
     """Map each entry xml:id to its page number via document-order walk."""
@@ -101,23 +111,25 @@ def process_file(edition_key, edition_label, path):
         ab_str = ET.tostring(ab, encoding='unicode')
 
         record = {
-            'id':      entry_n,
-            'xmlId':   xml_id,
-            'edition': edition_key,
-            'page':    page_map.get(xml_id, ''),
+            'id':       entry_n,
+            'xmlId':    xml_id,
+            'edition':  edition_key,
+            'page':     page_map.get(xml_id, ''),
             # People
-            'von':     rs_texts(ab, 'von'),
-            'an':      rs_texts(ab, 'an'),
-            # Object: standardized ID before Ⓞ marker, descriptive text from rs
-            'objId':   extract_before_marker(ab_str, 'Ⓞ'),
-            'objekt':  rs_texts(ab, 'objekt'),
+            'von':      rs_texts(ab, 'von'),
+            'an':       rs_texts(ab, 'an'),
+            # Object: standardized IDs before Ⓞ marker (list), descriptive text from rs
+            'objIds':   extract_all_before_marker(ab_str, 'Ⓞ'),
+            'objekt':   rs_texts(ab, 'objekt'),
             # Location: standardized form before Ⓛ marker (preferred), rs text as fallback
-            'lage':    extract_all_before_marker(ab_str, 'Ⓛ') or rs_texts(ab, 'lage'),
-            'neben':   rs_texts(ab, 'neben'),
+            'lage':     extract_all_before_marker(ab_str, 'Ⓛ') or rs_texts(ab, 'lage'),
+            # Neben: text for person search, IDs for object search
+            'neben':    rs_texts(ab, 'neben'),
+            'nebenIds': extract_neben_ids(ab_str),
             # Date: normalized form before Ⓓ marker
-            'datum':   extract_before_marker(ab_str, 'Ⓓ').split('/')[0].strip(),
-            # Price only (not fees)
-            'preis':   extract_measure(ab, 'preis'),
+            'datum':    extract_before_marker(ab_str, 'Ⓓ').split('/')[0].strip(),
+            # Price: all standardized values before Ⓟ marker (list, display only)
+            'preis':    extract_all_before_marker(ab_str, 'Ⓟ'),
         }
         # Remove empty values to keep JSON compact
         record = {k: v for k, v in record.items() if v != '' and v != []}

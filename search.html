@@ -25,22 +25,25 @@
 
         <div class="field-group full-width">
           <label for="q-text">Freitext (von, an, Ort, Objekt)</label>
-          <input type="search" id="q-text" placeholder="z.B. Munsser, Scheffstraße, DB6000">
+          <input type="search" id="q-text" placeholder="z.B. Munsser, Scheffstraße, DB1057">
         </div>
 
-        <div class="field-group">
-          <label for="q-von">Von (Person / Verkäufer)</label>
-          <input type="search" id="q-von" placeholder="Name">
-        </div>
-
-        <div class="field-group">
-          <label for="q-an">An (Person / Käufer)</label>
-          <input type="search" id="q-an" placeholder="Name">
+        <div class="field-group full-width person-group">
+          <label for="q-person">Person</label>
+          <div class="person-inputs">
+            <input type="search" id="q-person" placeholder="Name">
+            <select id="q-person-rolle">
+              <option value="alle">alle Rollen</option>
+              <option value="von">von</option>
+              <option value="an">an</option>
+              <option value="neben">neben</option>
+            </select>
+          </div>
         </div>
 
         <div class="field-group">
           <label for="q-objekt">Objekt</label>
-          <input type="search" id="q-objekt" placeholder="Beschreibung oder ID, z.B. DB6000">
+          <input type="search" id="q-objekt" placeholder="Beschreibung oder ID, z.B. DB1057">
         </div>
 
         <div class="field-group">
@@ -48,17 +51,12 @@
           <input type="search" id="q-lage" placeholder="Straße, Viertel …">
         </div>
 
-        <div class="field-group">
-          <label for="q-neben">Neben</label>
-          <input type="search" id="q-neben" placeholder="Nachbargebäude …">
-        </div>
-
         <div class="field-group year-range">
           <label>Zeitraum</label>
           <div class="year-inputs">
-            <input type="number" id="q-year-from" placeholder="von" min="1400" max="1600">
+            <input type="number" id="q-year-from" value="1420" min="1420" max="1517">
             <span>–</span>
-            <input type="number" id="q-year-to"   placeholder="bis" min="1400" max="1600">
+            <input type="number" id="q-year-to"   value="1517" min="1420" max="1517">
           </div>
         </div>
 
