@@ -14,9 +14,9 @@ from xml.etree import ElementTree as ET
 NS = 'http://www.tei-c.org/ns/1.0'
 EDITIONS = [
     ('KB-E',       'Kaufbuch E'),
-    ('KB-E2_GB-C', 'Kaufbuch E2 / Gewährbuch C'),
-    ('GB-D',       'Gewährbuch D'),
-    ('GB-E',       'Gewährbuch E'),
+    ('KB-E2_GB-C', 'Kaufbuch E2 / Gewerbuch C'),
+    ('GB-D',       'Gewerbuch D'),
+    ('GB-E',       'Gewerbuch E'),
 ]
 
 def text(el):

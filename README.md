@@ -29,9 +29,9 @@ gehostet als statische Website auf GitHub Pages.
 │   └── openseadragon-images/   OSD-Navigations-Icons
 ├── data/
 │   ├── KB-E.xml                TEI-Edition Kaufbuch E
-│   ├── KB-E2_GB-C.xml          TEI-Edition Kaufbuch E2 / Gewährbuch C
-│   ├── GB-D.xml                TEI-Edition Gewährbuch D
-│   ├── GB-E.xml                TEI-Edition Gewährbuch E
+│   ├── KB-E2_GB-C.xml          TEI-Edition Kaufbuch E2 / Gewerbuch C
+│   ├── GB-D.xml                TEI-Edition Gewerbuch D
+│   ├── GB-E.xml                TEI-Edition Gewerbuch E
 │   └── search-index.json       Suchindex (erzeugt von build-search-index.py)
 └── pages/                      Markdown-Infoseiten
     ├── projekt/index.md
@@ -48,11 +48,11 @@ gehostet als statische Website auf GitHub Pages.
 | URL-Kürzel | Titel | Zeitraum |
 |------------|-------|----------|
 | `KB-E` | Kaufbuch E | |
-| `KB-E2_GB-C` | Kaufbuch E2 / Gewährbuch C | |
-| `GB-D` | Gewährbuch D | ca. 1438–1473 |
-| `GB-E` | Gewährbuch E | ca. 1474–1517 |
+| `KB-E2_GB-C` | Kaufbuch E2 / Gewerbuch C | |
+| `GB-D` | Gewerbuch D | ca. 1438–1473 |
+| `GB-E` | Gewerbuch E | ca. 1474–1517 |
 
-Kaufbuch E2 und Gewährbuch C liegen in einer gemeinsamen TEI-Datei und einem
+Kaufbuch E2 und Gewerbuch C liegen in einer gemeinsamen TEI-Datei und einem
 gemeinsamen Viewer-Aufruf. Sinnvolle Einstiegspunkte: S. 3 (KB-E2) und S. 81 (GB-C).
 
 ## Suchindex aktualisieren

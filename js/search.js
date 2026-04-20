@@ -2,9 +2,9 @@
 
 const EDITION_LABELS = {
   'KB-E':       'Kaufbuch E',
-  'KB-E2_GB-C': 'Kaufbuch E2 / Gewährbuch C',
-  'GB-D':       'Gewährbuch D',
-  'GB-E':       'Gewährbuch E',
+  'KB-E2_GB-C': 'Kaufbuch E2 / Gewerbuch C',
+  'GB-D':       'Gewerbuch D',
+  'GB-E':       'Gewerbuch E',
 };
 
 const YEAR_MIN = 1420;

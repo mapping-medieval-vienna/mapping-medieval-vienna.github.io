@@ -17,7 +17,7 @@ Beachte:
 
 * Das [Wien Geschichte Wiki](https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki) verwendet wie Czeike die im Band eingetragene Foliierung mit arabischen Zahlen. Zum Beispiel der Artikel 
 [Wo der Wolf den Gänsen predigt](https://www.geschichtewiki.wien.gv.at/Wo_der_Wolf_den_Gänsen_predigt)
-verweist auf Gewährbuch D fol. 251v, das entspricht bei uns der Seite [GB-D 0503](viewer.html?e=GB-D#503%20war%20509) (und genauer dem Eintrag GB-D 0503-1).
+verweist auf Gewerbuch D fol. 251v, das entspricht bei uns der Seite [GB-D 0503](viewer.html?e=GB-D#503%20war%20509) (und genauer dem Eintrag GB-D 0503-1).
 * Im Gegensatz dazu zählt Julian Helmchen alle Blätter im Band, anstatt der mittelalterlichen Foliierung zu folgen, da sich die Schreiber manchmal verzählt haben. Dadurch ergeben sich kleine Abweichungen.
 * Bei den im Band eingetragenen Foliierungen steht `{ }` für `<unclear>` und `-- --` für `<del>`.
 * Wir zitieren eintragsweise. Eine konkrete Textstelle kann dann in seltenen Fällen auch auf der nächsten Seite und in äußerst seltenen Fällen auch auf der übernächsten Seite sein.

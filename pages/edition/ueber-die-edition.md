@@ -10,23 +10,25 @@ Es handelt sich stattdessen um eine sogenannte **Protoedition**: Der originale T
 
 In der Edition kann man neben der normalen Ansicht auch eine [Formular-Ansicht](info.html?p=auswertung/formular-ansicht) auswählen.
 
-## Die Edition umfasst folgende Grundbücher
+## Die vier Grundbücher
+
+Die Edition umfasst das Kaufbuch E und Gewerbuch ("Gewährbuch") C, D und E.
 
 1420-1437:
 * [Kaufbuch E](viewer.html?e=KB-E) - WStLA Einzelstück [2.1.2.1.B1.6a](https://wais.wien.gv.at/document/f096ff02-f378-4b31-a988-d6aa50befb98)
 * [Kaufbuch E2](viewer.html?e=KB-E2_GB-C#3) - WStLA Einzelstück [2.1.2.1.B1.6b.1](https://wais.wien.gv.at/document/521f2896-1c04-4440-8add-dbd8409d8053)<br/>
-[Gewährbuch C](viewer.html?e=KB-E2_GB-C#81) - WStLA Einzelstück [2.1.2.1.B1.6b.2](https://wais.wien.gv.at/document/9ae1035e-5cfe-45d5-b221-57b1cab90785)
+[Gewerbuch C](viewer.html?e=KB-E2_GB-C#81) - WStLA Einzelstück [2.1.2.1.B1.6b.2](https://wais.wien.gv.at/document/9ae1035e-5cfe-45d5-b221-57b1cab90785)
 
 1438-1473:
-* [Gewährbuch D](viewer.html?e=GB-D) - WStLA Einzelstück [2.1.2.1.B1.7](https://wais.wien.gv.at/document/4ca72b9f-7faa-40ef-87be-aa29c4fb2c99)
+* [Gewerbuch D](viewer.html?e=GB-D) - WStLA Einzelstück [2.1.2.1.B1.7](https://wais.wien.gv.at/document/4ca72b9f-7faa-40ef-87be-aa29c4fb2c99)
 
 1474-1517:
-* [Gewährbuch E](viewer.html?e=GB-E) - WStLA Einzelstück [2.1.2.1.B1.8](https://wais.wien.gv.at/document/Stueck_7b98913f-a2cc-42d2-8794-8bff542e41bf)
+* [Gewerbuch E](viewer.html?e=GB-E) - WStLA Einzelstück [2.1.2.1.B1.8](https://wais.wien.gv.at/document/Stueck_7b98913f-a2cc-42d2-8794-8bff542e41bf)
 
 Die Digitalisate der Grundbücher wurden uns vom WStLA mit der Lizenz CC BY-NC-ND 4.0 zur Verfügung gestellt.
 
 ## Die Anordnung der Einträge
 
-Kaufbuch E / E2 ist nach dem Anfangsbuchstaben des Verkäufer-Vornamens (_Agnes hat verkaufft_) und dann nach dem Jahr der Eintragung eingeteilt. Gewährbuch C ist fortlaufend chronologisch nach Jahren sortiert. In Gewährbuch D wurde die Struktur des Kaufbuchs nach Anfangsbuchstaben übernommen. Durch den Charakter der Gewährbücher ergibt sich eine Anordnung nach Empfänger-Vornamen (_Anna ist nucz und gewer bracht worden_). Weil die Schreiber gleich am Anfang abschätzen mussten, wieviel Platz für jeden Buchstaben benötigt wird, erwies sich diese Rubrizierung als unpraktisch: Bei manchen Anfangsbuchstaben mussten mehrmals neue Lagen eingebunden werden, bei anderen blieben viele Seiten leer. Gewährbuch E ist deshalb wieder chronologisch nach Jahr sortiert.
+Kaufbuch E / E2 ist nach dem Anfangsbuchstaben des Verkäufer-Vornamens (_Agnes hat verkaufft_) und dann nach dem Jahr der Eintragung eingeteilt. Gewerbuch C ist fortlaufend chronologisch nach Jahren sortiert. In Gewerbuch D wurde die Struktur des Kaufbuchs nach Anfangsbuchstaben übernommen. Durch den Charakter der Gewerbücher ergibt sich eine Anordnung nach Empfänger-Vornamen (_Anna ist nucz und gewer bracht worden_). Weil die Schreiber gleich am Anfang abschätzen mussten, wieviel Platz für jeden Buchstaben benötigt wird, erwies sich diese Rubrizierung als unpraktisch: Bei manchen Anfangsbuchstaben mussten mehrmals neue Lagen eingebunden werden, bei anderen blieben viele Seiten leer. Gewerbuch E ist deshalb wieder chronologisch nach Jahr sortiert.
 
-Im Archiv ist Kaufbuch E (Buchstaben A bis R) einzeln gebunden, Kaufbuch E2 (Buchstaben S bis W) ist mit Gewährbuch C zu einem Band gebunden.
+Im Archiv ist Kaufbuch E (Buchstaben A bis R) einzeln gebunden, Kaufbuch E2 (Buchstaben S bis W) ist mit Gewerbuch C zu einem Band gebunden.
