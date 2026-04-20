@@ -10,7 +10,6 @@ Koserstraße 20
 14195 Berlin
 
 E-Mail: thomas.ertl@fu-berlin.de  
-Telefon: +49 30 838 66001
 
 ## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
