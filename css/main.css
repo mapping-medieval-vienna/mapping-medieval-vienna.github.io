@@ -97,6 +97,53 @@ html, body {
 }
 #pane-controls label { display: flex; align-items: center; gap: 0.4rem; cursor: pointer; color: var(--col-muted); }
 
+/* ── View toggle switch ── */
+.view-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.view-toggle-label {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--col-muted);
+  transition: color 0.15s;
+  user-select: none;
+}
+.view-toggle-label.active {
+  color: var(--col-accent);
+  font-weight: 600;
+}
+.view-toggle-switch {
+  position: relative;
+  width: 36px;
+  height: 20px;
+  background: var(--col-border);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.2s;
+  flex-shrink: 0;
+}
+.view-toggle-switch[aria-checked="true"] {
+  background: var(--col-accent);
+}
+.view-toggle-thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform 0.2s;
+  pointer-events: none;
+}
+.view-toggle-switch[aria-checked="true"] .view-toggle-thumb {
+  transform: translateX(16px);
+}
+
 /* ── Entry ── */
 .entry {
   margin-bottom: 1.75rem;
@@ -128,6 +175,12 @@ html, body {
 }
 
 /* section headings */
+.tei-head-heading-main {
+  display: block;
+  font-weight: bold;
+  margin: 1rem 0 0.6rem;
+  font-size: 15px;
+}
 .tei-head-heading-alphabetical,
 .tei-head-heading-temporal {
   display: block;

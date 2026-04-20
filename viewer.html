@@ -26,10 +26,13 @@
       <div id="pane-controls">
         <button class="nav-btn" id="btn-prev" title="Vorherige Seite">&#8592;</button>
         <button class="nav-btn" id="btn-next" title="Nächste Seite">&#8594;</button>
-        <label>
-          <input type="checkbox" id="toggle-form">
-          Formularansicht
-        </label>
+        <div class="view-toggle">
+          <span class="view-toggle-label" id="toggle-label-line">zeilengetreu</span>
+          <button class="view-toggle-switch" id="toggle-form" role="switch" aria-checked="false" title="Ansicht wechseln">
+            <span class="view-toggle-thumb"></span>
+          </button>
+          <span class="view-toggle-label" id="toggle-label-form">Formularansicht</span>
+        </div>
       </div>
     </div>
 

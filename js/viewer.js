@@ -25,7 +25,21 @@ document.addEventListener("DOMContentLoaded", () => {
   document.title = (titles[edition] || edition) + " – Mapping Medieval Vienna";
   document.getElementById("edition-title").textContent = titles[edition] || edition;
 
-  document.getElementById("toggle-form").addEventListener("change", () => {
+  const toggleBtn = document.getElementById("toggle-form");
+  const labelLine = document.getElementById("toggle-label-line");
+  const labelForm = document.getElementById("toggle-label-form");
+
+  function updateToggleLabels() {
+    const isForm = toggleBtn.getAttribute("aria-checked") === "true";
+    labelLine.classList.toggle("active", !isForm);
+    labelForm.classList.toggle("active", isForm);
+  }
+  updateToggleLabels();
+
+  toggleBtn.addEventListener("click", () => {
+    const isForm = toggleBtn.getAttribute("aria-checked") === "true";
+    toggleBtn.setAttribute("aria-checked", isForm ? "false" : "true");
+    updateToggleLabels();
     if (currentPageIdx >= 0) renderTranscript(currentPageIdx);
   });
 
@@ -76,10 +90,18 @@ function buildPageIndex() {
     if (node.nodeType !== 1) return;
     const local = node.localName;
     if (local === "pb") {
-      currentPage = { n: node.getAttribute("n"), facs: node.getAttribute("facs"), entries: [] };
+      currentPage = { n: node.getAttribute("n"), facs: node.getAttribute("facs"), entries: [], headings: [] };
       pages.push(currentPage);
     } else if (local === "div" && node.getAttribute("type") === "entry") {
       if (currentPage) currentPage.entries.push(node);
+      return;
+    } else if (local === "div" && (node.getAttribute("type") === "section-alphabetical" || node.getAttribute("type") === "section-temporal")) {
+      // Collect the heading of this section if it starts on the current page
+      const head = Array.from(node.children).find(c => c.localName === "head");
+      if (head && currentPage) currentPage.headings.push(head);
+    } else if (local === "head" && node.getAttribute("type") === "heading-main") {
+      // heading-main sits directly in the book div, not inside a section div
+      if (currentPage) currentPage.headings.push(node);
       return;
     }
     for (const child of node.children) walk(child);
@@ -133,13 +155,18 @@ function showPage(idx, pushHash = true) {
 
 /* ── Render transcript ── */
 function renderTranscript(idx) {
-  const formMode = document.getElementById("toggle-form").checked;
+  const formMode = document.getElementById("toggle-form").getAttribute("aria-checked") === "true";
   const pane = document.getElementById("transcript-pane");
   const controls = document.getElementById("pane-controls");
   const page = pages[idx];
 
   pane.innerHTML = "";
   pane.appendChild(controls);
+
+  // Render headings (always, including on pages without entries)
+  for (const head of (page.headings || [])) {
+    pane.appendChild(teiToHtml(head));
+  }
 
   if (page.entries.length === 0) {
     const msg = document.createElement("p");
