@@ -49,7 +49,7 @@ def rs_texts(ab, rs_type):
             vals.append(t)
     return vals
 
-DB_ID_RE = re.compile(r'^DB\d{4}$')
+DB_ID_RE = re.compile(r'^DB\d{4}[a-z]*$')
 
 def extract_neben_ids(ab_xml_str):
     """
@@ -119,7 +119,7 @@ def process_file(edition_key, edition_label, path):
             'von':      rs_texts(ab, 'von'),
             'an':       rs_texts(ab, 'an'),
             # Object: standardized IDs before Ⓞ marker (list), descriptive text from rs
-            'objIds':   extract_all_before_marker(ab_str, 'Ⓞ'),
+            'objIds':   [v for v in extract_all_before_marker(ab_str, 'Ⓞ') if DB_ID_RE.match(v)],
             'objekt':   rs_texts(ab, 'objekt'),
             # Location: standardized form before Ⓛ marker (preferred), rs text as fallback
             'lage':     extract_all_before_marker(ab_str, 'Ⓛ') or rs_texts(ab, 'lage'),
