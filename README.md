@@ -47,10 +47,10 @@ gehostet als statische Website auf GitHub Pages.
 
 | URL-Kürzel | Titel | Zeitraum |
 |------------|-------|----------|
-| `KB-E` | Kaufbuch E | |
-| `KB-E2_GB-C` | Kaufbuch E2 / Gewerbuch C | |
-| `GB-D` | Gewerbuch D | ca. 1438–1473 |
-| `GB-E` | Gewerbuch E | ca. 1474–1517 |
+| `KB-E` | Kaufbuch E | 1420–1437 |
+| `KB-E2_GB-C` | Kaufbuch E2 / Gewerbuch C | 1420–1437 |
+| `GB-D` | Gewerbuch D | 1438–1473 |
+| `GB-E` | Gewerbuch E | 1474–1517 |
 
 Kaufbuch E2 und Gewerbuch C liegen in einer gemeinsamen TEI-Datei und einem
 gemeinsamen Viewer-Aufruf. Sinnvolle Einstiegspunkte: S. 3 (KB-E2) und S. 81 (GB-C).
