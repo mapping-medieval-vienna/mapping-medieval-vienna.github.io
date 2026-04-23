@@ -214,3 +214,18 @@ h1#search-heading {
   .field-grid { grid-template-columns: 1fr; }
   .field-group.full-width { grid-column: 1; }
 }
+
+/* ── Unscharfe Suche ── */
+.fuzzy-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-family: var(--font-ui);
+  background: var(--col-accent-light);
+  color: var(--col-muted);
+  border: 1px solid var(--col-border);
+  border-radius: 3px;
+  padding: 1px 5px;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+  margin-left: 0.3em;
+}

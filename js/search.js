@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const p = new URLSearchParams(location.search);
 
   if (p.get('q'))       document.getElementById('q-text').value        = p.get('q');
+  if (p.get('fuzzy'))   document.getElementById('q-fuzzy').value       = p.get('fuzzy');
   if (p.get('person'))  document.getElementById('q-person').value      = p.get('person');
   if (p.get('rolle'))   document.getElementById('q-person-rolle').value = p.get('rolle');
   if (p.get('objekt'))  document.getElementById('q-objekt').value      = p.get('objekt');
@@ -53,6 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('btn-reset').addEventListener('click', () => {
     document.getElementById('q-text').value           = '';
+    document.getElementById('q-fuzzy').value          = '';
     document.getElementById('q-person').value         = '';
     document.getElementById('q-person-rolle').value   = 'alle';
     document.getElementById('q-objekt').value         = '';
@@ -88,6 +90,7 @@ function runSearch() {
   if (!index) return;
 
   const q        = norm(document.getElementById('q-text').value);
+  const qFuzzy   = normVnhd(document.getElementById('q-fuzzy').value);
   const qPerson  = norm(document.getElementById('q-person').value);
   const qRolle   = document.getElementById('q-person-rolle').value;
   const qObjekt  = norm(document.getElementById('q-objekt').value);
@@ -98,6 +101,7 @@ function runSearch() {
   // Update URL
   const params = new URLSearchParams();
   if (q)                     params.set('q',      document.getElementById('q-text').value.trim());
+  if (qFuzzy)                params.set('fuzzy',  document.getElementById('q-fuzzy').value.trim());
   if (qPerson)               params.set('person', document.getElementById('q-person').value.trim());
   if (qPerson && qRolle !== 'alle') params.set('rolle', qRolle);
   if (qObjekt)               params.set('objekt', document.getElementById('q-objekt').value.trim());
@@ -108,7 +112,7 @@ function runSearch() {
   history.replaceState(null, '', 'search.html' + (params.toString() ? '?' + params.toString() : ''));
 
   // Nothing entered (year defaults don't count as "something entered")
-  const anythingEntered = q || qPerson || qObjekt || qLage
+  const anythingEntered = q || qFuzzy || qPerson || qObjekt || qLage
     || (yearFrom && yearFrom !== YEAR_MIN)
     || (yearTo   && yearTo   !== YEAR_MAX);
   if (!anythingEntered) {
@@ -148,6 +152,20 @@ function runSearch() {
       if (!haystack.includes(q)) return false;
     }
 
+    // Fuzzy free text: sucht in normalisierten Feldern
+    if (qFuzzy) {
+      const haystack = [
+        ...(r.norm_von    || []),
+        ...(r.norm_an     || []),
+        ...(r.norm_objekt || []),
+        ...(r.objIds      || []),
+        ...(r.norm_lage   || []),
+        ...(r.norm_neben  || []),
+        ...(r.nebenIds    || []),
+      ].join(' ');
+      if (!haystack.includes(qFuzzy)) return false;
+    }
+
     return true;
   });
 
@@ -157,7 +175,13 @@ function runSearch() {
     return ya - yb;
   });
 
-  renderResults(results, [q, qPerson, qObjekt, qLage].filter(t => t.length > 0));
+  renderResults(results, [
+    document.getElementById('q-text').value.trim(),
+    document.getElementById('q-fuzzy').value.trim(),
+    document.getElementById('q-person').value.trim(),
+    document.getElementById('q-objekt').value.trim(),
+    document.getElementById('q-lage').value.trim(),
+  ].filter(t => t.length > 0));
 }
 
 /* ── Render results ── */
@@ -228,6 +252,59 @@ function field(label, value, extra = '', raw = false) {
 /* ── Helpers ── */
 function norm(s) {
   return (s || '').toLowerCase().trim();
+}
+
+/**
+ * Phonologische Normalisierung für frühneuhochdeutsches Wiener Deutsch (ca. 1420–1517).
+ * Parallel zu normalize_vnhd.py – Regelreihenfolge muss identisch bleiben.
+ */
+function normVnhd(s) {
+  s = (s || '').toLowerCase().trim();
+
+  // 1. Moderne Umlaute und ß
+  s = s.replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 's');
+
+  // 2. Diphthong-Vereinheitlichung → ei
+  s = s.replace(/ey/g, 'ei').replace(/ay/g, 'ei').replace(/ai/g, 'ei');
+
+  // 3. Suffix-Stripping
+  s = s.replace(/em\b/g, 'm');
+  s = s.replace(/en\b/g, 'n');
+  s = s.replace(/e\b/g,  '');
+  s = s.replace(/nn\b/g, 'n');
+
+  // 4. u/w → u
+  s = s.replace(/w/g, 'u');
+
+  // 5. o/u → u  (Conrad/Kunrat → gleiche Normalform)
+  s = s.replace(/o/g, 'u');
+
+  // 6. pf/ph → f, p → b
+  s = s.replace(/pf/g, 'f').replace(/ph/g, 'f').replace(/p/g, 'b');
+
+  // 7. f/v → f
+  s = s.replace(/v/g, 'f');
+
+  // 8. i/y → i
+  s = s.replace(/y/g, 'i');
+
+  // 9. K-Cluster → k (längste zuerst)
+  s = s.replace(/gkch/g,'k').replace(/gkh/g,'k').replace(/ckh/g,'k')
+       .replace(/kch/g,'k').replace(/chk/g,'k').replace(/ck/g,'k')
+       .replace(/gk/g,'k').replace(/kh/g,'k').replace(/gh/g,'k')
+       .replace(/ch/g,'k').replace(/c/g,'k');
+
+  // 10. Z-Cluster → s (vor D-Regel)
+  s = s.replace(/cz/g, 's').replace(/tz/g, 's').replace(/z/g, 's');
+
+  // 11. D-Cluster → d
+  s = s.replace(/dt/g, 'd').replace(/tt/g, 'd').replace(/t/g, 'd');
+
+  // 12. Doppelkonsonanten → einfach
+  s = s.replace(/ss/g,'s').replace(/ll/g,'l').replace(/ff/g,'f')
+       .replace(/gg/g,'g').replace(/nn/g,'n').replace(/rr/g,'r').replace(/dd/g,'d');
+
+  return s;
 }
 
 function matchesAny(arr, q) {

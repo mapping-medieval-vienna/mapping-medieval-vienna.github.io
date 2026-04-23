@@ -11,6 +11,8 @@ import sys
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
+from normalize_vnhd import normalize as norm_vnhd
+
 NS = 'http://www.tei-c.org/ns/1.0'
 EDITIONS = [
     ('KB-E',       'Kaufbuch E'),
@@ -131,6 +133,13 @@ def process_file(edition_key, edition_label, path):
             # Price: all standardized values before Ⓟ marker (list, display only)
             'preis':    extract_all_before_marker(ab_str, 'Ⓟ'),
         }
+        # Phonologically normalized fields for fuzzy search (frühneuhochdeutsch)
+        def norm_list(lst): return [norm_vnhd(v) for v in lst]
+        record['norm_von']    = norm_list(record['von'])
+        record['norm_an']     = norm_list(record['an'])
+        record['norm_lage']   = norm_list(record['lage'])
+        record['norm_neben']  = norm_list(record['neben'])
+        record['norm_objekt'] = norm_list(record['objekt'])
         # Remove empty values to keep JSON compact
         record = {k: v for k, v in record.items() if v != '' and v != []}
         records.append(record)
