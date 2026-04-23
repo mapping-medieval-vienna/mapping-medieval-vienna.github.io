@@ -195,6 +195,12 @@ h1#search-heading {
   border-radius: 2px;
   padding: 0 1px;
 }
+.result-field dd mark.mark-fuzzy {
+  background: #ddeedd;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}
 
 .result-truncated {
   font-family: var(--font-ui);

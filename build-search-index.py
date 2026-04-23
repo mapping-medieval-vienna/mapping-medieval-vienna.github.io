@@ -43,7 +43,11 @@ def extract_all_before_marker(ab_xml_str, marker):
     return [clean_marker_text(s) for s in re.findall(pattern, ab_xml_str) if s.strip().lstrip('#').strip()]
 
 def rs_texts(ab, rs_type):
-    """Collect all text values of rs elements with a given type."""
+    """Collect all text values of rs elements with a given type.
+    itertext() traverses all child nodes including <lb/>, so multi-line
+    rs elements (text spanning several lines) are collected in full.
+    Line breaks become spaces via the join/split normalization in text().
+    """
     vals = []
     for rs in ab.findall(f'.//{{{NS}}}rs[@type="{rs_type}"]'):
         t = text(rs)

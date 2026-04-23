@@ -175,17 +175,19 @@ function runSearch() {
     return ya - yb;
   });
 
+  const fuzzyRaw   = document.getElementById('q-fuzzy').value.trim();
+  const fuzzyTerms = fuzzyRaw ? [fuzzyRaw] : [];
+
   renderResults(results, [
     document.getElementById('q-text').value.trim(),
-    document.getElementById('q-fuzzy').value.trim(),
     document.getElementById('q-person').value.trim(),
     document.getElementById('q-objekt').value.trim(),
     document.getElementById('q-lage').value.trim(),
-  ].filter(t => t.length > 0));
+  ].filter(t => t.length > 0), fuzzyTerms);
 }
 
 /* ── Render results ── */
-function renderResults(results, activeTerms = []) {
+function renderResults(results, activeTerms = [], fuzzyTerms = []) {
   const countEl   = document.getElementById('result-count');
   const resultsEl = document.getElementById('results');
 
@@ -232,7 +234,7 @@ function renderResults(results, activeTerms = []) {
 
     html += `</dl>`;
     card.innerHTML = html;
-    highlightCard(card, activeTerms);
+    highlightCard(card, activeTerms, fuzzyTerms);
     resultsEl.appendChild(card);
   });
 
@@ -344,25 +346,28 @@ function esc(s) {
 }
 
 /**
- * Highlight all activeTerms in the text nodes of <dd> elements within a card.
- * Works on the DOM after innerHTML is set, so it's safe with existing HTML structure.
+ * Highlight activeTerms (exact substring, yellow) and fuzzyTerms (word-level,
+ * yellow for exact normalform match, green for partial) in all <dd> elements.
  */
-function highlightCard(card, activeTerms) {
-  if (!activeTerms.length) return;
-  // Build a single regex that matches any of the terms (case-insensitive)
-  const escaped = activeTerms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-  const re = new RegExp('(' + escaped.join('|') + ')', 'gi');
+function highlightCard(card, activeTerms, fuzzyTerms = []) {
+  const exactRe = activeTerms.length
+    ? new RegExp('(' + activeTerms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'gi')
+    : null;
+  const normFuzzyTerms = fuzzyTerms.map(t => normVnhd(t)).filter(t => t.length > 0);
 
   card.querySelectorAll('dd').forEach(dd => {
-    highlightTextNodes(dd, re);
+    if (exactRe) highlightTextNodes(dd, exactRe);
+    if (normFuzzyTerms.length) fuzzyHighlightTextNodes(dd, normFuzzyTerms);
   });
 }
 
+/**
+ * Exact highlight: wrap matching substrings in <mark> (yellow).
+ */
 function highlightTextNodes(node, re) {
-  // Walk child nodes; replace text nodes that match
   for (let i = node.childNodes.length - 1; i >= 0; i--) {
     const child = node.childNodes[i];
-    if (child.nodeType === 3) { // text node
+    if (child.nodeType === 3) {
       const text = child.textContent;
       if (re.test(text)) {
         re.lastIndex = 0;
@@ -382,6 +387,50 @@ function highlightTextNodes(node, re) {
       re.lastIndex = 0;
     } else if (child.nodeType === 1 && child.tagName !== 'MARK') {
       highlightTextNodes(child, re);
+    }
+  }
+}
+
+/**
+ * Fuzzy highlight: split text into words, normalize each, compare with
+ * normalized search terms. Exact normalform match → yellow <mark>,
+ * partial match → green <mark class="mark-fuzzy">.
+ */
+function fuzzyHighlightTextNodes(node, normTerms) {
+  for (let i = node.childNodes.length - 1; i >= 0; i--) {
+    const child = node.childNodes[i];
+    if (child.nodeType === 3) {
+      const text = child.textContent;
+      const tokens = text.split(/(\s+)/);
+      let anyMatch = false;
+      const frag = document.createDocumentFragment();
+      for (const token of tokens) {
+        if (/^\s+$/.test(token) || token === '') {
+          frag.appendChild(document.createTextNode(token));
+          continue;
+        }
+        const normToken = normVnhd(token);
+        let exactMatch = false;
+        let fuzzyMatch = false;
+        for (const t of normTerms) {
+          if (normToken === t) { exactMatch = true; break; }
+          if (normToken.includes(t) || (t.includes(normToken) && normToken.length >= 3)) {
+            fuzzyMatch = true;
+          }
+        }
+        if (exactMatch || fuzzyMatch) {
+          anyMatch = true;
+          const mark = document.createElement('mark');
+          if (!exactMatch) mark.className = 'mark-fuzzy';
+          mark.textContent = token;
+          frag.appendChild(mark);
+        } else {
+          frag.appendChild(document.createTextNode(token));
+        }
+      }
+      if (anyMatch) node.replaceChild(frag, child);
+    } else if (child.nodeType === 1 && child.tagName !== 'MARK') {
+      fuzzyHighlightTextNodes(child, normTerms);
     }
   }
 }
