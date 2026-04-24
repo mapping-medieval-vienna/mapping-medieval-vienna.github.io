@@ -157,7 +157,14 @@ html, body {
   color: var(--col-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+.entry-comment {
+  font-family: var(--font-ui);
+  font-style: italic;
+  font-size: 12px;
+  color: var(--col-muted);
+  margin-bottom: 0.4rem;
 }
 
 /* ── TEI element styles ── */

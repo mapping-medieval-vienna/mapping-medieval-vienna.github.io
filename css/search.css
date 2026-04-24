@@ -160,6 +160,13 @@ h1#search-heading {
   color: var(--col-muted);
 }
 .result-page::before { content: '· '; }
+.result-comment {
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-style: italic;
+  color: var(--col-muted);
+  margin-bottom: 0.35rem;
+}
 
 .result-fields {
   display: grid;

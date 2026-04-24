@@ -116,6 +116,8 @@ def process_file(edition_key, edition_label, path):
 
         ab_str = ET.tostring(ab, encoding='unicode')
 
+        notes = [n.text.strip() for n in entry.findall(f'{{{NS}}}note[@type="kommentar"]') if n.text]
+
         record = {
             'id':       entry_n,
             'xmlId':    xml_id,
@@ -136,6 +138,7 @@ def process_file(edition_key, edition_label, path):
             'datum':    extract_before_marker(ab_str, 'Ⓓ').split('/')[0].strip(),
             # Price: all standardized values before Ⓟ marker (list, display only)
             'preis':    extract_all_before_marker(ab_str, 'Ⓟ'),
+            'kommentar': notes,
         }
         # Phonologically normalized fields for fuzzy search (frühneuhochdeutsch)
         def norm_list(lst): return [norm_vnhd(v) for v in lst]

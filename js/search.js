@@ -213,7 +213,9 @@ function renderResults(results, activeTerms = [], fuzzyTerms = []) {
     html += `<a class="result-id" href="${viewerUrl}">${esc(r.id)}</a>`;
     html += `<span class="result-edition">${esc(EDITION_LABELS[r.edition] || r.edition)}</span>`;
     if (r.page) html += `<span class="result-page">S. ${esc(r.page)}</span>`;
-    html += `</div><dl class="result-fields">`;
+    html += `</div>`;
+    if (r.kommentar?.length) html += r.kommentar.map(k => `<div class="result-comment">${esc(String(k))}</div>`).join('');
+    html += `<dl class="result-fields">`;
 
     const joinArr = (v) => Array.isArray(v) ? v.map(String).join('; ') : String(v ?? '');
 
@@ -353,7 +355,10 @@ function highlightCard(card, activeTerms, fuzzyTerms = []) {
   const exactRe = activeTerms.length
     ? new RegExp('(' + activeTerms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'gi')
     : null;
-  const normFuzzyTerms = fuzzyTerms.map(t => normVnhd(t)).filter(t => t.length > 0);
+  const normFuzzyTerms = fuzzyTerms
+    .flatMap(t => t.trim().split(/\s+/))
+    .map(w => normVnhd(w))
+    .filter(w => w.length > 0);
 
   card.querySelectorAll('dd').forEach(dd => {
     if (exactRe) highlightTextNodes(dd, exactRe);
@@ -414,7 +419,7 @@ function fuzzyHighlightTextNodes(node, normTerms) {
         let fuzzyMatch = false;
         for (const t of normTerms) {
           if (normToken === t) { exactMatch = true; break; }
-          if (normToken.includes(t) || (t.includes(normToken) && normToken.length >= 3)) {
+          if (normToken.includes(t)) {
             fuzzyMatch = true;
           }
         }

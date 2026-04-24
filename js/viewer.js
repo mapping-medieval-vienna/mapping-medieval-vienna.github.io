@@ -185,6 +185,12 @@ function renderTranscript(idx) {
     label.className = "entry-head";
     label.textContent = id;
     wrapper.appendChild(label);
+    for (const note of Array.from(entry.children).filter(c => c.localName === "note" && c.getAttribute("type") === "kommentar")) {
+      const commentDiv = document.createElement("div");
+      commentDiv.className = "entry-comment";
+      commentDiv.textContent = note.textContent.trim();
+      wrapper.appendChild(commentDiv);
+    }
 
     if (formMode) {
       const ab = findChild(entry, "ab", "formular");
