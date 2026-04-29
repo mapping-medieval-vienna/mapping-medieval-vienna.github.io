@@ -169,10 +169,8 @@ def main():
             continue
         all_records.extend(process_file(key, label, path))
 
-    out_path.write_text(
-        json.dumps(all_records, ensure_ascii=False, separators=(',', ':')),
-        encoding='utf-8'
-    )
+    lines = ',\n'.join(json.dumps(r, ensure_ascii=False, separators=(',', ':')) for r in all_records)
+    out_path.write_text(f'[\n{lines}\n]', encoding='utf-8')
     print(f"\nWrote {len(all_records)} records to {out_path}")
     size_kb = out_path.stat().st_size / 1024
     print(f"Index size: {size_kb:.0f} KB")
