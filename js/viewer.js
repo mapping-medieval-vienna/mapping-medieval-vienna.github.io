@@ -258,11 +258,8 @@ function loadFacsimile(idx) {
   if (!facs || !viewer) return;
   document.getElementById("facs-label").textContent = "Faksimile – S. " + pages[idx].n;
 
-  viewer.open({ type: "image", url: IIIF_BASE + facs + "/full/full/0/default.jpg", buildPyramid: false });
-  fetch(IIIF_BASE + facs + "/info.json")
-    .then(r => r.ok ? r.json() : null)
-    .then(info => { if (info && info["@id"]) viewer.open(info["@id"] + "/info.json"); })
-    .catch(() => {});
+  const infoUrl = IIIF_BASE + facs + "/info.json";
+  viewer.open(infoUrl);
 }
 
 /* ── OpenSeadragon ── */
@@ -274,7 +271,7 @@ function initOSD() {
     visibilityRatio:       0.8,
     minZoomLevel:          0.3,
     defaultZoomLevel:      0,
-    showNavigator:         true,
+    showNavigator:         false,
     navigatorPosition:     "BOTTOM_RIGHT",
     gestureSettingsMouse:  { scrollToZoom: true },
   });
