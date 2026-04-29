@@ -211,13 +211,23 @@ function renderTranscript(idx) {
 }
 
 /* ── TEI → HTML ── */
-function teiToHtml(node) {
+function teiToHtml(node, inFormularAb) {
+  // inFormularAb: true when direct parent is <ab type="formular"> or a <seg> inside one
   if (node.nodeType === 3) return document.createTextNode(node.textContent);
   if (node.nodeType !== 1) return document.createDocumentFragment();
 
   const tag = node.localName;
-  if (tag === "lb")  return document.createElement("br");
-  if (tag === "pb")  return document.createDocumentFragment();
+
+  if (tag === "lb") {
+    if (inFormularAb) {
+      // lb between slots in formular → visible gap
+      const spacer = document.createElement("div");
+      spacer.className = "tei-leerzeile";
+      return spacer;
+    }
+    return document.createElement("br");
+  }
+  if (tag === "pb") return document.createDocumentFragment();
 
   const tagMap = {
     ab: "div", p: "div", seg: "span", rs: "span",
@@ -233,9 +243,56 @@ function teiToHtml(node) {
   if (tag === "rs" && type) classes.push("tei-rs-" + type);
   el.className = classes.join(" ");
 
-  for (const child of node.childNodes) {
-    const converted = teiToHtml(child);
-    if (converted) el.appendChild(converted);
+  // Is this node the formular ab itself, or a seg directly inside one?
+  const isFormularAb = tag === "ab" && type === "formular";
+  const isSegInFormular = tag === "seg" && inFormularAb;
+  const childInFormular = isFormularAb || isSegInFormular;
+
+  if (childInFormular) {
+    // Group each slot (rs/measure/date) together with its preceding annotation tokens
+    // into a <div class="tei-slot"> block for correct border and indentation.
+    let pendingAnnotation = null; // span holding annotation text before the next slot
+
+    const flushSlot = (slotNode) => {
+      const wrapper = document.createElement("div");
+      wrapper.className = "tei-slot";
+      if (pendingAnnotation) {
+        wrapper.appendChild(pendingAnnotation);
+        pendingAnnotation = null;
+      }
+      if (slotNode) wrapper.appendChild(teiToHtml(slotNode, false));
+      el.appendChild(wrapper);
+    };
+
+    for (const child of node.childNodes) {
+      if (child.nodeType === 3) {
+        // Text node: annotation token(s) before the next slot
+        if (child.textContent.trim()) {
+          if (!pendingAnnotation) {
+            pendingAnnotation = document.createElement("span");
+            pendingAnnotation.className = "tei-annotation";
+          }
+          pendingAnnotation.appendChild(document.createTextNode(child.textContent));
+        }
+      } else {
+        const cLocal = child.localName;
+        if (cLocal === "rs" || cLocal === "measure" || cLocal === "date") {
+          flushSlot(child);
+        } else {
+          // lb → leerzeile, or other elements
+          if (pendingAnnotation) { el.appendChild(pendingAnnotation); pendingAnnotation = null; }
+          const converted = teiToHtml(child, false);
+          if (converted) el.appendChild(converted);
+        }
+      }
+    }
+    // Flush any trailing annotation without a slot
+    if (pendingAnnotation) el.appendChild(pendingAnnotation);
+  } else {
+    for (const child of node.childNodes) {
+      const converted = teiToHtml(child, false);
+      if (converted) el.appendChild(converted);
+    }
   }
   return el;
 }
