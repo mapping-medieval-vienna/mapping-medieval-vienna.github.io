@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Handle browser back/forward
   window.addEventListener("hashchange", () => {
-    const n = location.hash.slice(1);
+    const n = decodeURIComponent(location.hash.slice(1));
     if (n) {
       const idx = pages.findIndex(p => p.n === n);
       if (idx >= 0 && idx !== currentPageIdx) showPage(idx, false);
@@ -74,7 +74,7 @@ function loadEdition(url) {
       buildPageIndex();
       renderNav();
       // Start on page from hash, or first page
-      const hashN = location.hash.slice(1);
+      const hashN = decodeURIComponent(location.hash.slice(1));
       const startIdx = hashN ? Math.max(0, pages.findIndex(p => p.n === hashN)) : 0;
       showPage(startIdx);
     })
