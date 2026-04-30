@@ -122,7 +122,23 @@ function loadPage(p) {
           "<h1>" + escHtml(title) + "</h1>" +
           '<p class="wip-notice">Diese Seite ist in Vorbereitung.</p>';
       } else {
-        content.innerHTML = marked.parse(md);
+        // Render with heading IDs for anchor links
+        const renderer = new marked.Renderer();
+        renderer.heading = ({ text, depth }) => {
+          const id = text.toLowerCase()
+            .replace(/[äöüß]/g, c => ({ 'ä': 'ae', 'ö': 'oe', 'ü': 'ue', 'ß': 'ss' }[c]))
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+          return `<h${depth} id="${id}">${text}</h${depth}>\n`;
+        };
+        content.innerHTML = marked.parse(md, { renderer });
+      }
+
+      // Scroll to hash anchor after content is in the DOM
+      const hash = decodeURIComponent(location.hash.slice(1));
+      if (hash) {
+        const target = document.getElementById(hash);
+        if (target) target.scrollIntoView({ block: 'start' });
       }
     })
     .catch(() => {
