@@ -1,6 +1,13 @@
 # Formular-Ansicht
 
-Grundlage für die Formular-Ansicht ist so weit wie möglich die _intendierte Textgestalt_. In der normalen Ansicht verwenden wir `<unclear>`, wenn etwas nicht sicher zu lesen ist, und `<del>`, wenn etwas vom Schreiber direkt beim Schreiben durchgestrichen wurde. In der Formular-Ansicht sind unklare Stelle in Klammern, durchgestrichene Stellen sind ganz weggelassen.
+Dass die Grundbuch-Einträge grob einem Formular folgen, ist seit längerem bekannt. Die Idee, dies als Formular-Ansicht für eine Grundbuch-Edition umzusetzen, ist jedoch eine Innovation des Projekts. 
+<!-- Wir nennen die Formular-Ansicht und die Markierungen der Formular-Slots deshalb das _Berliner Modell_. -->
+
+Die konzise Form der Formularstruktur und der Annotationen ist leicht lesbar und bearbeitbar, ohne dass ein XML-Editor verwendet werden muss. Sie dient deshalb als Basis für die weitere Analyse. Weil die Formular-Slots keine feste Reihenfolge haben und ihre Rollen auch nicht sofort vergeben werden müssen, ist diese flexible Darstellung auch geeigneter als eine Datenbank mit festen Feldern. 
+
+Grundlage für die Formular-Ansicht ist so weit wie möglich die _intendierte Textgestalt_. In der zeilengetreuen Ansicht verwenden wir `<unclear>`, wenn etwas nicht sicher zu lesen ist, und `<del>`, wenn etwas vom Schreiber direkt beim Schreiben durchgestrichen wurde. In der Formular-Ansicht stehen unklare Stellen in Klammern, durchgestrichene Stellen sind ganz weggelassen.
+
+Für die online-Edition wird die Formularstruktur durch ein Skript in das bei digitalen Editionen übliche Datenformat TEI umgewandelt, die zeilengetreue Transkription liegt von vornherein als TEI vor. 
 
 ## Formular-Slots
 
@@ -19,32 +26,32 @@ Der Text jedes Eintrags wird in seine Formular-Slots aufgeteilt und die jeweilig
 und frawn Barbaren seiner hausfrawn
 
 und ir baider erben
-furbaser ledichlich und freileich zehaben 
-und allen irn frumen damit zeschaffen
+furbaser ledichlich und freileich zehaben und allen irn frumen damit zeschaffen
 
 ut littera sonat 
 ⒹActum an Freitag vor Bartholomei Anno domini Mº ccccº xxiiº
-Summa xlviii d.
+ⓟSumma xlviii d.
 ```
 
-Die Leerzeilen teilen den Eintrag optisch in leicht erfassbare Teile. Ein Slot kann mehrere Zeilen umfassen. Er endet, sobald ein neuer Slot beginnt, und spätestens bei einer Leerzeile.
+Die für uns relevanten Formular-Slots werden markiert, nicht weiter ausgewertete Stellen können auch unmarkiert bleiben. Die wesentlichen Slots sind: Ereignistyp Ⓔ, von Ⓥ, an Ⓐ, Objekt Ⓞ, Lage Ⓛ, neben Ⓝ, Kaufpreis Ⓟ, Datum Ⓓ. 
 
-Alle für uns relevanten Formularteile werden markiert, nicht weiter ausgewertete Stellen können auch unmarkiert bleiben. 
+Ein Slot kann mehrere Zeilen umfassen. Er endet, sobald ein neuer markierter Slot beginnt, und spätestens bei einer Leerzeile. Die Leerzeilen teilen den Eintrag außerdem in optisch leicht erfassbare Teile, ohne ihn in allzu kleine Abschnitte zu zerfasern.  
+
 
 ### Reihenfolge der Slots
 
-Die Reihenfolge der Slots variiert. Ein grundlegender Unterschied ist zwischen Kaufbuch und Gewerbüchern: 
-* Kaufbuch: Agnes verkauft ein Objekt (mit Lage und Nachbarn) an Veit und Barbara
-* Gewerbücher: Veit und Barbara erhalten ein Objekt (mit Lage und Nachbarn) mit Kauf von Agnes
+Ein Haus ist normalerweise beschrieben als Ⓞ das Haus mit Ⓛ Lage und Ⓝ Nachbarn.
 
-Aber auch darüber hinaus ist die Reihenfolge nicht fix. Die Daten-Auswertung muss damit umgehen können.
+Allgemein ist die Reihenfolge der Slots jedoch nur grob vorgegeben. Ein grundlegender Unterschied zwischen Kaufbuch und Gewerbüchern ist zum Beispiel die Reihenfolge der Käufer und Verkäufer:
+* Kaufbuch: Ⓥ Agnes Ⓔ verkauft Ⓞ ihr Haus Ⓐ an Veit und Barbara
+* Gewerbücher: Ⓐ Veit und Barbara erhalten Ⓞ ein Haus Ⓔ durch Kauf von Ⓥ Agnes
 
 ## Übersicht über die Formular-Slots
 
 Ein Slot kann mit einem _circled capital letter_ (Ⓐ bis Ⓩ) oder einem _circled small letter_ (ⓐ bis ⓩ) markiert werden. Als Faustregel wird alles, was danach ausgewertet wird, mit einem Großbuchstaben markiert, und alles andere mit einem Kleinbuchstaben.
 
-TODO: Die Beschreibung durchgehen. 
-* Die wesentlichen Slots sind: Ereignistyp Ⓔ, von Ⓥ, an Ⓐ, Objekt Ⓞ, Lage Ⓛ, neben Ⓝ, Kaufpreis Ⓟ, Datum Ⓓ. Diese Slots sind im Suchindex. 
+TODO: Die Beschreibung durchgehen. Aktuell ist:
+* Die wesentlichen Slots sind im Suchindex. 
 * Gebühr ⓟ, Burgrecht Ⓑ sind nicht im Suchindex, aber systematisch markiert.
 * Die meisten anderen hier erwähnten Slots markieren wir nicht (mehr) systematisch. 
 * Für komplexe Einträge mit mehr als einer Transaktion planen wir eine Markierung von Ⓥ, an Ⓐ und Zwischenbesitzer, vielleicht mit Ⓦ.

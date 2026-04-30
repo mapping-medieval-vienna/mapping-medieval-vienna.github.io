@@ -4,7 +4,7 @@ Die Seitenkonkordanz für jedes Grundbuch ist im [GitHub-Repository für die Pro
 [KB-E](https://github.com/medieval-vienna/gesamt/blob/main/konkordanz/Konkordanz%20-%20KB-E.csv), 
 [KB-E2 / GB-C](https://github.com/medieval-vienna/gesamt/blob/main/konkordanz/Konkordanz%20-%20KB-E2_GB-C.csv),
 [GB-D](https://github.com/medieval-vienna/gesamt/blob/main/konkordanz/Konkordanz%20-%20GB-D.csv), 
-[GB-E](https://github.com/medieval-vienna/gesamt/blob/main/konkordanz/Konkordanz%20-%20GB-E.csv)
+[GB-E](https://github.com/medieval-vienna/gesamt/blob/main/konkordanz/Konkordanz%20-%20GB-E.csv) (TODO: in das neue Daten-Repo umziehen)
 
 Die Konkordanz gleicht für jedes Grundbuch ab:
 
@@ -24,9 +24,10 @@ verweist auf Gewerbuch D fol. 251v, das entspricht bei uns der Seite [GB-D 0503]
 
 ## Vergleich von originalen und neuen Scannummern und Eintragsnummern:
 * KB-E: stimmen überein
-* KB-E2 / GB-C: Die Eintragszählung für KB-E2 fängt bei 509 an, um Verwechslungen mit KB-E zu vermeiden. GB-C fängt bei Scan 081 an, deshalb ist der erste Eintrag GB-C 081-1.
-* GB-D: Mehrere Scan-Dubletten wurden entfernt und zwei fehlende Seiten ergänzt. Die Scannummern wurden entsprechend angepasst, deshalb ergibt sich eine Verschiebung um bis zu 8 Seiten zu den originalen Scannummern. 
-* GB-E: Die Einträge beginnen bei 0004, und alle Eintragsnummern entsprechen den Scannummern. Nachträglich wurden aber Scans vom Vorderdeckel innen und fol. 1v eingefügt. Dadurch sind am Anfang die Scannummern gegenüber den originalen Scannummern verschoben, siehe die folgende Tabelle. Damit die Scannummern und Eintragsnummern weiterhin übereinstimmen und damit wir trotzdem keine Unterscheidung zwischen logischer und physischer Seite machen müssen, lassen wir in der Edition vorläufig die Seiten 0000 und 0000a (Vorderdeckel außen und innen) weg und zeigen nur die Seiten 0001 und 0002 an.
+* KB-E2 / GB-C: Die Eintragszählung für KB-E2 fängt bei 509 an, um Verwechslungen mit KB-E zu vermeiden. GB-C fängt bei Scan 081 an, deshalb ist der erste Eintrag GB-C 081-1.  
+  Um KB-E und E2 optisch zu verbinden und KB-E2 und GB-C optisch mehr zu trennen, haben wir die Scans 001 und 002 (Vorderdeckel außen und innen) zwischen den Seiten 080 und 081 eingefügt. 
+* GB-D: Mehrere Scan-Dubletten wurden entfernt und zwei fehlende Seiten ergänzt. Die Scannummern wurden entsprechend angepasst, deshalb ergibt sich ab S. 203 eine Verschiebung um bis zu 8 Seiten zu den originalen Scannummern. 
+* GB-E: Die Einträge beginnen bei 0004, und alle Eintragsnummern entsprechen den Scannummern. Nachträglich wurden aber Scans vom Vorderdeckel innen und fol. 1v eingefügt. Dadurch sind am Anfang die Scannummern gegenüber den originalen Scannummern verschoben, siehe die folgende Tabelle. Damit die Scannummern und Eintragsnummern weiterhin übereinstimmen und damit wir trotzdem keine Unterscheidung zwischen logischer und physischer Seite machen müssen, lassen wir in der Edition die Seiten 0000 und 0000a (Vorderdeckel außen und innen) weg und zeigen nur die Seiten 0001 und 0002 an.
 
 | Zählung Helmchen | Seitentext | original | neu |
 |:-----------------|:-----------|:---------|:----|

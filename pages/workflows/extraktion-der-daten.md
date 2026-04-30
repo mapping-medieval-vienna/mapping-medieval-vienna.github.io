@@ -1,6 +1,8 @@
 # Extraktion der Daten
 
-TODO 
+TODO: aktualisieren und vervollständigen
+
+zum Beispiel wird `<seg>` nicht mehr verwendet 
 
 ## Ortsangaben
 

@@ -1,7 +1,9 @@
 # Über das Projekt
 
-Im Projekt _Mapping Medieval Vienna_ wurden die Wiener Kauf- und Gewerbücher des 15. Jahrhunderts transkribiert und ausgewegertet. Das Projekt wurde 2021 bis 2025 <a href="https://gepris.dfg.de/gepris/projekt/460256739">durch die DFG gefördert</a> und ist am Friedrich-Meinecke-Institut der Freien Universität angesiedelt. Geleitet wird das Projekt von Prof. **Thomas Ertl**. Wissenschaftliche Mitarbeiter sind **Julian Helmchen** und **Wolfgang Schmidle**. Unsere wichtigsten Kooperationspartner waren unsere Kolleg:innen in Wien (Universität, Wien Museum und Wiener Stadt- und Landesarchiv) sowie das Center für Digitale Systeme (CeDiS) der Freien Universität Berlin.
+Im Projekt _Mapping Medieval Vienna_ wurden die Wiener Kauf- und Gewerbücher des 15. Jahrhunderts transkribiert und ausgewegertet. Das Projekt wurde 2021 bis 2025 <a href="https://gepris.dfg.de/gepris/projekt/460256739">durch die DFG gefördert</a> und ist am Friedrich-Meinecke-Institut der Freien Universität angesiedelt. Geleitet wird das Projekt von Prof. **Thomas Ertl**. Wissenschaftliche Mitarbeiter sind **Julian Helmchen** und **Wolfgang Schmidle**. Unsere wichtigsten Kooperationspartner waren unsere Kolleg:innen in Wien (Universität, Wien Museum und Wiener Stadt- und Landesarchiv) sowie die FUB-IT (ehemals Center für Digitale Systeme, CeDiS) der Freien Universität Berlin. 
 
+Die Auswertung der Daten ist noch nicht abgeschlossen; das Projekt soll deshalb um ein Jahr verlängert werden.
+ 
 ## Die Wiener Grundbücher
 
 In Wien wurden seit 1368 Grundbücher geführt. Nach der Pest sah sich die Stadt mit einer Immobilienkrise konfrontiert, die nur durch umfangreiche Reformen Herzogs Rudolf IV. gelöst werden konnte. Infolge dessen wurden dem Stadtrat nahezu alle Grundrechte innerhalb des Burgfrieds übertragen, die es nun zu verwalten galt. In der städtischen Kanzlei entwarf man daher eine ausgefeilte Systematik, um Liegenschaftstransaktionen aufzuzeichnen. Resultat waren sich ergänzende Serien von Amtsbüchern: Bis 1438 wurden Besitzwechsel je nach Art der Transaktion ins Kaufbuch oder Gewerbuch ("Gewährbuch") aufgenommen. Darlehensgeschäfte, bei denen die Immobilien als Sicherheit eingesetzt wurden, gelangten ins Satzbuch oder Verbotbuch. Ab 1438 fasste man das Kauf- und Gewerbuch zu einem Grundbuch zusammen. Die Grundbücher lagen als gebundene Handschriften vor, in die solange Einträge eingetragen wurden, bis kein Platz mehr vorhanden war und ein neues Buch begonnen werden musste. Um die einzelnen Eintragungen anzufertigen, exzerpierten die Schreiber die zur jeweiligen Transaktion vorliegenden Urkunden, passten sie einem Formular an und kürzten standardisierte Textteile. Die Originalurkunden selbst sind nur in wenigen Fällen erhalten.
@@ -12,17 +14,12 @@ Für die Wissenschaft bedeutet dies, dass tausende Nennungen von Personen und Im
 
 ## Edition der Grundbücher 1420-1517
 
-Bei den von uns edierten Grundbüchern handelt es sich um die heute im Wiener Stadt- und Landesarchiv befindlichen Handschriften:
+Bei den von uns edierten Grundbüchern handelt es sich um die heute im Wiener Stadt- und Landesarchiv befindlichen Handschriften Kaufbuch E und Gewerbuch ("Gewährbuch") C, D und E. Das Kaufbuch E wurde in zwei Teile aufgetrennt und der zweite Teil (von uns als Kaufbuch E2 bezeichnet) mit dem Gewerbuch C zusammengebunden; die Edition folgt dieser Überlieferungssituation.
 
-1420-1437:
-* WStLA Einzelstück 2.1.2.1.B1.6a - [Kaufbuch E (Buchstaben A bis R)](viewer.html?e=KB-E)
-* WStLA Einzelstück 2.1.2.1.B1.6b.1 - [Kaufbuch E2 (Buchstaben S bis W)](viewer.html?e=KB-E2_GB-C#3)<br/>
+* WStLA Einzelstück 2.1.2.1.B1.6a - [Kaufbuch E](viewer.html?e=KB-E)
+* WStLA Einzelstück 2.1.2.1.B1.6b.1 - [Kaufbuch E2](viewer.html?e=KB-E2_GB-C#3)<br/>
 WStLA Einzelstück 2.1.2.1.B1.6b.2 - [Gewerbuch C](viewer.html?e=KB-E2_GB-C#81)
-
-1438-1473:
 * WStLA Einzelstück 2.1.2.1.B1.7 - [Gewerbuch D](viewer.html?e=GB-D)
-
-1474-1517:
 * WStLA Einzelstück 2.1.2.1.B1.8 - [Gewerbuch E](viewer.html?e=GB-E)
 
-Details zur Edition finden Sie unter [Über die Edition](info.html?p=edition/ueber-die-edition).
+Weitere Details zur Edition finden Sie unter [Über die Edition](info.html?p=edition/ueber-die-edition).

@@ -1,6 +1,9 @@
 # Formular-Erstellung
 
-Für die Auswertung muss die Formular-Ansicht erstellt werden, die [hier](formular-ansicht.md) genauer beschrieben ist. Konkret müssen die Einträge in Formular-Slots aufgeteilt und die Rollen der Slots markiert werden. Anschließend müssen die Angaben in den Slots normalisiert und mit kontrolliertem Vokabular und IDs versehen werden. 
+TODO: aktualisieren
+
+Für die Auswertung muss die [Formular-Ansicht](info.html?p=auswertung/formular-ansicht) erstellt werden.
+Konkret müssen die Einträge in Formular-Slots aufgeteilt und die Rollen der Slots markiert werden. Anschließend müssen die Angaben in den Slots normalisiert und mit kontrolliertem Vokabular und IDs versehen werden. 
 
 Die diplomatische Version und die Formularversion sind in getrennten Dateien. Mit einem Skript wird regelmäßig kontrolliert, ob der zugrundeliegende Text in beiden Dateien noch identisch ist. 
 
@@ -90,5 +93,3 @@ dann wäre das LⒶ, also das "an" des letzten Ereignisses.
 Es müssen nicht alle Zustände und Ereignisse explizit dastehen. Zum Beispiel kann dastehen "das Haus, das vorher X und seiner Frau Y gehört hat" oder "das X und seine Frau Y gekauft hatten". Beides bedeutet, dass der Eintrag davor hoffentlich geendet hat mit dem Zustand "X und Y besitzen das Haus". Aber auch die Schreiber wollten ja, dass man die Einträge später noch versteht. 
 
 Zum Beispiel die Hauspreise kann ich jederzeit mit einem Skript aus dem Text in eine Tabelle kopieren. Aber die Daten leben in der Formularansicht, nicht in einer Datenbank. Korrekturen würde ich in der Formularansicht machen und die entsprechende Tabelle dann auf Knopfdruck aktualisieren. Mit Ereignissen werde ich es ähnlich wie mit Preisen machen, aber Ereignisse sind komplexer und zurzeit sitzt auch eine SHK daran, Ereignisse herauszuziehen. Und die Daten sind immer nur so gut, wie sie im Text markiert wurden, aber das ist bei einer von Hand erstellten Excel-Tabelle ja nicht anders. 
-
-
