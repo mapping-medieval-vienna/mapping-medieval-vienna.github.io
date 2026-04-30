@@ -4,7 +4,7 @@ Grundlage für die Formular-Ansicht ist so weit wie möglich die _intendierte Te
 
 ## Formular-Slots
 
-Der Text jedes Eintrags wird in seine Formular-Slots aufgeteilt und die jeweiligen Rollen der Slots markiert. Ein einfaches Beispiel aus dem Kaufbuch E ist [KB-E 013-2](../edition/KB-E.xml?id=img_013):
+Der Text jedes Eintrags wird in seine Formular-Slots aufgeteilt und die jeweiligen Rollen der Slots markiert. Ein einfaches Beispiel aus dem Kaufbuch E ist [KB-E 013-2](viewer.html?e=KB-E#13):
 
 ```
 ⓋAgnes von Lincz
@@ -27,6 +27,8 @@ ut littera sonat
 Summa xlviii d.
 ```
 
+Die Leerzeilen teilen den Eintrag optisch in leicht erfassbare Teile. Ein Slot kann mehrere Zeilen umfassen. Er endet, sobald ein neuer Slot beginnt, und spätestens bei einer Leerzeile.
+
 Alle für uns relevanten Formularteile werden markiert, nicht weiter ausgewertete Stellen können auch unmarkiert bleiben. 
 
 ### Reihenfolge der Slots
@@ -40,6 +42,12 @@ Aber auch darüber hinaus ist die Reihenfolge nicht fix. Die Daten-Auswertung mu
 ## Übersicht über die Formular-Slots
 
 Ein Slot kann mit einem _circled capital letter_ (Ⓐ bis Ⓩ) oder einem _circled small letter_ (ⓐ bis ⓩ) markiert werden. Als Faustregel wird alles, was danach ausgewertet wird, mit einem Großbuchstaben markiert, und alles andere mit einem Kleinbuchstaben.
+
+TODO: Die Beschreibung durchgehen. 
+* Die wesentlichen Slots sind: Ereignistyp Ⓔ, von Ⓥ, an Ⓐ, Objekt Ⓞ, Lage Ⓛ, neben Ⓝ, Kaufpreis Ⓟ, Datum Ⓓ. Diese Slots sind im Suchindex. 
+* Gebühr ⓟ, Burgrecht Ⓑ sind nicht im Suchindex, aber systematisch markiert.
+* Die meisten anderen hier erwähnten Slots markieren wir nicht (mehr) systematisch. 
+* Für komplexe Einträge mit mehr als einer Transaktion planen wir eine Markierung von Ⓥ, an Ⓐ und Zwischenbesitzer, vielleicht mit Ⓦ.
 
 ### Objekte
 
