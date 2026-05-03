@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Handle browser back/forward
   window.addEventListener("hashchange", () => {
-    const n = decodeURIComponent(location.hash.slice(1));
+    const n = location.hash.slice(1);
     if (n) {
       const idx = pages.findIndex(p => p.n === n);
       if (idx >= 0 && idx !== currentPageIdx) showPage(idx, false);
@@ -74,7 +74,7 @@ function loadEdition(url) {
       buildPageIndex();
       renderNav();
       // Start on page from hash, or first page
-      const hashN = decodeURIComponent(location.hash.slice(1));
+      const hashN = location.hash.slice(1);
       const startIdx = hashN ? Math.max(0, pages.findIndex(p => p.n === hashN)) : 0;
       showPage(startIdx);
     })
@@ -86,21 +86,72 @@ function buildPageIndex() {
   pages = [];
   let currentPage = null;
 
+  function newPage(pbNode) {
+    currentPage = {
+      n:             pbNode.getAttribute("n"),
+      facs:          pbNode.getAttribute("facs"),
+      entries:       [],   // entry divs that begin on this page
+      continuations: [],   // {entry, parts} – p[@part M|F] of entries begun earlier
+      headings:      [],
+    };
+    pages.push(currentPage);
+  }
+
+  function walkEntry(entryNode) {
+    // Walk the children of an entry, respecting <pb> inside it.
+    // <p part="I"> or <p> without part → entry starts on currentPage.
+    // <p part="M|F"> after a <pb> → continuation on the new currentPage.
+    let startPage = currentPage;
+    let pendingParts = [];   // p-nodes collected before a <pb>
+
+    for (const child of entryNode.childNodes) {
+      if (child.nodeType !== 1) continue;
+      const local = child.localName;
+
+      if (local === "pb") {
+        // Flush pending parts to startPage.entries (first flush) or
+        // to a continuation on currentPage (subsequent flushes).
+        if (pendingParts.length > 0) {
+          if (currentPage === startPage) {
+            startPage.entries.push({ entry: entryNode, parts: pendingParts });
+          } else {
+            currentPage.continuations.push({ entry: entryNode, parts: pendingParts });
+          }
+          pendingParts = [];
+        }
+        // Register the new page.
+        newPage(child);
+        // startPage stays the original page so the entry shows up there.
+      } else if (local === "p" || local === "note" || local === "fw") {
+        pendingParts.push(child);
+      }
+      // head, other elements: ignore for part-splitting purposes
+    }
+
+    // Flush remaining parts.
+    if (pendingParts.length > 0) {
+      if (currentPage === startPage) {
+        // Entry fits entirely on one page – store the whole entryNode for
+        // compatibility with the existing formular rendering path.
+        startPage.entries.push({ entry: entryNode, parts: pendingParts, whole: true });
+      } else {
+        currentPage.continuations.push({ entry: entryNode, parts: pendingParts });
+      }
+    }
+  }
+
   function walk(node) {
     if (node.nodeType !== 1) return;
     const local = node.localName;
     if (local === "pb") {
-      currentPage = { n: node.getAttribute("n"), facs: node.getAttribute("facs"), entries: [], headings: [] };
-      pages.push(currentPage);
+      newPage(node);
     } else if (local === "div" && node.getAttribute("type") === "entry") {
-      if (currentPage) currentPage.entries.push(node);
+      if (currentPage) walkEntry(node);
       return;
     } else if (local === "div" && (node.getAttribute("type") === "section-alphabetical" || node.getAttribute("type") === "section-temporal")) {
-      // Collect the heading of this section if it starts on the current page
       const head = Array.from(node.children).find(c => c.localName === "head");
       if (head && currentPage) currentPage.headings.push(head);
     } else if (local === "head" && node.getAttribute("type") === "heading-main") {
-      // heading-main sits directly in the book div, not inside a section div
       if (currentPage) currentPage.headings.push(node);
       return;
     }
@@ -121,8 +172,8 @@ function renderNav() {
     const btn = document.createElement("button");
     btn.className = "page-link";
     btn.textContent = p.n;
-    if (p.entries.length === 0) btn.style.opacity = "0.4";
-    btn.title = p.entries.length + " Einträge";
+    if (p.entries.length === 0 && p.continuations.length === 0) btn.style.opacity = "0.4";
+    btn.title = p.entries.length + " Einträge" + (p.continuations.length ? " (+ Fortsetzung)" : "");
     btn.onclick = () => showPage(i);
     nav.appendChild(btn);
   });
@@ -168,7 +219,8 @@ function renderTranscript(idx) {
     pane.appendChild(teiToHtml(head));
   }
 
-  if (page.entries.length === 0) {
+  const hasContent = page.entries.length > 0 || page.continuations.length > 0;
+  if (!hasContent) {
     const msg = document.createElement("p");
     msg.style.cssText = "color:var(--col-muted);font-family:var(--font-ui);font-size:13px;margin-top:1rem;";
     msg.textContent = "Keine Einträge auf dieser Seite.";
@@ -176,16 +228,26 @@ function renderTranscript(idx) {
     return;
   }
 
-  for (const entry of page.entries) {
+  // In line-accurate mode: show continuations first, then entries begun here.
+  // In formular mode: show only entries begun here (formular has no page-break info).
+  if (!formMode) {
+    for (const cont of page.continuations) {
+      pane.appendChild(renderEntryParts(cont.entry, cont.parts, /* isContinuation */ true));
+    }
+  }
+
+  for (const item of page.entries) {
     const wrapper = document.createElement("div");
     wrapper.className = "entry";
 
-    const id = entry.getAttribute("n") || entry.getAttributeNS("http://www.w3.org/XML/1998/namespace", "id");
+    const entryNode = item.entry;
+    const id = entryNode.getAttribute("n") || entryNode.getAttributeNS("http://www.w3.org/XML/1998/namespace", "id");
     const label = document.createElement("div");
     label.className = "entry-head";
     label.textContent = id;
     wrapper.appendChild(label);
-    for (const note of Array.from(entry.children).filter(c => c.localName === "note" && c.getAttribute("type") === "kommentar")) {
+
+    for (const note of Array.from(entryNode.children).filter(c => c.localName === "note" && c.getAttribute("type") === "kommentar")) {
       const commentDiv = document.createElement("div");
       commentDiv.className = "entry-comment";
       commentDiv.textContent = note.textContent.trim();
@@ -193,21 +255,33 @@ function renderTranscript(idx) {
     }
 
     if (formMode) {
-      const ab = findChild(entry, "ab", "formular");
+      const ab = findChild(entryNode, "ab", "formular");
       if (ab) wrapper.appendChild(teiToHtml(ab));
     } else {
-      const ps = findAllByLocalName(entry, "p");
-      if (ps.length > 0) {
-        ps.forEach(p => wrapper.appendChild(teiToHtml(p)));
-      } else {
-        for (const child of entry.children) {
-          if (child.localName !== "head") wrapper.appendChild(teiToHtml(child));
-        }
+      for (const part of item.parts) {
+        wrapper.appendChild(teiToHtml(part));
       }
     }
 
     pane.appendChild(wrapper);
   }
+}
+
+/* ── Render a continuation (p[@part M|F] nodes of an entry begun earlier) ── */
+function renderEntryParts(entryNode, parts, isContinuation) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "entry" + (isContinuation ? " entry-continuation" : "");
+
+  const id = entryNode.getAttribute("n") || entryNode.getAttributeNS("http://www.w3.org/XML/1998/namespace", "id");
+  const label = document.createElement("div");
+  label.className = "entry-head";
+  label.textContent = id + (isContinuation ? " (Forts.)" : "");
+  wrapper.appendChild(label);
+
+  for (const part of parts) {
+    wrapper.appendChild(teiToHtml(part));
+  }
+  return wrapper;
 }
 
 /* ── TEI → HTML ── */
