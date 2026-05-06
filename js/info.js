@@ -53,6 +53,22 @@ const SITE_MAP = [
   },
 ];
 
+/* ── Scroll to anchor (supports both id="..." and name="...") ── */
+function scrollToHash(hash) {
+  if (!hash) return;
+  const id = decodeURIComponent(hash.slice(1));
+  const target = document.getElementById(id)
+    || document.querySelector(`a[name="${id}"]`);
+  if (target) target.scrollIntoView({ block: 'start' });
+}
+
+/* ── Handle browser back/forward ── */
+window.addEventListener("popstate", () => {
+  const params = new URLSearchParams(location.search);
+  const page = params.get("p") || "projekt/index";
+  loadPage(page).then(() => scrollToHash(location.hash));
+});
+
 /* ── Bootstrap ── */
 document.addEventListener("DOMContentLoaded", () => {
   buildNav();
@@ -92,6 +108,7 @@ function buildNav() {
 
 /* ── Load and render a markdown page ── */
 function loadPage(p) {
+  return new Promise((resolve) => {
   // Update active state in nav
   document.querySelectorAll(".info-nav-link").forEach(a => {
     const href = new URL(a.href).searchParams.get("p");
@@ -106,7 +123,10 @@ function loadPage(p) {
   const content = document.getElementById("info-content");
   content.innerHTML = '<p style="color:var(--col-muted);font-family:var(--font-ui);font-size:13px;">Lade…</p>';
 
-  fetch("pages/" + p + ".md")
+  const mdUrl = p.startsWith("daten/")
+    ? "https://mapping-medieval-vienna.github.io/" + p + ".md"
+    : "pages/" + p + ".md";
+  fetch(mdUrl)
     .then(r => {
       if (!r.ok) throw new Error("Nicht gefunden");
       return r.text();
@@ -135,15 +155,14 @@ function loadPage(p) {
       }
 
       // Scroll to hash anchor after content is in the DOM
-      const hash = decodeURIComponent(location.hash.slice(1));
-      if (hash) {
-        const target = document.getElementById(hash);
-        if (target) target.scrollIntoView({ block: 'start' });
-      }
+      scrollToHash(location.hash);
+      resolve();
     })
     .catch(() => {
       content.innerHTML = '<p class="wip-notice">Seite nicht gefunden.</p>';
+      resolve();
     });
+  }); // end Promise
 }
 
 function escHtml(s) {
