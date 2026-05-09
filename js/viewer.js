@@ -313,11 +313,7 @@ function renderTranscript(idx) {
     wrapper.className = "entry";
 
     const entryNode = item.entry;
-    const id = entryNode.getAttribute("n") || entryNode.getAttributeNS("http://www.w3.org/XML/1998/namespace", "id");
-    const label = document.createElement("div");
-    label.className = "entry-head";
-    label.textContent = id;
-    wrapper.appendChild(label);
+    wrapper.appendChild(buildEntryHead(entryNode, false));
 
     for (const note of Array.from(entryNode.children).filter(c => c.localName === "note" && c.getAttribute("type") === "kommentar")) {
       const commentDiv = document.createElement("div");
@@ -344,11 +340,7 @@ function renderEntryParts(entryNode, parts, isContinuation) {
   const wrapper = document.createElement("div");
   wrapper.className = "entry" + (isContinuation ? " entry-continuation" : "");
 
-  const id = entryNode.getAttribute("n") || entryNode.getAttributeNS("http://www.w3.org/XML/1998/namespace", "id");
-  const label = document.createElement("div");
-  label.className = "entry-head";
-  label.textContent = id + (isContinuation ? " (Forts.)" : "");
-  wrapper.appendChild(label);
+  wrapper.appendChild(buildEntryHead(entryNode, isContinuation));
 
   for (const part of parts) {
     wrapper.appendChild(teiToHtml(part));
@@ -441,6 +433,39 @@ function teiToHtml(node, inFormularAb) {
     }
   }
   return el;
+}
+
+/* ── Build entry-head div with ID label and house-ID links ── */
+function buildEntryHead(entryNode, isContinuation) {
+  const id = entryNode.getAttribute("n") || entryNode.getAttributeNS("http://www.w3.org/XML/1998/namespace", "id");
+  const label = document.createElement("div");
+  label.className = "entry-head";
+
+  const idSpan = document.createElement("span");
+  idSpan.textContent = id + (isContinuation ? " (Forts.)" : "");
+  label.appendChild(idSpan);
+
+  // Extract house IDs (DB####[a-z]*) from the formular ab
+  const ab = findChild(entryNode, "ab", "formular");
+  if (ab) {
+    const abText = ab.textContent;
+    const idRe = /DB\d{4}[a-z]*/g;
+    const seen = new Set();
+    let m;
+    while ((m = idRe.exec(abText)) !== null) {
+      const fullId = m[0];
+      const baseId = fullId.replace(/[a-z]+$/, '');
+      if (seen.has(baseId)) continue;
+      seen.add(baseId);
+      const a = document.createElement("a");
+      a.className = "obj-id-link";
+      a.href = `info.html?p=daten/haeuser/biografien/${baseId}`;
+      a.textContent = fullId;
+      label.appendChild(a);
+    }
+  }
+
+  return label;
 }
 
 /* ── Helpers ── */

@@ -126,6 +126,16 @@
   color: var(--col-muted);
   margin-bottom: 0.4rem;
 }
+.obj-id-link {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  background: var(--col-accent-light);
+  border-radius: 3px;
+  padding: 1px 5px;
+  margin-left: 0.4rem;
+  color: var(--col-accent);
+}
+
 
 /* ── TEI element styles ── */
 .tei-del { text-decoration: line-through; color: var(--col-muted); }

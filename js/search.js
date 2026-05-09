@@ -223,7 +223,10 @@ function renderResults(results, activeTerms = [], fuzzyTerms = []) {
     if (r.an?.length)     html += field('An',     joinArr(r.an));
     if (r.objekt?.length) {
       const objTxt = joinArr(r.objekt);
-      const objIds = (r.objIds || []).map(id => `<span class="obj-id">${esc(String(id))}</span>`).join(' ');
+      const objIds = (r.objIds || []).map(id => {
+        const base = id.replace(/[a-z]+$/, '');
+        return `<a class="obj-id" href="info.html?p=daten/haeuser/biografien/${esc(base)}">${esc(String(id))}</a>`;
+      }).join(' ');
       html += field('Objekt', objTxt, objIds ? ' ' + objIds : '');
     }
     if (r.lage?.length)   html += field('Lage',   joinArr(r.lage));
