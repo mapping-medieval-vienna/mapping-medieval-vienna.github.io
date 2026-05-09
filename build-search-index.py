@@ -31,16 +31,20 @@ def clean_marker_text(s):
 
 def extract_before_marker(ab_xml_str, marker):
     """Extract standardized text appearing directly before a circled marker."""
-    pattern = r'(?:/>|>)([^<\n]{1,80})' + re.escape(marker)
-    m = re.search(pattern, ab_xml_str)
+    pattern = r'^([^<\n]{1,80})' + re.escape(marker)
+    m = re.search(pattern, ab_xml_str, re.MULTILINE)
     if m:
         return clean_marker_text(m.group(1))
     return ''
 
 def extract_all_before_marker(ab_xml_str, marker):
     """Extract all occurrences of standardized text before a marker."""
-    pattern = r'(?:/>|>)([^<\n]{1,80})' + re.escape(marker)
-    return [clean_marker_text(s) for s in re.findall(pattern, ab_xml_str) if s.strip().lstrip('#').strip()]
+    pattern = r'^([^<\n]{1,80})' + re.escape(marker)
+    return [
+        clean_marker_text(s)
+        for s in re.findall(pattern, ab_xml_str, re.MULTILINE)
+        if s.strip().lstrip('#').strip()
+    ]
 
 def rs_texts(ab, rs_type):
     """Collect all text values of rs elements with a given type.
