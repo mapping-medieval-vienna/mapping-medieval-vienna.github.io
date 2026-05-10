@@ -49,9 +49,10 @@
 <div type="entry" n="509-1" xml:id="n_509-1">
 	<head type="note">509-1</head>
 <ab type="formular">
-Ⓥ<rs type="von">Seyfrid Munsser burger ze Wienn
-<lb/>hat mitsampt andern gutern gemacht
-<lb/>seiner hausfrawn Margreten die weilnt Andren den pfeiffer von lincz auch hat eleichen gehabt</rs>
+Ⓥ<rs type="von">Seyfrid Munsser burger ze Wienn</rs>
+Ⓔ<rs type="ereignis">hat mitsampt andern gutern gemacht</rs>
+Ⓐ<rs type="an">seiner hausfrawn Margreten
+<lb/>die weilnt Andren den pfeiffer von lincz auch hat eleichen gehabt</rs>
 <lb/>
 DB6000Ⓞ<rs type="objekt">sein haws</rs>
 Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen In der Schefstrazz vor Stubentor ze Wienn</rs>
@@ -74,8 +75,9 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen In der Schefstrazz vor St
 	<p facs="#facs_3_TextRegion_1644399191151_672">
 <lb facs="#facs_3_r1l12" n="N002"/>
 <seg><rs type="von">Seyfrid Munsser <del>l</del> burger ze Wienn</rs> 
-<rs>hat mitsampt andern gutern gemacht</rs> 
-<rs>seiner hausfrawn <lb facs="#facs_3_r1l13" n="N003"/>Margreten die weilnt Andren den pfeiffer von lincz auch hat eleichen gehabt</rs></seg> 
+<rs type="ereignis">hat mitsampt andern gutern gemacht</rs> 
+<rs type="an">seiner hausfrawn <lb facs="#facs_3_r1l13" n="N003"/>Margreten</rs> 
+<rs>die weilnt Andren den pfeiffer von lincz auch hat eleichen gehabt</rs></seg> 
 
 <seg><rs type="objekt" ref="#DB6000">sein haws</rs> <lb facs="#facs_3_r1l14" n="N004"/>
 <rs type="lage" ref="#Scheffstraße #vor_Stubentor">gelegen In der Schefstrazz vor Stubentor ze Wienn</rs> 
@@ -103,8 +105,9 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen In der Schefstrazz vor St
 <ab type="formular">
 Ⓥ<rs type="von">Stephan Plumenstingl Burger ze Wienn
 <lb/>zu den zeiten ausrichter und volfurer des gescheffts
-<lb/>So Niclas Redler der Gurtler an seinen lesten zeiten getan hat
-<lb/>das er Im empholhen hat ausczerichten
+<lb/>So Niclas Redler der Gurtler an seinen lesten zeiten getan hat</rs>
+<lb/>
+<rs>das er Im empholhen hat ausczerichten
 <lb/>als dasselb geschefft vor dem Rat der Stat ze Wienn beweist und in das Statpuch daselbs geschriben ist</rs>
 <lb/>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
@@ -212,16 +215,17 @@ Hoher MarktⓁ<rs type="lage">gelegen am Hochenmarkcht</rs>
 	<head type="note">510-1</head>
 <ab type="formular">
 Ⓥ<rs type="von">Sygmund von Eberstorf</rs>
-verkaufⒺ<rs type="ereignis">hat verkaufft
-<lb/>an Stat sein selbs und seiner Bruder Hannsen Reinprechts und Albrechts
-<lb/>die zu den zeiten unvogtper und zu yeren beschaiden Jaren nicht komen waren die er Innehat</rs>
+verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
+Ⓥ<rs type="von">an Stat sein selbs und seiner Bruder Hannsen Reinprechts und Albrechts</rs>
+<lb/>
+<rs>die zu den zeiten unvogtper und zu yeren beschaiden Jaren nicht komen waren die er Innehat</rs>
 <lb/>
 DB5306Ⓞ<rs type="objekt">Ir haws</rs>
 HerzoghofⓁ<rs type="lage">gelegen an der Herczogen hof ze Wienn</rs>
-BognergasseⓁ<rs type="lage">an dem Egk So man get ab demselben hof In die Pognergassen
-<lb/>und neben des klosters Hofmarich</rs>
+BognergasseⓁ<rs type="lage">an dem Egk So man get ab demselben hof In die Pognergassen</rs>
+Ⓝ<rs type="neben">und neben des klosters Hofmarich</rs>
 <lb/>
-<rs>den erbern geistleichen Brudern Bruder Marcharten von Nurnberg zu den zeiten vicarn
+Ⓐ<rs type="an">den erbern geistleichen Brudern Bruder Marcharten von Nurnberg zu den zeiten vicarn
 <lb/>und des Convents unser frawn Bruder des Ordens von dem perig Carmelo</rs>
 <lb/>
 <rs>des ein tail gehort zu der Schotten grunt ze Wienn
@@ -230,9 +234,8 @@ BognergasseⓁ<rs type="lage">an dem Egk So man get ab demselben hof In die Pogn
 275 tl.Ⓟ<measure type="preis">umb zway hundert und funf und Sybenczig phunt Wienner phenning</measure>
 <lb/>
 <rs>den egenant erbern und geistleichen Brudern Bruder Marcharten vicarn und dem ganczen Convent
-<lb/>und allen irn nachkomen</rs>
-<lb/>
-<rs>furbas ledichleich und freileich zehaben
+<lb/>und allen irn nachkomen
+<lb/>furbas ledichleich und freileich zehaben
 <lb/>und allen irn frumen damit zeschaffen nuczen und niessen
 <lb/>und alles das damit tun und hanndlen das in wol gevellet
 <lb/>als mit andern irn gutern die zu dem benant irm gotshaws gehornt</rs>
@@ -245,15 +248,16 @@ BognergasseⓁ<rs type="lage">an dem Egk So man get ab demselben hof In die Pogn
 <lb facs="#facs_4_r4l1" n="N001"/>
 <seg><rs type="von">Sygmund von Eberstorf</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
-<rs>an Stat sein selbs und seiner Bruder <lb facs="#facs_4_r4l2" n="N002"/>Hannsen Reinprechts und Albrechts</rs> 
-<rs>die zu den zeiten unvogtper und zu yeren <lb facs="#facs_4_r4l3" n="N003"/>beschaiden Jaren nicht komen waren die er Innehat</rs></seg> 
+<rs type="von">an Stat sein selbs und seiner Bruder <lb facs="#facs_4_r4l2" n="N002"/>Hannsen Reinprechts und Albrechts</rs></seg> 
+
+<seg><rs>die zu den zeiten unvogtper und zu yeren <lb facs="#facs_4_r4l3" n="N003"/>beschaiden Jaren nicht komen waren die er Innehat</rs></seg> 
 
 <seg><rs type="objekt" ref="#DB5306">Ir haws</rs> 
 <rs type="lage" ref="#Herzoghof">gelegen an der <lb facs="#facs_4_r4l4" n="N004"/>Herczogen hof ze Wienn</rs> 
 <rs type="lage" ref="#Bognergasse">an dem Egk So man get ab demselben hof In die <lb facs="#facs_4_r4l5" n="N005"/>Pogner- gassen</rs> 
-<rs>und neben des klosters Hofmarich</rs></seg> 
+<rs type="neben">und neben des klosters Hofmarich</rs></seg> 
 
-<seg><rs>den erbern geistleichen <lb facs="#facs_4_r4l6" n="N006"/>Brudern Bruder Marcharten von Nurnberg zu den zeiten vicarn</rs> 
+<seg><rs type="an">den erbern geistleichen <lb facs="#facs_4_r4l6" n="N006"/>Brudern Bruder Marcharten von Nurnberg zu den zeiten vicarn</rs> 
 <rs>und des <lb facs="#facs_4_r4l7" n="N007"/>Convents unser frawn Bruder des Ordens von dem perig Carmelo</rs></seg> 
 
 <seg><rs>des ein <lb facs="#facs_4_r4l8" n="N008"/>tail gehort zu der Schotten grunt ze Wienn</rs> 
@@ -262,9 +266,8 @@ BognergasseⓁ<rs type="lage">an dem Egk So man get ab demselben hof In die Pogn
 <seg><measure type="preis" commodity="275 tl.">umb zway hundert und funf und <lb facs="#facs_4_r4l10" n="N010"/>Sybenczig phunt Wienner phenning</measure></seg> 
 
 <seg><rs>den egenant erbern und geistleichen Brudern <lb facs="#facs_4_r4l11" n="N011"/>Bruder Marcharten vicarn und dem ganczen Convent</rs> 
-<rs>und allen irn nach- <lb facs="#facs_4_r4l12" n="N012"/>komen</rs></seg> 
-
-<seg><rs>furbas ledichleich und freileich zehaben</rs> 
+<rs>und allen irn nach- <lb facs="#facs_4_r4l12" n="N012"/>komen</rs> 
+<rs>furbas ledichleich und freileich zehaben</rs> 
 <rs>und allen irn frumen damit <lb facs="#facs_4_r4l13" n="N013"/>zeschaffen nuczen und niessen</rs> 
 <rs>und alles das damit tun und hanndlen das in <lb facs="#facs_4_r4l14" n="N014"/>wol gevellet</rs> 
 <rs>als mit andern irn gutern die zu dem benant irm gotshaws <lb facs="#facs_4_line_1645104816218_223" n="N015"/>gehornt</rs></seg> 
@@ -287,8 +290,9 @@ FundluckeⓁ<rs type="lage">gelegen In der Fudlukchen</rs>
 Ⓝ<rs type="neben">zenegst Hainreichs des Esseicher haws</rs>
 <lb/>
 12 tl.Ⓟ<measure type="preis">umb zwelif phunt Wienner phenning</measure>
-<rs>Micheln dem huener Jeger
-<lb/>und seinen erben</rs>
+Ⓐ<rs type="an">Micheln dem huener Jeger</rs>
+<lb/>
+<rs>und seinen erben</rs>
 <lb/>
 1420-06-05 / Mittwoch nach Petronella (Fr 31.5.)Ⓓ<date>Actum an Mitichen nach Petronelle virginis Anno etc. xxº</date>
 24 d.ⓟ<measure type="gebühr">Summa xxiiii d.</measure>
@@ -303,8 +307,9 @@ FundluckeⓁ<rs type="lage">gelegen In der Fudlukchen</rs>
 <rs type="neben">zenegst Hainreichs des Esseicher <lb facs="#facs_4_r4l19" n="N003"/>haws</rs></seg> 
 
 <seg><measure type="preis" commodity="12 tl.">umb zwelif phunt Wienner phenning</measure> 
-<rs>Micheln dem <lb facs="#facs_4_r4l20" n="N004"/>huener Jeger</rs> 
-<rs>und seinen erben</rs></seg> 
+<rs type="an">Micheln dem <lb facs="#facs_4_r4l20" n="N004"/>huener Jeger</rs></seg> 
+
+<seg><rs>und seinen erben</rs></seg> 
 
 <seg><date when="1420-06-05">Actum an Mitichen nach <lb facs="#facs_4_r4l21" n="N005"/>Petronelle virginis Anno etc. xxº</date> 
 <measure type="gebühr" commodity="24 d."><lb facs="#facs_4_r4l22" n="N006"/>Summa xxiiii d.</measure></seg>
@@ -318,10 +323,11 @@ FundluckeⓁ<rs type="lage">gelegen In der Fudlukchen</rs>
 Ⓥ<rs type="von">Susanna Hannsen hager des kursner hausfraw</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB0030Ⓞ<rs type="objekt">ain haws
-<lb/>das sey von irm vater Niclasen von Newnburg seligen ist anerstorben</rs>
+DB0030Ⓞ<rs type="objekt">ain haws</rs>
 <lb/>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
+<rs>das sey von irm vater Niclasen von Newnburg seligen ist anerstorben</rs>
+<lb/>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenegst Jacobs des Sussen haws</rs>
 <lb/>
 Ⓑ<rs type="belastung">davon man alle Jare dint
@@ -348,8 +354,9 @@ DB0030Ⓞ<rs type="objekt">ain haws
 <seg><rs type="von">Susanna Hannsen hager des kursner hausfraw</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs></seg> 
 
-<seg><rs type="objekt" ref="#DB0030">ain haws</rs> <lb facs="#facs_4_r4l25" n="N002"/>
-<rs>das sey von irm vater Niclasen von Newnburg seligen ist anerstorben</rs></seg> 
+<seg><rs type="objekt" ref="#DB0030">ain haws</rs></seg> 
+<lb facs="#facs_4_r4l25" n="N002"/>
+<seg><rs>das sey von irm vater Niclasen von Newnburg seligen ist anerstorben</rs></seg> 
 <lb facs="#facs_4_r4l26" n="N003"/>
 <seg><rs type="lage" ref="#Alserstraße #vor_Schottentor">gelegen vor Schottentor ze Wienn</rs> 
 <rs type="neben">zenegst Jacobs des Sussen haws</rs></seg> 
@@ -474,8 +481,9 @@ RotgasseⓁ<rs type="lage">gelegen in dem Rotgesslein ze Wienn</rs>
 <lb/>
 <rs>denselben irn tail und Rechten habent Sy verkaufft</rs>
 25 tl.Ⓟ<measure type="preis">umb funf und zwainczig phunt Wienner phenning</measure>
-<rs>dem vorgenant erbern mann Seyfriden dem Gurtler irm Swager frawn Margrethen seiner hausfrawn irer Swester
-<lb/>und ir baider erben</rs>
+Ⓐ<rs type="an">dem vorgenant erbern mann Seyfriden dem Gurtler irm Swager frawn Margrethen seiner hausfrawn irer Swester</rs>
+<lb/>
+<rs>und ir baider erben</rs>
 <lb/>
 <rs>die dasselb haus ganczes oder welches under in baiden das ander uberlebt
 <lb/>nu furbaser mogen ledichleich und freileich gehaben
@@ -509,8 +517,9 @@ RotgasseⓁ<rs type="lage">gelegen in dem Rotgesslein ze Wienn</rs>
 
 <seg><rs>denselben <lb facs="#facs_6_r4l13" n="N011"/>irn tail und Rechten habent Sy verkaufft</rs> 
 <measure type="preis" commodity="25 tl.">umb funf und zwainczig phunt Wienner <lb facs="#facs_6_r4l14" n="N012"/>phenning</measure> 
-<rs>dem vorgenant erbern mann Seyfriden dem Gurtler irm Swager frawn <lb facs="#facs_6_r4l15" n="N013"/>Margrethen seiner hausfrawn irer Swester</rs> 
-<rs>und ir baider erben</rs></seg> 
+<rs type="an">dem vorgenant erbern mann Seyfriden dem Gurtler irm Swager frawn <lb facs="#facs_6_r4l15" n="N013"/>Margrethen seiner hausfrawn irer Swester</rs></seg> 
+
+<seg><rs>und ir baider erben</rs></seg> 
 
 <seg><rs>die dasselb haus <lb facs="#facs_6_r4l16" n="N014"/>ganczes oder welches under in baiden das ander uberlebt</rs> 
 <rs>nu furbaser mogen <lb facs="#facs_6_r4l17" n="N015"/>ledichleich und freileich gehaben</rs> 
@@ -13365,11 +13374,9 @@ GrabenⓁ<rs type="lage">gelegen am Graben</rs>
 
 </div>
 </div>
-
 </div>
 <div>
-
-	<pb facs="mmv%2FKB-E2_GB-C%2FKB-E2_GB-C_001.jpg" n="1" xml:id="img_001"/>
+<pb facs="mmv%2FKB-E2_GB-C%2FKB-E2_GB-C_001.jpg" n="1" xml:id="img_001"/>
 
 	<pb facs="mmv%2FKB-E2_GB-C%2FKB-E2_GB-C_002.jpg" n="2" xml:id="img_002"/>
 
@@ -29687,7 +29694,6 @@ unter den langen TuchlaubenⓁ<rs type="lage">gelegen gegen den langen Tuchlaube
 
 <div type="entry" n="164-2" xml:id="n_164-2">
 	<head type="note">164-2</head>
-<note type="kommentar">wahrscheinlich auch schon beide Häuser: am Eck (DB5220a) und neben Mertten (DB5220b)</note>
 <ab type="formular">
 Ⓐ<rs type="an">Ott Weiss diezeit des Rats der Stat ze Wienn</rs>
 ⓗ<rs type="floskel" subtype="empfangen">hat gevangen nucz und gewer</rs>
@@ -32733,7 +32739,6 @@ Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor auf der 
 
 <div type="entry" n="177-4" xml:id="n_177-4">
 	<head type="note">177-4</head>
-<note type="kommentar">hier hat Elzbeth beide Häuser wieder</note>
 <ab type="formular">
 Ⓐ<rs type="an">Elzbeth Michels des Morgenpesser witib</rs>
 ⓗ<rs type="floskel" subtype="empfangen">hat gevangen nucz und gewer</rs>
@@ -32744,7 +32749,6 @@ DB5220aⓄ<rs type="objekt">ains</rs>
 Hohe Brücke, JudengasseⓁ<rs type="lage">gelegen am Egk In der Judengassen bei der Hohenprugk
 <lb/>das vor maln Wolfen des Juden gewesen ist</rs>
 <lb/>
-
 DB5220bⓄ<rs type="objekt">und das ander</rs>
 Ⓝ<rs type="neben">gelegen zenegst dem yeczgenant haus an aim tail</rs>
 Ⓝ<rs type="neben">und zenegst des frawnmesser haus an dem andern
@@ -40661,7 +40665,7 @@ Hühnergässchen, MünzerstraßeⓁ<rs type="lage">gelegen in der Munsserstrass<
 <lb/>
 DB1049?Ⓞ<rs type="objekt">ains hauses</rs>
 Ⓣ<rs type="aufteilung">des emaln drew hewser gewesen sind</rs>
-DB1046Ⓛ<rs type="lage">gelegen bey der padstuben zum Rorn</rs>
+Badstube zu den RöhrenⓁ<rs type="lage">gelegen bey der padstuben zum Rorn</rs>
 Ⓝ<rs type="neben">und stosset hinden an des phaffen haus auf der Widm</rs>
 unter den SpenglernⓁ<rs type="lage">und mit dem vordern tail In die Spenglergassen</rs>
 Ⓝ<rs type="neben">neben der Seyczer hof</rs>
@@ -40691,7 +40695,7 @@ unter den SpenglernⓁ<rs type="lage">und mit dem vordern tail In die Spenglerga
 
 <seg><rs type="objekt" ref="#DB1049?">ains hauses</rs> <lb facs="#facs_221_r1l32" n="N002"/>
 <rs type="aufteilung">des emaln drew hewser gewesen sind</rs> 
-<rs type="lage" ref="#DB1046">gelegen bey der padstuben zum Rorn</rs> 
+<rs type="lage" ref="#Badstube_zu_den_Röhren">gelegen bey der padstuben zum Rorn</rs> 
 <rs type="neben">und stosset hinden <lb facs="#facs_221_r1l33" n="N003"/>an des phaffen haus auf der Widm</rs> 
 <rs type="lage" ref="#unter_den_Spenglern">und mit dem vordern tail In die Spengler- gassen</rs> 
 <rs type="neben">neben der <lb facs="#facs_221_r1l34" n="N004"/>Seyczer hof</rs></seg> 
@@ -58898,11 +58902,11 @@ Alter FleischmarktⓁ<rs type="lage">gelegen am alten Fleischmarkt</rs>
 
 	</p>
 </div>
+
 </div>
-
-
-			</div>
-		</body>
+</div>
+</body>
 	</text>
 </TEI>
+
 

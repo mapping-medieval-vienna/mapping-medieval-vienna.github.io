@@ -1787,7 +1787,7 @@ DB0002Ⓝ<rs type="neben">zenegst Jacobin der Paugkerin haus</rs>
 Ⓥ<rs type="von">Andre Hofmaister der kursner</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB1070?Ⓞ<rs type="objekt">sein haus</rs>
+DB5240Ⓞ<rs type="objekt">sein haus</rs>
 WiltwerkerstraßeⓁ<rs type="lage">in der Wildwercherstrass</rs>
 Ⓝ<rs type="neben">zenechst weilent des Prunnhauser haus</rs>
 <lb/>
@@ -1807,7 +1807,7 @@ WiltwerkerstraßeⓁ<rs type="lage">in der Wildwercherstrass</rs>
 <seg><rs type="von">Andre Hofmaister der kursner</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs></seg> 
 
-<seg><rs type="objekt" ref="#DB1070?">sein <lb facs="#facs_13_r1l28" n="N002"/>haus</rs> <lb facs="#facs_13_line_1647605950032_1329" n="N003"/>
+<seg><rs type="objekt" ref="#DB5240">sein <lb facs="#facs_13_r1l28" n="N002"/>haus</rs> <lb facs="#facs_13_line_1647605950032_1329" n="N003"/>
 <rs type="lage" ref="#Wiltwerkerstraße">in der Wildwercherstrass</rs> 
 <rs type="neben">zenechst weilent des <lb facs="#facs_13_r1l30" n="N004"/>Prunnhauser haus</rs></seg> 
 
@@ -27286,7 +27286,7 @@ DB0072Ⓞ<rs type="objekt">ain haus
 BognergasseⓁ<rs type="lage">und leit dasselb gu haus undern Pognern ze Wienn</rs>
 DB0073Ⓝ<rs type="neben">zenechst Hansen des Scharffenperger haus</rs>
 <lb/>
-<rs>Thomann den Pawngartner dem pogner Dorothen seiner hausfrawn</rs>
+Ⓐ<rs type="an">Thomann den Pawngartner dem pogner Dorothen seiner hausfrawn</rs>
 <lb/>
 <rs>und Ir baider erben oder welhes under In baiden das ander uberlebt
 <lb/>doch daz derselb Thoman algeit bey seiner hausfrawn lebtegen vollen gewalt haben sol</rs>
@@ -27335,7 +27335,7 @@ unter den FleischbänkenⓁ<rs type="lage">gelegen under den Newn fleischpenkche
 Ⓝ<rs type="neben">zenegst des Spitals fleischpankch</rs>
 <lb/>
 105 tl.Ⓟ<measure type="preis">umb hundert und funf pfunt Wienner phenning</measure>
-<rs>Philippen Kufusser Kunigunden seiner hausfrawn</rs>
+Ⓐ<rs type="an">Philippen Kufusser Kunigunden seiner hausfrawn</rs>
 <lb/>
 <rs>und Ir baider erben
 <lb/>er vollen gwalt</rs>
@@ -43937,8 +43937,9 @@ Alter Fleischmarkt, LaurenzerinnenⓁ<rs type="lage">das ganczes gelegen ist am 
 <lb/>die vormaln Kunraten den Kunigswiser auch hat eleich gehabt</rs>
 Ⓔ<rs type="ereignis">hat verkaufftt</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haws
-<lb/>das Sy und der vorgenant ir erer man Chunrat Kunigswiser gekaufft habent
+Ⓞ<rs type="objekt">ain haws</rs>
+<lb/>
+<rs>das Sy und der vorgenant ir erer man Chunrat Kunigswiser gekaufft habent
 <lb/>In baiden miteinander oder welches under in baiden das ander al uberlebt
 <lb/>nach lautt des kaufbriefs den Sy darumb gehabt habent der da verlorn und verlegt ist
 <lb/>und doch das gruntpuch auch Also Innhaldet</rs>
@@ -43956,7 +43957,7 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">das gelegen ist in der Scheffstra
 1 GⓅ<measure type="preis">und umb aine guldein</measure>
 Ⓐ<rs type="an">dem erbern mann Seyfriden dem frawnknecht</rs>
 <lb/>
-Ⓧ<rs type="unanalyzed">und seinen erben
+<rs>und seinen erben
 <lb/>oder wem er das schafft macht oder geit
 <lb/>furbaser ledichleich und freileich zehaben
 <lb/>und allen irn frumen damit zeschaffen verkauffen verseczen schaffen geben und machen wem Sy wellen</rs>
@@ -43971,8 +43972,9 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">das gelegen ist in der Scheffstra
 <rs>die vormaln Kunraten den Kunigswiser auch <lb facs="#facs_332_r2l2" n="N002"/>hat eleich gehabt</rs> 
 <rs type="ereignis">hat verkaufftt</rs></seg> 
 
-<seg><rs type="objekt">ain haws</rs> 
-<rs>das Sy und der vorgenant ir erer man <lb facs="#facs_332_r2l3" n="N003"/>Chunrat Kunigswiser gekaufft habent</rs> 
+<seg><rs type="objekt">ain haws</rs></seg> 
+
+<seg><rs>das Sy und der vorgenant ir erer man <lb facs="#facs_332_r2l3" n="N003"/>Chunrat Kunigswiser gekaufft habent</rs> 
 <rs>In baiden miteinander oder welches under <lb facs="#facs_332_r2l4" n="N004"/>in baiden das ander al uberlebt</rs> 
 <rs>nach lautt des kaufbriefs den Sy darumb <lb facs="#facs_332_r2l5" n="N005"/>gehabt habent der da verlorn und verlegt ist</rs> 
 <rs>und doch das gruntpuch auch <lb facs="#facs_332_r2l6" n="N006"/>Also Innhaldet</rs></seg> 
@@ -43990,7 +43992,7 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">das gelegen ist in der Scheffstra
 <measure type="preis" commodity="1 G">und umb aine guldein</measure></measureGrp> 
 <rs type="an">dem erbern <lb facs="#facs_332_r2l12" n="N012"/>mann Seyfriden dem frawnknecht</rs></seg> 
 
-<seg type="unanalyzed"><rs>und seinen erben</rs> 
+<seg><rs>und seinen erben</rs> 
 <rs>oder wem er das schafft <lb facs="#facs_332_r2l13" n="N013"/>macht oder geit</rs> 
 <rs>furbaser ledichleich und freileich zehaben</rs> 
 <rs>und allen irn frumen <lb facs="#facs_332_r2l14" n="N014"/>damit zeschaffen verkauffen verseczen schaffen geben und machen wem Sy <lb facs="#facs_332_r2l15" n="N015"/>wellen</rs></seg> 
@@ -48826,7 +48828,7 @@ Greut, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor in dem Grewt zu Wie
 <lb/>als Ir Rechtes ledigs und freys kaufftsgut Innhaben nuczen und niessen
 <lb/>und allen Irn frumen damit schaffen
 <lb/>mit verkauffen verseczen machen geben und schaffen wem Sy wellen</rs>
-400 tl. ?Ⓟ<measure type="preis">umb cccc tl. Wienner d.</measure>
+400 tl.Ⓟ<measure type="preis">umb cccc tl. Wienner d.</measure>
 <rs>die Sy dann Inner Jarsfrist dahin raihen und geben sullen
 <lb/>an de stet dahin Sy diecschaffen wirdet</rs>
 <lb/>
@@ -48836,7 +48838,7 @@ Greut, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor in dem Grewt zu Wie
 <lb/>an alle Irrung</rs>
 <lb/>
 <rs>ut littera sonat</rs>
-1436-09-19 (Mittwoch) / Matthäus = 21.9. (Freitag) / Mittwoch an Freitag: -2 TageⒹ<date></date>
+1436-09-19 (Mittwoch) / Matthäus = 21.9. (Freitag) / Mittwoch an Freitag: -2 Tage ###Ⓓ<date></date>
 <rs>Actum feria quarta an Mathei apostoli Anno etc. xxxviᵗº</rs>
 0.5 tl.ⓟ<measure type="gebühr">Summa ½ tl. d.</measure>
 </ab>
