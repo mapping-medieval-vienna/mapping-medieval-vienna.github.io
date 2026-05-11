@@ -51,12 +51,19 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   updateToggleLabels();
 
-  toggleBtn.addEventListener("click", () => {
-    const isForm = toggleBtn.getAttribute("aria-checked") === "true";
-    toggleBtn.setAttribute("aria-checked", isForm ? "false" : "true");
+  function setFormMode(isForm) {
+    toggleBtn.setAttribute("aria-checked", isForm ? "true" : "false");
     updateToggleLabels();
     if (currentPageIdx >= 0) renderTranscript(currentPageIdx);
+  }
+
+  toggleBtn.addEventListener("click", () => {
+    setFormMode(toggleBtn.getAttribute("aria-checked") !== "true");
   });
+  labelLine.addEventListener("click", () => setFormMode(false));
+  labelForm.addEventListener("click", () => setFormMode(true));
+  labelLine.style.cursor = "pointer";
+  labelForm.style.cursor = "pointer";
 
   document.getElementById("btn-prev").addEventListener("click", () => showPage(currentPageIdx - 1));
   document.getElementById("btn-next").addEventListener("click", () => showPage(currentPageIdx + 1));
