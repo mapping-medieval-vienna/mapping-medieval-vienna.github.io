@@ -137,24 +137,31 @@
 }
 
 
-/* ── Slot hover (beide Ansichten: rs, date, measure) ── */
-span.tei-rs:hover,
-span[class*="tei-rs-"]:hover,
-span.tei-date:hover,
-span.tei-measure:hover {
+/* ── Slot hover (Formularansicht: js-gesteuert über .slot-active) ── */
+.slot-active {
   background: rgba(0, 0, 0, 0.09);
   border-radius: 2px;
 }
-/* Zeilengetreue Ansicht: schwächere Betonung des ganzen rs wenn form-lines vorhanden */
-span[class*="tei-rs-"]:has(.form-line):hover,
-span.tei-rs:has(.form-line):hover {
-  background: rgba(0, 0, 0, 0.07);
-}
-/* Stärkere Betonung der aktiven form-line */
-span[class*="tei-rs-"] .form-line:hover,
-span.tei-rs .form-line:hover {
+
+/* ── Zeilengetreue Ansicht: rs/date/measure hover ── */
+.mode-line span.tei-rs:hover,
+.mode-line span[class*="tei-rs-"]:hover,
+.mode-line span.tei-date:hover,
+.mode-line span.tei-measure:hover {
   background: rgba(0, 0, 0, 0.09);
   border-radius: 2px;
+}
+/* Abwechselnde Färbung der Formularzeilen wenn rs aktiv (js setzt rs-active) */
+.mode-line span.rs-active .form-line-even {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+}
+.mode-line span.rs-active .form-line-odd {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+}
+.form-line {
+  display: inline;
 }
 
 /* ── TEI element styles ── */
@@ -195,6 +202,7 @@ span.tei-rs .form-line:hover {
 .tei-slot + .tei-slot {
   margin-top: 0.35rem;
 }
+
 .tei-annotation {
   color: var(--col-muted);
   font-size: 0.85em;

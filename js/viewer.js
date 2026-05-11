@@ -284,6 +284,7 @@ function renderTranscript(idx) {
   const page = pages[idx];
 
   pane.innerHTML = "";
+  pane.classList.toggle("mode-line", !formMode);
   pane.appendChild(controls);
 
   // Render headings (always, including on pages without entries)
@@ -338,8 +339,13 @@ function renderTranscript(idx) {
     pane.appendChild(wrapper);
   }
 
-  // Wrap form-line sections for hover highlighting (line-accurate view)
-  if (!formMode) wrapFormLines(pane);
+  // Hover highlighting
+  if (formMode) {
+    initSlotHover(pane);
+  } else {
+    wrapFormLines(pane);
+    initFormLineHover(pane);
+  }
 }
 
 /* ── Render a continuation (p[@part M|F] nodes of an entry begun earlier) ── */
@@ -445,7 +451,7 @@ function teiToHtml(node, inFormularAb) {
 
 /* ── Wrap form-line sections within rs elements (line-accurate view) ──
    Splits the children of each tei-rs-* span at newlines in text nodes into
-   <span class="form-line"> wrappers, enabling CSS :hover per section.
+   <span class="form-line"> wrappers for alternating-colour highlighting.
    <lb facs="..."/> elements that fall within a line stay inside their span. ── */
 function wrapFormLines(pane) {
   const selector = "span.tei-rs, span[class*='tei-rs-'], span.tei-date, span.tei-measure";
@@ -475,12 +481,41 @@ function wrapFormLines(pane) {
     if (nonEmpty.length < 2) continue;
 
     rs.innerHTML = "";
-    for (const section of nonEmpty) {
+    for (let i = 0; i < nonEmpty.length; i++) {
       const span = document.createElement("span");
-      span.className = "form-line";
-      for (const node of section) span.appendChild(node);
+      span.className = "form-line form-line-" + (i % 2 === 0 ? "even" : "odd");
+      for (const node of nonEmpty[i]) span.appendChild(node);
       rs.appendChild(span);
     }
+  }
+}
+
+/* ── Form-line hover: js-managed to avoid inline span gap issues ── */
+function initFormLineHover(pane) {
+  const selector = "span.tei-rs, span[class*='tei-rs-'], span.tei-date, span.tei-measure";
+  for (const rs of pane.querySelectorAll(selector)) {
+    if (!rs.querySelector(".form-line")) continue;
+    let leaveTimer = null;
+    rs.addEventListener("mouseenter", () => {
+      if (leaveTimer) { clearTimeout(leaveTimer); leaveTimer = null; }
+      rs.classList.add("rs-active");
+    });
+    rs.addEventListener("mouseleave", () => {
+      leaveTimer = setTimeout(() => rs.classList.remove("rs-active"), 150);
+    });
+  }
+}
+
+function initSlotHover(pane) {
+  for (const slot of pane.querySelectorAll(".tei-slot")) {
+    let leaveTimer = null;
+    slot.addEventListener("mouseenter", () => {
+      if (leaveTimer) { clearTimeout(leaveTimer); leaveTimer = null; }
+      slot.classList.add("slot-active");
+    });
+    slot.addEventListener("mouseleave", () => {
+      leaveTimer = setTimeout(() => slot.classList.remove("slot-active"), 150);
+    });
   }
 }
 
