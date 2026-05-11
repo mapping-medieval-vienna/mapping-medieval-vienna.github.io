@@ -164,6 +164,41 @@
   display: inline;
 }
 
+/* ── Mini-Toggle pro Eintrag ── */
+.entry-toggle {
+  display: inline-block;
+  position: relative;
+  width: 24px;
+  height: 13px;
+  background: var(--col-border);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  transition: background 0.2s;
+  flex-shrink: 0;
+}
+.mode-form .entry-toggle {
+  background: var(--col-accent);
+}
+.entry-toggle-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 9px;
+  height: 9px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform 0.2s;
+  pointer-events: none;
+  display: block;
+}
+.mode-form .entry-toggle .entry-toggle-thumb {
+  transform: translateX(11px);
+}
+
 /* ── TEI element styles ── */
 .tei-del { text-decoration: line-through; color: var(--col-muted); }
 

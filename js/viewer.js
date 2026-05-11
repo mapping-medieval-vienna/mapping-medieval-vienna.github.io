@@ -8,6 +8,17 @@ let pages = [];
 let currentPageIdx = -1;
 let xmlDoc = null;
 
+/* ── Toggle form/line mode ── */
+function setFormMode(isForm) {
+  const toggleBtn = document.getElementById("toggle-form");
+  const labelLine = document.getElementById("toggle-label-line");
+  const labelForm = document.getElementById("toggle-label-form");
+  toggleBtn.setAttribute("aria-checked", isForm ? "true" : "false");
+  labelLine.classList.toggle("active", !isForm);
+  labelForm.classList.toggle("active", isForm);
+  if (currentPageIdx >= 0) renderTranscript(currentPageIdx);
+}
+
 /* ── Bootstrap ── */
 document.addEventListener("DOMContentLoaded", () => {
   initOSD();
@@ -50,12 +61,6 @@ document.addEventListener("DOMContentLoaded", () => {
     labelForm.classList.toggle("active", isForm);
   }
   updateToggleLabels();
-
-  function setFormMode(isForm) {
-    toggleBtn.setAttribute("aria-checked", isForm ? "true" : "false");
-    updateToggleLabels();
-    if (currentPageIdx >= 0) renderTranscript(currentPageIdx);
-  }
 
   toggleBtn.addEventListener("click", () => {
     setFormMode(toggleBtn.getAttribute("aria-checked") !== "true");
@@ -292,6 +297,7 @@ function renderTranscript(idx) {
 
   pane.innerHTML = "";
   pane.classList.toggle("mode-line", !formMode);
+  pane.classList.toggle("mode-form", formMode);
   pane.appendChild(controls);
 
   // Render headings (always, including on pages without entries)
@@ -565,6 +571,28 @@ function buildEntryHead(entryNode, isContinuation) {
   const idSpan = document.createElement("span");
   idSpan.textContent = id + (isContinuation ? " (Forts.)" : "");
   label.appendChild(idSpan);
+
+  // Mini-toggle to switch view mode, then scroll this entry into view
+  const mini = document.createElement("button");
+  mini.className = "entry-toggle";
+  mini.title = "Ansicht wechseln";
+  mini.innerHTML = '<span class="entry-toggle-thumb"></span>';
+  mini.addEventListener("click", () => {
+    const isForm = document.getElementById("toggle-form").getAttribute("aria-checked") === "true";
+    const entryId = entryNode.getAttribute("n");
+    setFormMode(!isForm);
+    requestAnimationFrame(() => {
+      const pane = document.getElementById("transcript-pane");
+      for (const head of pane.querySelectorAll(".entry-head span")) {
+        if (head.textContent.trim() === entryId) {
+          const entryEl = head.closest(".entry");
+          if (entryEl) entryEl.scrollIntoView({ block: "start", behavior: "instant" });
+          break;
+        }
+      }
+    });
+  });
+  label.appendChild(mini);
 
   // Extract house IDs (DB####[a-z]*) from the formular ab — only in line-accurate mode;
   // in formular mode the IDs are linkified inline by linkifyHausIds().
