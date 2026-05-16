@@ -357,7 +357,6 @@ function renderTranscript(idx) {
     initSlotHover(pane);
   } else {
     wrapFormLines(pane);
-    initFormLineHover(pane);
   }
 }
 
@@ -528,20 +527,6 @@ function wrapFormLines(pane) {
 }
 
 /* ── Form-line hover: js-managed to avoid inline span gap issues ── */
-function initFormLineHover(pane) {
-  const selector = "span.tei-rs, span[class*='tei-rs-'], span.tei-date, span.tei-measure";
-  for (const rs of pane.querySelectorAll(selector)) {
-    if (!rs.querySelector(".form-line")) continue;
-    let leaveTimer = null;
-    rs.addEventListener("mouseenter", () => {
-      if (leaveTimer) { clearTimeout(leaveTimer); leaveTimer = null; }
-      rs.classList.add("rs-active");
-    });
-    rs.addEventListener("mouseleave", () => {
-      leaveTimer = setTimeout(() => rs.classList.remove("rs-active"), 150);
-    });
-  }
-}
 
 function initSlotHover(pane) {
   for (const slot of pane.querySelectorAll(".tei-slot")) {

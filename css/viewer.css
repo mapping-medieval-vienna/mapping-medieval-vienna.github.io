@@ -156,17 +156,13 @@
   box-decoration-break: clone;
   transition: background-color 0.2s ease;
 }
-/* Abwechselnde Färbung der Formularzeilen wenn rs aktiv (js setzt rs-active) */
-.mode-line span.rs-active .form-line-even {
+
+/* dieser Zusatz färbt jedes zweite <span> in einem Slot unterschiedlich */
+.mode-line span.tei-rs:hover span:nth-child(even),
+.mode-line span[class*="tei-rs-"]:hover span:nth-child(even),
+.mode-line span.tei-date:hover span:nth-child(even),
+.mode-line span.tei-measure:hover span:nth-child(even) {
   background: rgba(0, 0, 0, 0.15);
-  border-radius: 2px;
-}
-.mode-line span.rs-active .form-line-odd {
-  background: rgba(0, 0, 0, 0.05);
-  border-radius: 2px;
-}
-.form-line {
-  display: inline;
 }
 
 /* ── Mini-Toggle pro Eintrag ── */
