@@ -128,7 +128,7 @@ function loadPage(p) {
     : "pages/" + p + ".md";
   fetch(mdUrl)
     .then(r => {
-      if (!r.ok) throw new Error("Nicht gefunden");
+      if (!r.ok) throw new Error("NOT_FOUND:" + p);
       return r.text();
     })
     .then(md => {
@@ -194,8 +194,18 @@ function loadPage(p) {
       scrollToHash(location.hash);
       resolve();
     })
-    .catch(() => {
-      content.innerHTML = '<p class="wip-notice">Seite nicht gefunden.</p>';
+    .catch((err) => {
+      const notFoundMatch = err && err.message && err.message.match(/^NOT_FOUND:(.+)$/);
+      const pageId = notFoundMatch ? notFoundMatch[1] : null;
+      const dbMatch = pageId && pageId.match(/\b(DB\d+)\b/i);
+      if (dbMatch) {
+        const id = dbMatch[1].toUpperCase();
+        content.innerHTML =
+          '<p class="wip-notice">Die Hausbiografie für ' + escHtml(id) + ' ist noch nicht hochgeladen.</p>' +
+          '<p class="wip-notice"><a href="search.html?q=' + encodeURIComponent(id) + '">alle Einträge mit dieser ID suchen</a></p>';
+      } else {
+        content.innerHTML = '<p class="wip-notice">Seite nicht gefunden.</p>';
+      }
       resolve();
     });
   }); // end Promise
