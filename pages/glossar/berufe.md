@@ -143,7 +143,3 @@
 | kraukcher | kraucher | — | evtl. Kräuterhändler oder -sammler; Bedeutung unsicher |
 | kagrer | kagrer | — | Bedeutung unklar; evtl. kein Berufsname |
 
----
-
-*Erstellt aus 13 CSV-Dateien mit Grundbucheinträgen der Stadt Wien, 15. Jh.
-Referenz: Markus Gneiß, Das Wiener Handwerksordnungsbuch (1364–1555), Wien 2017.*
