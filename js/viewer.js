@@ -162,6 +162,7 @@ function highlightEntry(entryN) {
 function buildPageIndex() {
   pages = [];
   let currentPage = null;
+  let pendingHeading = null;  // section heading waiting to be attached to the next entry
 
   function newPage(pbNode) {
     currentPage = {
@@ -180,6 +181,9 @@ function buildPageIndex() {
     // <p part="M|F"> after a <pb> → continuation on the new currentPage.
     let startPage = currentPage;
     let pendingParts = [];   // p-nodes collected before a <pb>
+    // Grab any section heading that preceded this entry and clear the slot.
+    const entryHeading = pendingHeading;
+    pendingHeading = null;
 
     for (const child of entryNode.childNodes) {
       if (child.nodeType !== 1) continue;
@@ -190,7 +194,7 @@ function buildPageIndex() {
         // to a continuation on currentPage (subsequent flushes).
         if (pendingParts.length > 0) {
           if (currentPage === startPage) {
-            startPage.entries.push({ entry: entryNode, parts: pendingParts });
+            startPage.entries.push({ entry: entryNode, parts: pendingParts, heading: entryHeading });
           } else {
             currentPage.continuations.push({ entry: entryNode, parts: pendingParts });
           }
@@ -210,7 +214,7 @@ function buildPageIndex() {
       if (currentPage === startPage) {
         // Entry fits entirely on one page – store the whole entryNode for
         // compatibility with the existing formular rendering path.
-        startPage.entries.push({ entry: entryNode, parts: pendingParts, whole: true });
+        startPage.entries.push({ entry: entryNode, parts: pendingParts, whole: true, heading: entryHeading });
       } else {
         currentPage.continuations.push({ entry: entryNode, parts: pendingParts });
       }
@@ -227,7 +231,7 @@ function buildPageIndex() {
       return;
     } else if (local === "div" && (node.getAttribute("type") === "section-alphabetical" || node.getAttribute("type") === "section-temporal")) {
       const head = Array.from(node.children).find(c => c.localName === "head");
-      if (head && currentPage) currentPage.headings.push(head);
+      if (head) pendingHeading = head;
     } else if (local === "head" && node.getAttribute("type") === "heading-main") {
       if (currentPage) currentPage.headings.push(node);
       return;
@@ -323,6 +327,12 @@ function renderTranscript(idx) {
   }
 
   for (const item of page.entries) {
+    // Render a section heading (section-temporal / section-alphabetical) that
+    // immediately precedes this entry in document order.
+    if (item.heading) {
+      pane.appendChild(teiToHtml(item.heading));
+    }
+
     const wrapper = document.createElement("div");
     wrapper.className = "entry";
 

@@ -110,6 +110,10 @@
   padding-bottom: 1.75rem;
   border-bottom: 1px solid var(--col-border);
 }
+.tei-head-heading-alphabetical + .entry,
+.tei-head-heading-temporal + .entry {
+  margin-top: 1.75rem;
+}
 .entry:last-child { border-bottom: none; }
 .entry-head {
   font-family: var(--font-ui);
@@ -260,8 +264,10 @@
 .tei-head-heading-temporal {
   display: block;
   font-weight: bold;
-  margin: 1rem 0 0.4rem;
   font-size: 14px;
+  margin: 0;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid var(--col-border);
 }
 
 /* formular view */
