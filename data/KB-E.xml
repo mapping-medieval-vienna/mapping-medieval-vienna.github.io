@@ -1102,7 +1102,7 @@ und allen irn frumen <lb facs="#facs_9_r1l43" n="N008"/>damit schaffen verkauffe
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
 DB0047Ⓞ<rs type="objekt">ir haus</rs>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst Hawnolten des Schuchler haws</rs>
 <lb/>
 Ⓑ<rs type="belastung">davon man Jerleich dint
@@ -1164,7 +1164,7 @@ mit dem <lb facs="#facs_10_r1l10" n="N009"/>egenant haus allen seinen frumen zes
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
 DB0047Ⓞ<rs type="objekt">Ir haus</rs>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenechst Hawnolten des schuchler haus</rs>
 <lb/>
 42 tl. 60 d.Ⓟ<measure type="preis">umb zway und d virczigk pfunt Wienner pfenning und sechczig pfenning derselben Munss</measure>
@@ -1343,7 +1343,7 @@ allen seinen frumen <lb facs="#facs_11_r2l10" n="N009"/>zeschaffen verkauffen ve
 Ⓥ<rs type="von">Ann Hannsen des Eysnein des Mawrer hausfraw</rs>
 schenkungⒺ<rs type="ereignis">hat abgetreten und ubergegeben</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ire halbs haws und aller der Rechten So Sy an demselben halben haus gehabt hat</rs>
+DB6023Ⓞ<rs type="objekt">ire halbs haws und aller der Rechten So Sy an demselben halben haus gehabt hat</rs>
 Scheffstraße, vor StubentorⓁ<rs type="lage">das ganczes gelegen ist in der Schefstrass vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenegst weilent der Ungerlin haus</rs>
 <lb/>
@@ -1370,7 +1370,7 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">das ganczes gelegen ist in der Sc
 <rs type="von">Ann Hannsen des Eysnein des Mawrer hausfraw</rs> 
 <rs type="ereignis" ref="#schenkung">hat abgetreten und ubergegeben</rs> 
 
-<rs type="objekt" ref="#DB6000">ire <lb facs="#facs_11_r2l16" n="N002"/>halbs haws und aller der Rechten So Sy an demselben halben haus gehabt hat</rs> 
+<rs type="objekt" ref="#DB6023">ire <lb facs="#facs_11_r2l16" n="N002"/>halbs haws und aller der Rechten So Sy an demselben halben haus gehabt hat</rs> 
 <rs type="lage" ref="#Scheffstraße #vor_Stubentor">das ganczes <lb facs="#facs_11_r2l17" n="N003"/>gelegen ist in der Schefstrass vor Stubentor ze Wienn</rs> 
 <rs type="neben">zenegst weilent der Ungerlin haus</rs> 
 <lb facs="#facs_11_r2l18" n="N004"/>
@@ -1401,7 +1401,7 @@ verkauffen verrseczen und geben wem Sy wellen</rs>
 überschreibungⒺ<rs type="ereignis">hat gemacht</rs>
 Ⓐ<rs type="an">seiner lieben hausfrawn Elspethen</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haws</rs>
+DB6039Ⓞ<rs type="objekt">sein haws</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenegst dem haws das weilent Mathes des Smidts gewesen ist</rs>
 <lb/>
@@ -1426,7 +1426,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 <rs type="ereignis" ref="#überschreibung">hat gemacht</rs> 
 <rs type="an">seiner lieben hausfrawn Elspethen</rs> 
 
-<rs type="objekt">sein haws</rs> 
+<rs type="objekt" ref="#DB6039">sein haws</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen <lb facs="#facs_11_r2l26" n="N002"/>vor Stubentor ze Wienn</rs> 
 <rs type="neben">zenegst dem haws das weilent Mathes des Smidts gewesen ist</rs> 
 
@@ -1587,7 +1587,7 @@ denn die uber <lb facs="#facs_12_r3l18" n="N017"/>Mass derselben geltschuld sol 
 Ⓥ<rs type="von">Andre Rys burger ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB5118Ⓞ<rs type="objekt">sein haus</rs>
 PeurertorⓁ<rs type="lage">gelegen pey Pewrertor ze Wienn</rs>
 Ⓝ<rs type="neben">zenegst Hannsen haus des plechsmidts</rs>
 <lb/>
@@ -1610,7 +1610,7 @@ PeurertorⓁ<rs type="lage">gelegen pey Pewrertor ze Wienn</rs>
 <rs type="von">Andre Rys burger ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB5118">sein haus</rs> 
 <rs type="lage" ref="#Peurertor">gelegen pey Pewrertor ze Wienn</rs> <lb facs="#facs_12_r3l22" n="N002"/>
 <rs type="neben">zenegst Hannsen haus des plechsmidts</rs> 
 
@@ -2168,7 +2168,7 @@ SingerstraßeⓁ<rs type="lage">gelegen in der Sinngerstrass</rs>
 Ⓥ<rs type="von">Agnes Mertten des Paugker hausfraw</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ain haus</rs>
+DB6012Ⓞ<rs type="objekt">ain haus</rs>
 Rosstränke, ScheffstraßeⓁ<rs type="lage">gelegen in der Scheffstrass ze Wienn pey der Rosstrenkch</rs>
 Ⓝ<rs type="neben">zenagst Jacobs Hederleins des pinter haus</rs>
 <lb/>
@@ -2188,7 +2188,7 @@ Rosstränke, ScheffstraßeⓁ<rs type="lage">gelegen in der Scheffstrass ze Wien
 <rs type="von">Agnes Mertten des Paugker hausfraw</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">ain haus</rs> 
+<rs type="objekt" ref="#DB6012">ain haus</rs> 
 <rs type="lage" ref="#Rosstränke #Scheffstraße">gelegen in der <lb facs="#facs_14_r2l38" n="N002"/>Scheffstrass ze Wienn pey der Rosstrenkch</rs> 
 <rs type="neben">zenagst Jacobs Hederleins des <lb facs="#facs_14_r2l39" n="N003"/>pinter haus</rs> 
 
@@ -2382,8 +2382,7 @@ Item habet purkrecht folio 243</rs> <lb facs="#facs_15_r1l10" n="N009"/>
 Ⓥ<rs type="von">Agnes Michels des Weinwurmbs hausfraw</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB7001Ⓞ<rs type="objekt">Ir Padstuben genant dacz den Schelkchen</rs>
-WürffelⓁ<rs type="lage"></rs>
+DB5644Ⓞ<rs type="objekt">Ir Padstuben genant dacz den Schelkchen</rs>
 <lb/>
 ⓔ<rs type="ereignis">die Ir Ir Swester Kathrey Ulreichs des Nagels hausfraw geschafft hat
 <lb/>ut liber civitatis</rs>
@@ -2401,13 +2400,26 @@ WürffelⓁ<rs type="lage"></rs>
 14 s. 22 d.ⓟ<measure type="gebühr">Summa xiiii s. xxii d.</measure>
 </ab>
 	<p facs="#facs_15_TextRegion_1647513911776_321">
-		<lb facs="#facs_15_r2l19" n="N001"/>Agnes Michels des Weinwurmbs hausfraw hat verkaufft Ir Padstuben genant dacz den Schelkchen
-		<lb facs="#facs_15_r2l20" n="N002"/>die Ir Ir Swester Kathrey Ulreichs des Nagels hausfraw geschafft hat ut liber civitatis und leit dieselb
-		<lb facs="#facs_15_r2l21" n="N003"/>padstuben hinder dem haus daz weilent Niclass seligen des Wurffels gewesen ist umb iiᶜ und xxi tl.
-		<lb facs="#facs_15_r2l22" n="N004"/>phenning Erasm dem Steyrekger dieczeit ausrichter und verweser der kaufleut Bruderschafft ze Wienn
-		<lb facs="#facs_15_r2l23" n="N005"/>die er derselben Bruderschafft gemain und Irn nachkomen gekaufft hat ut littera sonat <date when="1423-05-05">Actum an Mitichen
-		<lb facs="#facs_15_line_1682415847348_850" n="N006"/>nach des heiligen Krewcz tag Invencionis Anno etc. ccccᵐº xxiiiº</date>
-		<lb facs="#facs_15_r2l25" n="N007"/>Summa xiiii s. xxii d.
+<lb facs="#facs_15_r2l19" n="N001"/>
+<rs type="von">Agnes Michels des Weinwurmbs hausfraw</rs> 
+<rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
+
+<rs type="objekt" ref="#DB5644">Ir Padstuben genant dacz den Schelkchen</rs> 
+<lb facs="#facs_15_r2l20" n="N002"/>
+<rs type="ereignis">die Ir Ir Swester Kathrey Ulreichs des Nagels hausfraw geschafft hat 
+ut liber civitatis</rs> 
+
+<rs type="neben">und leit dieselb <lb facs="#facs_15_r2l21" n="N003"/>padstuben hinder dem haus daz weilent Niclass seligen des Wurffels gewesen ist</rs> 
+
+<measure type="preis" commodity="221 tl.">umb iiᶜ und xxi tl. <lb facs="#facs_15_r2l22" n="N004"/>phenning</measure> 
+<rs type="an">Erasm dem Steyrekger 
+dieczeit ausrichter und verweser der kaufleut Bruderschafft ze Wienn <lb facs="#facs_15_r2l23" n="N005"/>
+die er derselben Bruderschafft gemain und Irn nachkomen gekaufft hat</rs> 
+
+<rs type="floskel" subtype="Dokumentverweis">ut littera sonat</rs> 
+<date when="1423-05-05">Actum an Mitichen <lb facs="#facs_15_line_1682415847348_850" n="N006"/>nach des heiligen Krewcz tag Invencionis Anno etc. ccccᵐº xxiiiº</date> <lb facs="#facs_15_r2l25" n="N007"/>
+<measure type="gebühr" commodity="14 s. 22 d.">Summa xiiii s. xxii d.</measure>
+
 	</p>
 </div>
 
@@ -2467,7 +2479,7 @@ at liber <lb facs="#facs_15_r2l30" n="N005"/>Civitatis sonat</rs>
 <div type="entry" n="015-5" xml:id="n_015-5">
 	<head type="note">015-5</head>
 <ab type="formular">
-Ⓥ<rs type="von">Andre pharrer zu Gors des hochgeborn fursten herczog Albrechts herczogen zu Osterreich etc. kanczler
+<rs>Beachte: gelöscht, weil auf SchottengrundⓋAndre pharrer zu Gors des hochgeborn fursten herczog Albrechts herczogen zu Osterreich etc. kanczler
 <lb/>Maister Berchold von Basel sein pucharcz
 <lb/>und maister Andre Maroser pharrer zu Allerspach
 <lb/>all drey Ausrichter und volfurer des gescheffts
@@ -2494,32 +2506,16 @@ Petersfreithof, Schottengrund*Ⓛ<rs type="lage">gelegen an sant Petersfreithof<
 Ⓗ<rs type="note">hoc est deletum quam fundus pertinet Scotis</rs>
 </ab>
 	<p facs="#facs_15_TextRegion_1647513902568_313">
-<lb facs="#facs_15_r2l35" n="N001"/>
-<rs type="von">Andre pharrer zu Gors des hochgeborn fursten herczog Albrechts herczogen zu Osterreich etc. kanczler <lb facs="#facs_15_r2l36" n="N002"/>
-Maister Berchold von Basel sein pucharcz 
-und maister Andre Maroser pharrer zu Allerspach <lb facs="#facs_15_r2l37" n="N003"/>
-all drey Ausrichter und volfurer des gescheffts 
-so Andre an sant Petersfreithof weilent keller <lb facs="#facs_15_r2l38" n="N004"/>maister in Osterreich getan hat</rs> 
-<rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
-
-<rs type="objekt">ain haus</rs> 
-<rs type="lage" ref="#Petersfreithof #Schottengrund*">gelegen an sant Petersfreithof</rs> 
-<rs type="zustand" n="">mit <lb facs="#facs_15_r2l39" n="N005"/>sambt dem zuhaus daran</rs> 
-<rs type="neben">ze nechst weilent Niclass haus des Kletten</rs> 
-
-<measure type="preis" commodity="6 tl.">umb vi tl. d.</measure> <lb facs="#facs_15_r2l40" n="N006"/>
-<rs type="an">Annen des vorgenant kellermaister witiben</rs> 
-<rs type="zustand" n="">daz Sy witiben weis umb Ir ledigs varnndgut <lb facs="#facs_15_r2l41" n="N007"/>gekaufft hat 
-Ir und Irn erben</rs> 
-
-<rs>furbasser lediklichen und freilichen ze haben 
-und allen irn frumen <lb facs="#facs_15_r2l42" n="N008"/>damit zeschaffen verkauffen verseczen schaffen machen und geben wem Sy wellent</rs> 
-
-<rs type="floskel" subtype="Dokumentverweis">sicut littera sonat</rs> <lb facs="#facs_15_r2l43" n="N009"/>
-<date when="1423-05-07">Actum an Freitag nach des heiligen Krewcz tag Invencionis Anno etc. ccccᵐº xxiii</date> 
-
-<rs type="note">hoc est <lb facs="#facs_15_r2l44" n="N010"/>deletum quam fundus pertinet Scotis</rs>
-
+		<lb facs="#facs_15_r2l35" n="N001"/>Andre pharrer zu Gors des hochgeborn fursten herczog Albrechts herczogen zu Osterreich etc. kanczler
+		<lb facs="#facs_15_r2l36" n="N002"/>Maister Berchold von Basel sein pucharcz und maister Andre Maroser pharrer zu Allerspach
+		<lb facs="#facs_15_r2l37" n="N003"/>all drey Ausrichter und volfurer des gescheffts so Andre an sant Petersfreithof weilent keller
+		<lb facs="#facs_15_r2l38" n="N004"/>maister in Osterreich getan hat habent verkaufft ain haus gelegen an sant Petersfreithof mit
+		<lb facs="#facs_15_r2l39" n="N005"/>sambt dem zuhaus daran ze nechst weilent Niclass haus des Kletten umb vi tl. d.
+		<lb facs="#facs_15_r2l40" n="N006"/>Annen des vorgenant kellermaister witiben daz Sy witiben weis umb Ir ledigs varnndgut
+		<lb facs="#facs_15_r2l41" n="N007"/>gekaufft hat Ir und Irn erben furbasser lediklichen und freilichen ze haben und allen irn frumen
+		<lb facs="#facs_15_r2l42" n="N008"/>damit zeschaffen verkauffen verseczen schaffen machen und geben wem Sy wellent sicut littera sonat
+		<lb facs="#facs_15_r2l43" n="N009"/><date when="1423-05-07">Actum an Freitag nach des heiligen Krewcz tag Invencionis Anno etc. ccccᵐº xxiii</date> hoc est
+		<lb facs="#facs_15_r2l44" n="N010"/>deletum quam fundus pertinet Scotis
 	</p>
 </div>
 
@@ -2537,7 +2533,7 @@ und allen irn frumen <lb facs="#facs_15_r2l42" n="N008"/>damit zeschaffen verkau
 <lb/>die vormalen Kunraten den Grunwalder auch hat eleich gehabt</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haus</rs>
+DB5608Ⓞ<rs type="objekt">Ir haus</rs>
 KienmarktⓁ<rs type="lage">gelegen an dem Kyenmarkcht ze Wienn</rs>
 Ⓝ<rs type="neben">zenegst weilent des von Segenwerg haus</rs>
 <lb/>
@@ -2559,7 +2555,7 @@ KienmarktⓁ<rs type="lage">gelegen an dem Kyenmarkcht ze Wienn</rs>
 die vormalen Kunraten den <lb facs="#facs_16_r2l3" n="N002"/>Grunwalder auch hat eleich gehabt</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">Ir haus</rs> 
+<rs type="objekt" ref="#DB5608">Ir haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen an dem <lb facs="#facs_16_r2l4" n="N003"/>Kyenmarkcht ze Wienn</rs> 
 <rs type="neben">zenegst weilent des von Segenwerg haus</rs> 
 
@@ -3802,7 +3798,7 @@ und Ir baider erben</rs>
 Ⓥ<rs type="von">Agnes weilent Wilhalms des Hainburg seligen witib und yecz Caspars des Slinger hausfraw</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB6038Ⓞ<rs type="objekt">ain haus</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor</rs>
 Ⓝ<rs type="neben">zenegst weilent Rudolfs Angervelder haus</rs>
 <lb/>
@@ -3830,7 +3826,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor</rs>
 <rs type="von">Agnes weilent Wilhalms des Hainburg seligen witib und yecz Caspars des Slinger hausfraw</rs> <lb facs="#facs_21_r2l14" n="N002"/>
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB6038">ain haus</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor</rs> 
 <rs type="neben">zenegst weilent Rudolfs Angervelder haus</rs> 
 
@@ -4660,7 +4656,7 @@ sicut liber Civitatis <lb facs="#facs_24_r1l7" n="N004"/>sonat</rs>
 Ⓥ<rs type="von">Anna Liepharts des Trukchenprots witib</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">Ir haus</rs>
+DB6008Ⓞ<rs type="objekt">Ir haus</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass</rs>
 Ⓝ<rs type="neben">zenagst des Amberger haus</rs>
 <lb/>
@@ -4679,7 +4675,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass</rs>
 <rs type="von">Anna Liepharts des Trukchenprots witib</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 <lb facs="#facs_24_line_1626776497578_21" n="N002"/>
-<rs type="objekt" ref="#DB6000">Ir <lb facs="#facs_24_line_1647870945700_643" n="N003"/>haus</rs> 
+<rs type="objekt" ref="#DB6008">Ir <lb facs="#facs_24_line_1647870945700_643" n="N003"/>haus</rs> 
 <rs type="lage" ref="#Scheffstraße">gelegen <lb facs="#facs_24_r1l12" n="N004"/>in der Schefstrass</rs> 
 <rs type="neben">zenagst des Amberger haus</rs> 
 
@@ -4917,7 +4913,7 @@ hincz sant Maria Magdalen ½ tl. d. zu purkrecht</rs>
 Ⓥ<rs type="von">Anna Sigmunds des kupphersmids seligen witib</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB6028Ⓞ<rs type="objekt">ain haus</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor</rs>
 Ⓝ<rs type="neben">zenagst der padstuben genant die Hunttin</rs>
 <lb/>
@@ -4944,7 +4940,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor</rs>
 <rs type="von">Anna Sigmunds des kupphersmids seligen witib</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB6028">ain haus</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen <lb facs="#facs_25_r3l18" n="N002"/>vor Stubentor</rs> 
 <rs type="neben">zenagst der padstuben genant die Hunttin</rs> 
 
@@ -5169,7 +5165,7 @@ ist ledichleichen anerstorben und angeerbt</rs>
 Ⓥ<rs type="von">Agnes Niclasen des Kuenperger seligen witib Thomans des Sleiffer ze Wienn hausfrau</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">Ir haus</rs>
+DB6003Ⓞ<rs type="objekt">Ir haus</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst des Scheucher haus</rs>
 <lb/>
@@ -5189,7 +5185,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass ze Wienn</rs>
 <rs type="von">Agnes Niclasen des Kuenperger seligen witib Thomans des Sleiffer ze Wienn <lb facs="#facs_26_r2l24" n="N002"/>hausfrau</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">Ir haus</rs> 
+<rs type="objekt" ref="#DB6003">Ir haus</rs> 
 <rs type="lage" ref="#Scheffstraße">gelegen in der Schefstrass ze Wienn</rs> 
 <rs type="neben">zenagst <lb facs="#facs_26_r2l25" n="N003"/>des Scheucher haus</rs> 
 
@@ -5214,7 +5210,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass ze Wienn</rs>
 <lb/>die emaln Jorgen Gmach den pinter auch eleich gehabt hat</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ain haus und Stadel daran</rs>
+DB6012Ⓞ<rs type="objekt">ain haus und Stadel daran</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass</rs>
 Ⓝ<rs type="neben">zenagst Jacobs des Hederler haus</rs>
 <lb/>
@@ -5239,7 +5235,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass</rs>
 die emaln Jorgen Gmach den pinter <lb facs="#facs_26_r2l30" n="N002"/>auch eleich gehabt hat</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">ain haus und Stadel daran</rs> <del>z</del> 
+<rs type="objekt" ref="#DB6012">ain haus und Stadel daran</rs> <del>z</del> 
 <rs type="lage" ref="#Scheffstraße">gelegen <lb facs="#facs_26_r2l31" n="N003"/>in der Schefstrass</rs> 
 <rs type="neben">zenagst Jacobs des Hederler haus</rs> 
 
@@ -5399,7 +5395,7 @@ drew phunt <lb facs="#facs_27_r3l20" n="N009"/>phenning ze purkrecht</rs>
 Ⓥ<rs type="von">Agnes Kunrats des Lemppershaimer hausfraw Mertten des Dunckl von Znaym seligen witib</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB5712Ⓞ<rs type="objekt">ain haus</rs>
 FischerstiegeⓁ<rs type="lage">gelegen an der Vischerstieg</rs>
 Ⓝ<rs type="neben">zenagst Hannsen des Weissen haus</rs>
 <lb/>
@@ -5434,7 +5430,7 @@ FischerstiegeⓁ<rs type="lage">gelegen an der Vischerstieg</rs>
 Ⓥ<rs type="von">Agnes Chunrads Lempershaimer hausfrawn Mertts des Tunckl von Znaym seligen witib</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB5715Ⓞ<rs type="objekt">ain haus</rs>
 FischerstiegeⓁ<rs type="lage">gelegen an der Vischerstieg</rs>
 Ⓝ<rs type="neben">zenagst weilent des Schern haus</rs>
 <lb/>
@@ -5451,7 +5447,7 @@ FischerstiegeⓁ<rs type="lage">gelegen an der Vischerstieg</rs>
 <rs type="von">Agnes Chunrads Lempershaimer hausfrawn Mertts des Tunckl von Znaym <lb facs="#facs_28_r2l3" n="N002"/>seligen witib</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB5715">ain haus</rs> 
 <rs type="lage" ref="#Fischerstiege">gelegen an der Vischerstieg</rs> 
 <rs type="neben">zenagst <lb facs="#facs_28_r2l4" n="N003"/>weilent des Schern haus</rs> 
 
@@ -5472,7 +5468,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Andre phlug und Barbara sein hausfrau</rs>
 verkaufⒺ<rs type="ereignis">habent verchaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haus</rs>
+DB5712Ⓞ<rs type="objekt">Ir haus</rs>
 FischerstiegeⓁ<rs type="lage">gelegen an der Vischerstieg zu Wien</rs>
 Ⓝ<rs type="neben">zenagst Hannsen Hirssen des kursner haus</rs>
 <lb/>
@@ -5494,7 +5490,7 @@ FischerstiegeⓁ<rs type="lage">gelegen an der Vischerstieg zu Wien</rs>
 <rs type="von">Andre phlug und Barbara sein hausfrau</rs> 
 <rs type="ereignis" ref="#verkauf">habent verchaufft</rs> 
 
-<rs type="objekt">Ir haus</rs> <lb facs="#facs_28_r2l8" n="N002"/>
+<rs type="objekt" ref="#DB5712">Ir haus</rs> <lb facs="#facs_28_r2l8" n="N002"/>
 <rs type="lage" ref="#Fischerstiege">gelegen an der Vischerstieg zu Wien</rs> 
 <rs type="neben">zenagst Hannsen Hirssen des <lb facs="#facs_28_r2l9" n="N003"/>kursner haus</rs> 
 
@@ -5628,7 +5624,7 @@ Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen auf der Alsserstrass vor
 <lb/>die Eemalen Otten Vasolt den wachsgiesser auch elich gehabt hat</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haus</rs>
+DB5625Ⓞ<rs type="objekt">Ir haus</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kyenmarkt</rs>
 Ⓝ<rs type="neben">zenagst weilent Hainreichs des leinwatter haus an ainem tail</rs>
 Ⓝ<rs type="neben">und an dem andern zenagst Petern des Weginger haus</rs>
@@ -5655,7 +5651,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kyenmarkt</rs>
 die Eemalen Otten Vasolt den <lb facs="#facs_29_r3l19" n="N002"/>wachsgiesser auch elich gehabt hat</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">Ir haus</rs> 
+<rs type="objekt" ref="#DB5625">Ir haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen <lb facs="#facs_29_r3l20" n="N003"/>am Kyenmarkt</rs> 
 <rs type="neben">zenagst weilent Hainreichs des leinwatter haus an <lb facs="#facs_29_r3l21" n="N004"/>ainem tail</rs> 
 <rs type="neben">und an dem andern zenagst Petern des Weginger haus</rs> 
@@ -6100,7 +6096,9 @@ obtinuit folio 158</rs>
 <lb/>
 Ⓞ<rs type="objekt">Ir haus</rs>
 MünzerstraßeⓁ<rs type="lage">gelegen in der Munsserstras ze Wienn genant des Smerbekchen haus</rs>
-Ⓝ<rs type="neben">zenagst Erharts des Gibings haus und darczu Ir haus und die hofstat weingarten hinden daran</rs>
+Ⓝ<rs type="neben">zenagst Erharts des Gibings haus</rs>
+<lb/>
+Ⓞ<rs type="objekt">und darczu Ir haus und die hofstat weingarten hinden daran</rs>
 Greut, vor StubentorⓁ<rs type="lage">gelegen im Grewt vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst Marchartten dem pantsneider</rs>
 <lb/>
@@ -6135,7 +6133,9 @@ demselben Irm mann</rs>
 
 <rs type="objekt">Ir haus</rs> 
 <rs type="lage" ref="#Münzerstraße">gelegen in der Munsserstras ze Wienn genant des <lb facs="#facs_33_r2l19" n="N003"/>Smerbekchen haus</rs> 
-<rs type="neben">zenagst Erharts des Gibings haus und darczu Ir haus und die <lb facs="#facs_33_r2l20" n="N004"/>hofstat weingarten hinden daran</rs> 
+<rs type="neben">zenagst Erharts des Gibings haus</rs> 
+
+<rs type="objekt">und darczu Ir haus und die <lb facs="#facs_33_r2l20" n="N004"/>hofstat weingarten hinden daran</rs> 
 <rs type="lage" ref="#Greut #vor_Stubentor">gelegen im Grewt vor Stubentor ze Wienn</rs> 
 <rs type="neben">zenagst <lb facs="#facs_33_r2l21" n="N005"/>Marchartten dem pantsneider</rs> 
 
@@ -7219,7 +7219,7 @@ obtinuit folio 250</rs>
 Ⓥ<rs type="von">Andre Klaindinst der pinter</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haws</rs>
+DB6057Ⓞ<rs type="objekt">sein haws</rs>
 Greut, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor im Greut</rs>
 Ⓝ<rs type="neben">zenagst Tobias des Munsser haws</rs>
 <lb/>
@@ -7237,7 +7237,7 @@ Greut, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor im Greut</rs>
 <rs type="von">Andre Klaindinst der pinter</rs> 
 <rs type="ereignis" ref="#verkauf">hat verchaufft</rs> 
 
-<rs type="objekt">sein haws</rs> 
+<rs type="objekt" ref="#DB6057">sein haws</rs> 
 <rs type="lage" ref="#Greut #vor_Stubentor">gelegen <lb facs="#facs_40_r3l28" n="N002"/>vor Stubentor im Greut</rs> 
 <rs type="neben">zenagst Tobias des Munsser <lb facs="#facs_40_r3l29" n="N003"/>haws</rs> 
 
@@ -7266,7 +7266,7 @@ schenkungⒺ<rs type="ereignis">hat lediklich ubergegeben
 <lb/>durch vaterlich trew willen Larenczem dem ledrer seinem vater</rs>
 <lb/>
 Ⓞ<rs type="objekt">ain haws</rs>
-vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
+Greut, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst Niclasen des Drumawer haus</rs>
 <lb/>
 <rs>das der benant sein vater und Kathrey weilnt sein hausfraw des egenant vogler vater und Muter
@@ -7288,7 +7288,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 durch vaterlich trew <lb facs="#facs_41_r2l3" n="N002"/>willen Larenczem dem ledrer seinem vater</rs> 
 
 <rs type="objekt">ain haws</rs> 
-<rs type="lage" ref="#vor_Stubentor">gelegen <lb facs="#facs_41_r2l4" n="N003"/>vor Stubentor ze Wienn</rs> 
+<rs type="lage" ref="#Greut #vor_Stubentor">gelegen <lb facs="#facs_41_r2l4" n="N003"/>vor Stubentor ze Wienn</rs> 
 <rs type="neben">zenagst Niclasen des Drumawer haus</rs> 
 <lb facs="#facs_41_r2l5" n="N004"/>
 <rs>das der benant sein vater und Kathrey weilnt sein hausfraw des <lb facs="#facs_41_line_1648644963208_1345" n="N005"/>egenant vogler <lb facs="#facs_41_r2l6" n="N006"/>vater und <lb facs="#facs_41_line_1648644963208_1344" n="N007"/>Muter 
@@ -8525,7 +8525,8 @@ und seinen erben</rs>
 <div type="entry" n="049-4" xml:id="n_049-4">
 	<head type="note">049-4</head>
 <ab type="formular">
-Ⓥ<rs type="von">Anna Kunczen Klewsl des Sneider ze Wienn hausfraw und Margret Steffans des Hewffl seligen witib ze Tulln</rs>
+Ⓥ<rs type="von">Anna Kunczen Klewsl des Sneider ze Wienn hausfraw
+<lb/>und Margret Steffans des Hewffl seligen witib ze Tulln</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
 Ⓞ<rs type="objekt">ain haus</rs>
@@ -8544,7 +8545,8 @@ RiemergasseⓁ<rs type="lage">gelegen ze Wienn in der Ryemergassen</rs>
 </ab>
 	<p facs="#facs_49_TextRegion_1647518155394_998">
 <lb facs="#facs_49_r2l24" n="N001"/>
-<rs type="von">Anna Kunczen Klewsl des Sneider ze Wienn hausfraw und Margret Steffans <lb facs="#facs_49_r2l25" n="N002"/>des Hewffl seligen witib ze Tulln</rs> 
+<rs type="von">Anna Kunczen Klewsl des Sneider ze Wienn hausfraw 
+und Margret Steffans <lb facs="#facs_49_r2l25" n="N002"/>des Hewffl seligen witib ze Tulln</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
 <rs type="objekt">ain haus</rs> 
@@ -8743,7 +8745,7 @@ davon sol es <lb facs="#facs_57_r1l14" n="N014"/>hiunfur an schaden sein <lb fac
 <lb/>die weilent Hannsen den Fuchslein burger daselbs auch hat eleichen gehabt</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haus</rs>
+DB5604Ⓞ<rs type="objekt">Ir haus</rs>
 KienmarktⓁ<rs type="lage">gelegen an dem Kyenmarkcht ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst Fridreichs des Sachsen</rs>
 Ⓝ<rs type="neben">und weilent Symons des glaser hewsern</rs>
@@ -8772,7 +8774,7 @@ KienmarktⓁ<rs type="lage">gelegen an dem Kyenmarkcht ze Wienn</rs>
 die weilent Hannsen den <lb facs="#facs_57_r1l23" n="N002"/>Fuchslein burger daselbs auch hat eleichen gehabt</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">Ir haus</rs> 
+<rs type="objekt" ref="#DB5604">Ir haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen an dem <lb facs="#facs_57_r1l25" n="N003"/>Kyenmarkcht ze Wienn</rs> 
 <rs type="neben">zenagst Fridreichs des Sachsen</rs> 
 <rs type="neben">und weilent Symons des glaser <lb facs="#facs_57_r1l27" n="N004"/>hewsern</rs> 
@@ -8947,9 +8949,9 @@ und <lb facs="#facs_58_line_1624607538305_149" n="N008"/>seinen erben</rs>
 Ⓥ<rs type="von">Barbara Marxen des Rogken hausfraw</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir pachaus</rs>
+DB5643Ⓞ<rs type="objekt">Ir pachaus</rs>
 WürffelⓁ<rs type="lage">gegen hern Niclass des Wurffels haus uber</rs>
-DB7001Ⓝ<rs type="neben">zenegst der padstuben genant zu den Schelken</rs>
+DB5644Ⓝ<rs type="neben">zenegst der padstuben genant zu den Schelken</rs>
 Ⓝ<rs type="neben">und stosst mit dem hindern tail an weilent Hannsen des Kotaner Irs vater haus</rs>
 <lb/>
 <rs>daz Si von demselben Irm vater anerstorben
@@ -8969,9 +8971,9 @@ DB7001Ⓝ<rs type="neben">zenegst der padstuben genant zu den Schelken</rs>
 <rs type="von">Barbara Marxen des Rogken hausfraw</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">Ir pachaus</rs> 
+<rs type="objekt" ref="#DB5643">Ir pachaus</rs> 
 <rs type="lage" ref="#Würffel">gegen <lb facs="#facs_58_r3l19" n="N002"/>hern Niclass des Wurffels haus uber</rs> 
-<rs type="neben" ref="#DB7001">zenegst der padstuben genant zu den <lb facs="#facs_58_r3l20" n="N003"/>Schelken</rs> 
+<rs type="neben" ref="#DB5644">zenegst der padstuben genant zu den <lb facs="#facs_58_r3l20" n="N003"/>Schelken</rs> 
 <rs type="neben">und stosst mit dem hindern tail an weilent Hannsen des Kotaner <lb facs="#facs_58_r3l21" n="N004"/>Irs vater haus</rs> 
 
 <rs>daz Si von demselben Irm vater anerstorben 
@@ -10503,7 +10505,7 @@ und allen irn frumen damit zeschaffen verkauffen <lb facs="#facs_69_r1l7" n="N00
 Ⓥ<rs type="von">Christan der Laber burger ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">sein haus</rs>
+DB6002Ⓞ<rs type="objekt">sein haus</rs>
 Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen In der Schefstrass vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenegst Seifridts pinter haus</rs>
 <lb/>
@@ -10523,7 +10525,7 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen In der Schefstrass vor St
 <rs type="von">Christan der Laber burger ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">sein haus</rs> 
+<rs type="objekt" ref="#DB6002">sein haus</rs> 
 <rs type="lage" ref="#Scheffstraße #vor_Stubentor">gelegen In der Schefstrass <lb facs="#facs_69_r1l11" n="N002"/>vor Stubentor ze Wienn</rs> 
 <rs type="neben">zenegst Seifridts pinter haus</rs> 
 
@@ -10693,7 +10695,7 @@ und <lb facs="#facs_69_line_1648716025585_143" n="N009"/>seinen erben</rs>
 Ⓥ<rs type="von">Thadolt von Ekchartsaw</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB5327Ⓞ<rs type="objekt">ain haus</rs>
+DB5035Ⓞ<rs type="objekt">ain haus</rs>
 JudengasseⓁ<rs type="lage">gelegen in der Judengassen ze Wienn</rs>
 <lb/>
 ⓔ<rs type="ereignis">das weilent Schauln des Juden gewesen</rs>
@@ -10722,7 +10724,7 @@ JudengasseⓁ<rs type="lage">gelegen in der Judengassen ze Wienn</rs>
 <rs type="von">Thadolt von Ekchartsaw</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt" ref="#DB5327">ain haus</rs> 
+<rs type="objekt" ref="#DB5035">ain haus</rs> 
 <rs type="lage" ref="#Judengasse">gelegen in der Judengassen ze Wienn</rs> 
 <lb facs="#facs_70_r2l3" n="N002"/>
 <rs type="ereignis">das weilent Schauln des Juden gewesen</rs> 
@@ -11262,7 +11264,7 @@ hintere PeckenstraßeⓁ<rs type="lage">gelegen in der Hindernpekchenstrass an d
 <lb/>das die egnant Klar und der egnant Jacob von Weithra Ir wirt miteinander mitgesambter hand gekaufft haben</rs>
 <lb/>
 131 tl.Ⓟ<measure type="preis">umb C xxxi tl.</measure>
-<rs>Petern dem Wartperger Burger ze Wienn
+Ⓐ<rs type="an">Petern dem Wartperger Burger ze Wienn
 <lb/>et heredibus</rs>
 <lb/>
 <rs>sicut littera sonat</rs>
@@ -11281,7 +11283,7 @@ gegen Hannsens von Friesach haus uber
 das die egnant Klar und der egnant Jacob <lb facs="#facs_71_r2l46" n="N004"/>von Weithra Ir wirt miteinander mitgesambter hand gekaufft haben</rs> 
 
 <measure type="preis" commodity="131 tl.">umb C xxxi tl.</measure> <lb facs="#facs_71_r2l47" n="N005"/>
-<rs>Petern dem Wartperger Burger ze Wienn 
+<rs type="an">Petern dem Wartperger Burger ze Wienn 
 et heredibus</rs> 
 
 <rs>sicut littera sonat</rs> 
@@ -11353,7 +11355,7 @@ hinter St. PankrazⓁ<rs type="lage">gelegen hinder sand Pangreczen ze Wienn</rs
 <lb/>und zu sand Michels pfarkirchen ½ tl. ze purkrecht</rs>
 <lb/>
 29 tl.Ⓟ<measure type="preis">umb xxviiii tl.</measure>
-<rs>Andren dem Stainbauter dem Rugkler ze Wienn Margrethen seiner hausfraw</rs>
+Ⓐ<rs type="an">Andren dem Stainbauter dem Rugkler ze Wienn Margrethen seiner hausfraw</rs>
 <lb/>
 <rs>und Ir baider erben
 <lb/>er hat vollen gewalt</rs>
@@ -11376,7 +11378,7 @@ daz In mit abgang Andres des Peschkendl ledig worden <lb facs="#facs_72_r2l14" n
 und zu sand Michels pfarkirchen ½ tl. ze purkrecht</rs> 
 
 <measure type="preis" commodity="29 tl.">umb xxviiii tl.</measure> 
-<rs>Andren <lb facs="#facs_72_r2l16" n="N006"/>dem Stainbauter dem Rugkler ze Wienn Margrethen seiner hausfraw</rs> 
+<rs type="an">Andren <lb facs="#facs_72_r2l16" n="N006"/>dem Stainbauter dem Rugkler ze Wienn Margrethen seiner hausfraw</rs> 
 
 <rs>und Ir baider <lb facs="#facs_72_r2l17" n="N007"/>erben 
 er hat vollen gewalt</rs> 
@@ -11404,7 +11406,7 @@ Roter TurmⓁ<rs type="lage">gelegen bey dem Rotenturn ze Wienn</rs>
 ⓑ<rs type="belastung-ende-floskel">und nicht mer</rs>
 <lb/>
 100 tl.Ⓟ<measure type="preis">umb hundert phunt Wienner phenning</measure>
-<rs>seiner hausfrawn Elspethen weilent Hansen von Furt seligen witiben
+Ⓐ<rs type="an">seiner hausfrawn Elspethen weilent Hansen von Furt seligen witiben
 <lb/>und Irn erben</rs>
 <lb/>
 <rs>zebeczalen wann Si der nicht lenger enpern wellent</rs>
@@ -11428,7 +11430,7 @@ und den frawn <lb facs="#facs_72_r2l23" n="N006"/>hincz sand Larenczen iiii tl. 
 <rs type="belastung-ende-floskel">und nicht mer</rs> 
 
 <measure type="preis" commodity="100 tl.">umb hundert <lb facs="#facs_72_r2l25" n="N007"/>phunt Wienner phenning</measure> 
-<rs>seiner hausfrawn Elspethen weilent Hansen von Furt <lb facs="#facs_72_r2l27" n="N008"/>seligen witiben 
+<rs type="an">seiner hausfrawn Elspethen weilent Hansen von Furt <lb facs="#facs_72_r2l27" n="N008"/>seligen witiben 
 und Irn erben</rs> 
 
 <rs>zebeczalen wann Si der nicht lenger enpern wellent</rs> 
@@ -11453,7 +11455,7 @@ Weiße BrüderⓁ<rs type="lage">und stosst mit dem andern tail auf den placz ge
 <lb/>
 140 tl.Ⓟ<measure type="preis">umb iᶜ xl tl. d.</measure>
 <lb/>
-<rs>Niclasen dem Graner Dorotheen seiner hausfraun</rs>
+Ⓐ<rs type="an">Niclasen dem Graner Dorotheen seiner hausfraun</rs>
 ⓡ<rs type="floskel" subtype="Erbregelung">et heredibus</rs>
 ⓠ<rs type="floskel" subtype="Erbregelung">oder welhes under In baiden das ander uberlebt</rs>
 <lb/>
@@ -11474,7 +11476,7 @@ Weiße BrüderⓁ<rs type="lage">und stosst mit dem andern tail auf den placz ge
 
 <measure type="preis" commodity="140 tl.">umb iᶜ xl tl. d.</measure> <del>Albrechten</del> 
 <lb facs="#facs_72_r2l34" n="N005"/>
-<rs>Niclasen dem Graner Dorotheen seiner hausfraun</rs> 
+<rs type="an">Niclasen dem Graner Dorotheen seiner hausfraun</rs> 
 <rs type="floskel" subtype="Erbregelung">et heredibus</rs> 
 <rs type="floskel" subtype="Erbregelung">oder welhes under In baiden <lb facs="#facs_72_r2l35" n="N006"/>das ander uberlebt</rs> 
 
@@ -11497,7 +11499,7 @@ WiltwerkerstraßeⓁ<rs type="lage">gelegen in der Wiltwercherstrass ze Wienn</r
 Hohe BrückeⓁ<rs type="lage">auf der Hohenprugk</rs>
 <lb/>
 105 tl.Ⓟ<measure type="preis">umb hundert und funf phund phenning</measure>
-<rs>Hansen und Ulreichen gebrudern den Herwarten</rs>
+Ⓐ<rs type="an">Hansen und Ulreichen gebrudern den Herwarten</rs>
 <lb/>
 <rs>und Ir baider erben
 <lb/>oder welhes under In baiden den andern uberbelebt</rs>
@@ -11517,7 +11519,7 @@ Hohe BrückeⓁ<rs type="lage">auf der Hohenprugk</rs>
 <rs type="lage" ref="#Hohe_Brücke">auf <lb facs="#facs_72_r2l40" n="N003"/>der Hohenprugk</rs> 
 
 <measure type="preis" commodity="105 tl.">umb hundert und funf phund phenning</measure> 
-<rs>Hansen und Ulreichen gebrudern <lb facs="#facs_72_r2l41" n="N004"/>den Herwarten</rs> 
+<rs type="an">Hansen und Ulreichen gebrudern <lb facs="#facs_72_r2l41" n="N004"/>den Herwarten</rs> 
 
 <rs>und Ir baider erben 
 oder welhes under In baiden den andern uberbelebt</rs> 
@@ -11603,7 +11605,7 @@ darauf es denn zerecht erben und gevallen sol</rs>
 Ⓥ<rs type="von">Kunrat Holczler Burgermaister und der Rat gemain der Stat ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-DB1001aⓄ<rs type="objekt">ain haus</rs>
+DB1002Ⓞ<rs type="objekt">ain haus</rs>
 Herzoghof, LederhofⓁ<rs type="lage">gelegen Im Lederhof an der Herczogen hof ze Wienn</rs>
 DB1003Ⓝ<rs type="neben">zenegst Niclas des huter haus</rs>
 <lb/>
@@ -11628,7 +11630,7 @@ DB1003Ⓝ<rs type="neben">zenegst Niclas des huter haus</rs>
 <rs type="von">Kunrat Holczler Burgermaister und der Rat gemain der Stat ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt" ref="#DB1001a">ain <lb facs="#facs_73_r10l14" n="N002"/>haus</rs> 
+<rs type="objekt" ref="#DB1002">ain <lb facs="#facs_73_r10l14" n="N002"/>haus</rs> 
 <rs type="lage" ref="#Herzoghof #Lederhof">gelegen Im Lederhof an der Herczogen hof ze Wienn</rs> 
 <rs type="neben" ref="#DB1003">zenegst Niclas des huter haus</rs> 
 <lb facs="#facs_73_r10l15" n="N003"/>
@@ -12803,7 +12805,7 @@ verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
 DB0006Ⓞ<rs type="objekt">ain haus</rs>
 Heiligengeistspital, NeuluckeⓁ<rs type="lage">gelegen in der Newluken gegen dem Heiligen geist uber</rs>
-DB0012Ⓝ<rs type="neben">zenegst des Hetler haus</rs>
+Ⓝ<rs type="neben">zenegst des Hetler haus</rs>
 <lb/>
 <rs>daz weilent Jorgen des Pretnagel gewesen ist
 <lb/>und daz Si umb das versessen purkrecht und umb die zwispild mit recht erlangt habent</rs>
@@ -12826,7 +12828,7 @@ baid ausrichter und volfurer des <lb facs="#facs_78_r1l12" n="N002"/>gescheffts 
 
 <rs type="objekt" ref="#DB0006">ain haus</rs> 
 <rs type="lage" ref="#Heiligengeistspital #Neulucke">gelegen <lb facs="#facs_78_r1l13" n="N003"/>in der Newluken gegen dem Heiligen geist uber</rs> 
-<rs type="neben" ref="#DB0012">zenegst des Hetler haus</rs> 
+<rs type="neben">zenegst des Hetler haus</rs> 
 <lb facs="#facs_78_r1l14" n="N004"/>
 <rs>daz weilent Jorgen des Pretnagel gewesen ist 
 und daz Si umb das versessen purkrecht <lb facs="#facs_78_r1l15" n="N005"/>und umb die zwispild mit recht erlangt habent</rs> 
@@ -14291,7 +14293,7 @@ Hoher MarktⓁ<rs type="lage">gelegen am Hohenmarkt ze Wienn</rs>
 Ⓥ<rs type="von">Conrad Waicz der kursner</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein halbs haus
+DB5459bⓄ<rs type="objekt">sein halbs haus
 <lb/>des gegentail herr Ulreich der wachsgiesser hat</rs>
 KürsenhausⓁ<rs type="lage">ganczes gelegen gegen dem Kursenhaus uber</rs>
 Ⓝ<rs type="neben">und stosset mit dem Egk an die gassen doman hincz unser frawn geet
@@ -14315,7 +14317,7 @@ KürsenhausⓁ<rs type="lage">ganczes gelegen gegen dem Kursenhaus uber</rs>
 <rs type="von">Conrad Waicz der kursner</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein halbs haus 
+<rs type="objekt" ref="#DB5459b">sein halbs haus 
 des gegentail <lb facs="#facs_87_r5l15" n="N002"/>herr <lb facs="#facs_87_line_1648730296576_1461" n="N003"/>Ulreich der <lb facs="#facs_87_r5l17" n="N004"/>wachsgiesser hat</rs> 
 <rs type="lage" ref="#Kürsenhaus">ganczes gelegen gegen dem Kursenhaus uber</rs> 
 <rs type="neben">und stosset mit <lb facs="#facs_87_r5l18" n="N005"/>dem Egk an die gassen doman hincz unser frawn geet 
@@ -14537,7 +14539,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Chunrat Puhler weinkoster</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB6033Ⓞ<rs type="objekt">sein haus</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn bey der Wienn</rs>
 Ⓝ<rs type="neben">zenagst Hannsen von Grrecz haus</rs>
 <lb/>
@@ -14556,7 +14558,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn bey der Wienn</rs
 <rs type="von">Chunrat Puhler weinkoster</rs> 
 <rs type="ereignis" ref="#verkauf">hat verchaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB6033">sein haus</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor ze Wienn <lb facs="#facs_89_r2l3" n="N002"/>bey der Wienn</rs> 
 <rs type="neben">zenagst Hannsen von Grrecz haus</rs> 
 
@@ -14579,7 +14581,7 @@ und Irn baiden erben</rs>
 Ⓥ<rs type="von">Cristan Hewgais ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">sein haus</rs>
+DB6013Ⓞ<rs type="objekt">sein haus</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst Lienharts des Lehenholczer haus an ainem tail</rs>
 Ⓝ<rs type="neben">und an dem andern tail gegen der Rosstrenkch bey dem Pibersturn uber</rs>
@@ -14597,7 +14599,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass ze Wienn</rs>
 <rs type="von">Cristan Hewgais ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">sein haus</rs> 
+<rs type="objekt" ref="#DB6013">sein haus</rs> 
 <rs type="lage" ref="#Scheffstraße">gelegen in der Schefstrass <lb facs="#facs_89_r2l8" n="N002"/>ze Wienn</rs> 
 <rs type="neben">zenagst Lienharts des Lehenholczer haus an ainem tail</rs> 
 <rs type="neben">und an dem <lb facs="#facs_89_r2l9" n="N003"/>andern tail gegen der Rosstrenkch bey dem Pibersturn uber</rs> 
@@ -15068,7 +15070,7 @@ und Irn erben</rs>
 verkaufⒺ<rs type="ereignis">habent verchaufft
 <lb/>an stat Irselbs und Hensel den Groczen auch der benant Kristein Sun der noch nicht vogtper ist</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haus</rs>
+DB6019Ⓞ<rs type="objekt">Ir haus</rs>
 Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor auf dem Graben</rs>
 Ⓝ<rs type="neben">zenagst Ulreichs des Munsser haus</rs>
 <lb/>
@@ -15094,7 +15096,7 @@ Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor auf dem Grabe
 <rs type="ereignis" ref="#verkauf">habent verchaufft 
 an stat Irselbs und Hensel den Groczen auch der <lb facs="#facs_92_r2l4" n="N003"/>benant Kristein Sun der noch nicht vogtper ist</rs> 
 
-<rs type="objekt">Ir haus</rs> 
+<rs type="objekt" ref="#DB6019">Ir haus</rs> 
 <rs type="lage" ref="#Stadtgraben #vor_Stubentor">gelegen vor <lb facs="#facs_92_r2l5" n="N004"/>Stubentor <del>im Grewtt</del> auf dem Graben</rs> 
 <rs type="neben">zenagst Ulreichs des Munsser haus</rs> 
 <lb facs="#facs_92_line_1648730888446_1705" n="N005"/>
@@ -15524,7 +15526,7 @@ Item obtinuit folio 132</rs>
 <lb/>all drey Hannsen Hirssen des kursner seligen geschefftleut</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haws</rs>
+DB5711Ⓞ<rs type="objekt">ain haws</rs>
 FischerstiegeⓁ<rs type="lage">gelegen an der Vischer stieg</rs>
 Ⓝ<rs type="neben">zenagst der padstuben genant zu den Schewkhen</rs>
 <lb/>
@@ -15543,7 +15545,7 @@ FischerstiegeⓁ<rs type="lage">gelegen an der Vischer stieg</rs>
 all drey Hannsen Hirssen des kursner seligen <lb facs="#facs_95_r4l6" n="N003"/>geschefftleut</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">ain haws</rs> 
+<rs type="objekt" ref="#DB5711">ain haws</rs> 
 <rs type="lage" ref="#Fischerstiege">gelegen an <del>unser fraw</del> der <lb facs="#facs_95_r4l7" n="N004"/>Vischer stieg</rs> 
 <rs type="neben">zenagst der padstuben genant zu den Schewkhen</rs> 
 
@@ -15641,7 +15643,7 @@ und seinen erben</rs>
 <lb/>und Agnes Wernharts des Schurffs hausfraw</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haws
+DB5459Ⓞ<rs type="objekt">ain haws
 <lb/>das des egenant Hirssen gewesen ist</rs>
 Ⓝ<rs type="neben">gelegen mit dem hindern tail an weilnt Niclasen des Wurffels haws</rs>
 Ⓝ<rs type="neben">und mit dem vordern tail gegen dem Kursenhaws uber genant der Turn</rs>
@@ -15663,7 +15665,7 @@ an stat Hensleins Kathrein und Agnesen <lb facs="#facs_96_r3l6" n="N003"/>Hansen
 und <lb facs="#facs_96_r3l7" n="N004"/>Agnes Wernharts des Schurffs hausfraw</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">ain <lb facs="#facs_96_r3l8" n="N005"/>haws 
+<rs type="objekt" ref="#DB5459">ain <lb facs="#facs_96_r3l8" n="N005"/>haws 
 das des egenant Hirssen gewesen ist</rs> 
 <rs type="neben">gelegen mit dem hindern tail <lb facs="#facs_96_r3l9" n="N006"/>an weilnt Niclasen des Wurffels haws</rs> 
 <rs type="neben">und mit dem vordern <lb facs="#facs_96_r3l10" n="N007"/>tail gegen dem Kursenhaws uber genant der Turn</rs> 
@@ -15751,7 +15753,7 @@ ut patet libro Novo E vendiconem 92 folio</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
 DB0052Ⓞ<rs type="objekt">ain haws</rs>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst des Rauscher haws</rs>
 <lb/>
 8 tl.Ⓟ<measure type="preis">umb viii tl. Wienner d.</measure>
@@ -16014,7 +16016,7 @@ vendidit purkrecht folio 149</rs>
 Ⓥ<rs type="von">Chuncz Taler Reinbater</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein halbs haws</rs>
+DB5622Ⓞ<rs type="objekt">sein halbs haws</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kienmarkht</rs>
 Ⓝ<rs type="neben">zenagst des Geringer haus</rs>
 <lb/>
@@ -16041,7 +16043,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kienmarkht</rs>
 <rs type="von">Chuncz Taler Reinbater</rs> 
 <rs type="ereignis" ref="#verkauf">hat <del>vers</del> verkaufft</rs> 
 
-<rs type="objekt">sein halbs haws</rs> 
+<rs type="objekt" ref="#DB5622">sein halbs haws</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen <lb facs="#facs_98_r1l26" n="N002"/>am Kienmarkht</rs> 
 <rs type="neben">zenagst des Geringer haus</rs> 
 
@@ -16760,7 +16762,7 @@ nach lautt der tailbrief und Statbrief darumb <lb facs="#facs_110_r2l15" n="N006
 <lb/>baid ausrichter und volfurer des gescheffts so weilent Seifrid Frawnknecht der pinter getan hat</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ain haus
+DB6001Ⓞ<rs type="objekt">ain haus
 <lb/>das des egenant Seifridts gewesen ist</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen in der Scheffstrass</rs>
 Ⓝ<rs type="neben">zenagst weilent Kristans des Laber haus</rs>
@@ -16779,7 +16781,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Scheffstrass</rs>
 baid ausrichter und volfurer des <lb facs="#facs_110_r2l20" n="N002"/>gescheffts so weilent Seifrid Frawnknecht der pinter getan hat</rs> 
 <rs type="ereignis" ref="#verkauf">habent <lb facs="#facs_110_r2l21" n="N003"/>verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">ain haus 
+<rs type="objekt" ref="#DB6001">ain haus 
 das des egenant Seifridts gewesen ist</rs> 
 <rs type="lage" ref="#Scheffstraße">gelegen in der Scheff¬ <lb facs="#facs_110_r2l22" n="N004"/>strass</rs> 
 <rs type="neben">zenagst weilent Kristans des Laber haus</rs> 
@@ -16802,7 +16804,7 @@ ipse potestatem</rs>
 <lb/>baid ausrichter und volfurer des gescheffts So weilent Seifrid frawnknecht der pinter getan hat</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ain haus
+DB6006Ⓞ<rs type="objekt">ain haus
 <lb/>daz des yeczgenant Seifridts ist gewesen</rs>
 Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor in der Schefstrass</rs>
 Ⓝ<rs type="neben">zenegst weilent des Gresennawer haus</rs>
@@ -16821,7 +16823,7 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor in der Sche
 baid ausrichter und volfurer <lb facs="#facs_110_r2l27" n="N002"/>des gescheffts So weilent Seifrid frawnknecht der pinter getan hat</rs> 
 <rs type="ereignis" ref="#verkauf">habent <lb facs="#facs_110_r2l28" n="N003"/>verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">ain haus 
+<rs type="objekt" ref="#DB6006">ain haus 
 daz des yeczgenant Seifridts ist gewesen</rs> 
 <rs type="lage" ref="#Scheffstraße #vor_Stubentor">gelegen vor <lb facs="#facs_110_r2l29" n="N004"/>Stubentor in der Schefstrass</rs> 
 <rs type="neben">zenegst weilent des Gresennawer haus</rs> 
@@ -16858,7 +16860,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Dankart Stayner und Niclas Gawnestorffer baid Seifrids des pinter geschefftleut</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ain haus
+DB6003Ⓞ<rs type="objekt">ain haus
 <lb/>daz des egenant Seifrids gewesen ist</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen in der Scheffstrass</rs>
 Ⓝ<rs type="neben">zenegst des Scheucher haus</rs>
@@ -16876,7 +16878,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Scheffstrass</rs>
 <rs type="von">Dankart Stayner und Niclas Gawnestorffer baid Seifrids des pinter geschefftleut</rs> <lb facs="#facs_111_r2l5" n="N002"/>
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">ain haus 
+<rs type="objekt" ref="#DB6003">ain haus 
 daz des egenant Seifrids gewesen ist</rs> 
 <rs type="lage" ref="#Scheffstraße">gelegen in der <lb facs="#facs_111_r2l6" n="N003"/>Scheffstrass</rs> 
 <rs type="neben">zenegst des Scheucher haus</rs> 
@@ -17001,7 +17003,7 @@ und seinen erben</rs>
 überschreibungⒺ<rs type="ereignis">hat gemacht
 <lb/>demselben Irm mann</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">Ir haus</rs>
+DB6018Ⓞ<rs type="objekt">Ir haus</rs>
 Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor in der Scheffstrass</rs>
 Ⓝ<rs type="neben">zenegst Tobias Munsser haus</rs>
 <lb/>
@@ -17024,7 +17026,7 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor in der Sche
 <rs type="ereignis" ref="#überschreibung">hat gemacht 
 demselben Irm mann</rs> 
 <lb facs="#facs_111_r2l28" n="N002"/>
-<rs type="objekt" ref="#DB6000">Ir haus</rs> 
+<rs type="objekt" ref="#DB6018">Ir haus</rs> 
 <rs type="lage" ref="#Scheffstraße #vor_Stubentor">gelegen vor Stubentor in der Scheffstrass</rs> 
 <rs type="neben">zenegst Tobias Munsser <lb facs="#facs_111_r2l29" n="N003"/>haus</rs> 
 
@@ -17446,7 +17448,7 @@ mit andern seiner hab und gutern miteinander in <lb facs="#facs_115_r3l8" n="N00
 Ⓐ<rs type="an">hat demselben Irm Mann</rs>
 schenkungⒺ<rs type="ereignis">lediklichen ubergeben</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haus</rs>
+DB6035Ⓞ<rs type="objekt">Ir haus</rs>
 Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor auf dem Graben</rs>
 Ⓝ<rs type="neben">zenagst Niclasen des Stirlings haus</rs>
 <lb/>
@@ -17465,7 +17467,7 @@ besitzerⒽ<rs type="note">obtinuit folio 76</rs>
 <rs type="an">hat demselben Irm <lb facs="#facs_115_r3l12" n="N002"/>Mann</rs> 
 <rs type="ereignis" ref="#schenkung">lediklichen ubergeben</rs> 
 
-<rs type="objekt">Ir haus</rs> 
+<rs type="objekt" ref="#DB6035">Ir haus</rs> 
 <rs type="lage" ref="#Stadtgraben #vor_Stubentor">gelegen vor Stubentor auf dem <lb facs="#facs_115_r3l13" n="N003"/>Graben</rs> 
 <rs type="neben">zenagst Niclasen des Stirlings haus</rs> 
 
@@ -18011,7 +18013,7 @@ schenkungⒺ<rs type="ereignis">habent ubergeben
 <lb/>
 <rs>allen Iren tail Erbschafft und gerechtigkait die Sy haben</rs>
 <lb/>
-Ⓞ<rs type="objekt">an dem haus</rs>
+DB5630Ⓞ<rs type="objekt">an dem haus</rs>
 KienmarktⓁ<rs type="lage">am Kyenmarkt</rs>
 Ⓝ<rs type="neben">zenagst der Swenblinen haws gelegen</rs>
 <lb/>
@@ -18049,7 +18051,7 @@ Iren brudern Oswalden und <lb facs="#facs_119_r3l15" n="N003"/>Jorgen den Reicho
 
 <rs>allen Iren tail <lb facs="#facs_119_r3l16" n="N004"/>Erbschafft und gerechtigkait die Sy haben</rs> 
 
-<rs type="objekt">an dem haus</rs> 
+<rs type="objekt" ref="#DB5630">an dem haus</rs> 
 <rs type="lage" ref="#Kienmarkt">am Kyenmarkt</rs> <lb facs="#facs_119_r3l17" n="N005"/>
 <rs type="neben">zenagst der Swenblinen haws gelegen</rs> 
 
@@ -18148,7 +18150,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Dorothe Hannsen von sand Poltten des pekchen seligen witib</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haws</rs>
+DB6029Ⓞ<rs type="objekt">ain haws</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst dem Mauthaus</rs>
 <lb/>
@@ -18175,7 +18177,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 <rs type="von">Dorothe Hannsen von sand Poltten des pekchen seligen witib</rs> <lb facs="#facs_120_r2l6" n="N002"/>
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain haws</rs> 
+<rs type="objekt" ref="#DB6029">ain haws</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor ze Wienn</rs> 
 <rs type="neben">ze- <lb facs="#facs_120_r2l7" n="N003"/>nagst dem Mauthaus</rs> 
 
@@ -18355,7 +18357,7 @@ und Irn baiden erben</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
 DB0047Ⓞ<rs type="objekt">Ir haws</rs>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenechst Hawnolts des Schuchler haws</rs>
 <lb/>
 <rs>das Sy und der egenant Ir man Kunrat der Perkchaymer miteinander mit gesambter hannt gekauft habent</rs>
@@ -18595,7 +18597,7 @@ und alles das damit <lb facs="#facs_124_r2l13" n="N012"/>tun und handeln das in 
 Ⓥ<rs type="von">Ewerhart Lernpecher purger ze Wienn und Stephan sein Sun</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ain haws</rs>
+DB6003Ⓞ<rs type="objekt">ain haws</rs>
 Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen in der Scheffstrazz vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">gegen des Eysnein Thomans haws uber</rs>
 Ⓝ<rs type="neben">zenegst Niclas haws des Schopper</rs>
@@ -18621,7 +18623,7 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen in der Scheffstrazz vor S
 <rs type="von">Ewerhart Lernpecher purger ze Wienn und Stephan sein Sun</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 <lb facs="#facs_124_r2l17" n="N002"/>
-<rs type="objekt" ref="#DB6000">ain haws</rs> 
+<rs type="objekt" ref="#DB6003">ain haws</rs> 
 <rs type="lage" ref="#Scheffstraße #vor_Stubentor">gelegen in der Scheffstrazz vor Stubentor ze Wienn</rs> 
 <rs type="neben">gegen des <lb facs="#facs_124_r2l18" n="N003"/>Eysnein Thomans haws uber</rs> 
 <rs type="neben">zenegst Niclas haws des Schopper</rs> 
@@ -19424,7 +19426,7 @@ Also daz derselb Ulreich alczeit vollen gewalt haben sol zeverkauffen <lb facs="
 Ⓥ<rs type="von">Elspeth Kunrats von Redisch seligen witib</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haus</rs>
+DB5613Ⓞ<rs type="objekt">Ir haus</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kyenmarckt ze Wienn</rs>
 Ⓝ<rs type="neben">zenegst der Hainspekchen haus</rs>
 <lb/>
@@ -19448,7 +19450,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kyenmarckt ze Wienn</rs>
 <rs type="von">Elspeth Kunrats von Redisch seligen witib</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">Ir haus</rs> 
+<rs type="objekt" ref="#DB5613">Ir haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen am Kyenmarckt <lb facs="#facs_128_r2l25" n="N002"/>ze Wienn</rs> 
 <rs type="neben">zenegst der Hainspekchen haus</rs> 
 
@@ -19943,7 +19945,7 @@ sicut liber testamenti sonat</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft
 <lb/>an stat Ir selbs und Hannsens Irs Bruders non annosus</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB0209Ⓞ<rs type="objekt">ain haus</rs>
 vor KernertorⓁ<rs type="lage">gelegen vor Kernertor gegen dem heiligengeist uber</rs>
 Ⓝ<rs type="neben">zenegst des aufgeber haus</rs>
 <lb/>
@@ -19970,7 +19972,7 @@ vor KernertorⓁ<rs type="lage">gelegen vor Kernertor gegen dem heiligengeist ub
 <rs type="ereignis" ref="#verkauf">hat verkaufft 
 an <lb facs="#facs_131_r1l3" n="N002"/>stat Ir selbs und Hannsens Irs Bruders non annosus</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB0209">ain haus</rs> 
 <rs type="lage" ref="#vor_Kernertor">gelegen vor Kernertor <lb facs="#facs_131_r1l4" n="N003"/>gegen dem heiligengeist uber</rs> 
 <rs type="neben">zenegst des aufgeber haus</rs> 
 
@@ -20051,7 +20053,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Elsbeth Mertten des Traismer von Perchtolczdorff hausfraw</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ain halbs haus</rs>
+DB6008Ⓞ<rs type="objekt">ain halbs haus</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen in der Scheffstrass</rs>
 Ⓝ<rs type="neben">zenegst des Amberger haus</rs>
 <lb/>
@@ -20082,7 +20084,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Scheffstrass</rs>
 <rs type="von">Elsbeth Mertten des Traismer von Perchtolczdorff hausfraw</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 <lb facs="#facs_131_r1l21" n="N002"/>
-<rs type="objekt" ref="#DB6000">ain halbs haus</rs> 
+<rs type="objekt" ref="#DB6008">ain halbs haus</rs> 
 <rs type="lage" ref="#Scheffstraße">gelegen in der Scheffstrass</rs> 
 <rs type="neben">zenegst des Amberger haus</rs> 
 
@@ -20127,7 +20129,7 @@ schenkungⒺ<rs type="ereignis">hat sich verczigen und ledikleichen ubergeben
 <lb/>dem yeczgenant Hannsen drechsl irm vater</rs>
 <lb/>
 DB0030Ⓞ<rs type="objekt">Ir halbs haus</rs>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">ganczes gelegen vor Schottentor</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">ganczes gelegen vor Schottentor</rs>
 Ⓝ<rs type="neben">zenegst Jacobs des Sussen haus</rs>
 <lb/>
 <rs>daz derselb Ir vater und Margreth sein hausfraw Ir Muter
@@ -20404,7 +20406,7 @@ ipse potestatem</rs>
 <lb/>demselben Irm mann</rs>
 <lb/>
 DB0058Ⓞ<rs type="objekt">Ir haus</rs>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor</rs>
 Ⓝ<rs type="neben">zenegst des Haymleins haus</rs>
 <lb/>
 <rs>In solher maynung ist daz er sei uberlebt So sol er das haus ledikleich haben
@@ -22183,7 +22185,7 @@ burgrechtⒽ<rs type="note">Nota daz vorgenant purkrecht ist abgelost ut littera
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
 DB0050Ⓞ<rs type="objekt">Ir haus hinders hewsel und den garten daran</rs>
-#Alserstraße, unter den Lederern, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn under den laden auf der Alss</rs>
+Alserstraße, unter den Lederern, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn under den laden auf der Alss</rs>
 Ⓝ<rs type="neben">zenagst des Seydennatter haus</rs>
 Ⓝ<rs type="neben">und stosset mit dem vordern tail an Paul des Ringkler haws</rs>
 <lb/>
@@ -22820,7 +22822,7 @@ und Ir baider erben die egenant Fleischpanck sullen furbasser <lb facs="#facs_15
 Ⓥ<rs type="von">Francz der underkeuffl</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB6033Ⓞ<rs type="objekt">sein haus</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenechst Hannsens haus von Grecz</rs>
 <lb/>
@@ -22933,7 +22935,7 @@ er sol haben <lb facs="#facs_157_r2l42" n="N008"/>vollen gwalt</rs>
 Ⓥ<rs type="von">Fridreich Sachs Burger ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB5605Ⓞ<rs type="objekt">ain haus</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kyenmarkcht an dem Egk</rs>
 Ⓝ<rs type="neben">zenegst weilent des Strangen zuhaus an aim tail</rs>
 Ⓝ<rs type="neben">und zenegst Jorgen von Ernstprunn haus an dem andern</rs>
@@ -22956,7 +22958,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kyenmarkcht an dem Egk</rs>
 <rs type="von">Fridreich Sachs Burger ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB5605">ain haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen am Kyenmarkcht an <lb facs="#facs_158_r2l4" n="N003"/>dem Egk</rs> 
 <rs type="neben">zenegst weilent des Strangen zuhaus an aim tail</rs> 
 <rs type="neben">und zenegst Jorgen von <lb facs="#facs_158_line_1625062192736_3083" n="N004"/>Ernstprunn haus an dem andern</rs> 
@@ -23622,7 +23624,7 @@ und Irn erben</rs>
 Ⓥ<rs type="von">Fridreich Sachs</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">seinen keller</rs>
+DB5641Ⓞ<rs type="objekt">seinen keller</rs>
 KürsenhausⓁ<rs type="lage">gelegen under dem Kursenhaus ze Wienn</rs>
 <lb/>
 <rs>und das Gewelib dabey genant das pinkenlugl
@@ -23644,7 +23646,7 @@ KürsenhausⓁ<rs type="lage">gelegen under dem Kursenhaus ze Wienn</rs>
 <rs type="von">Fridreich Sachs</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">seinen keller</rs> 
+<rs type="objekt" ref="#DB5641">seinen keller</rs> 
 <rs type="lage" ref="#Kürsenhaus">gelegen under dem Kursenhaus ze Wienn</rs> 
 <lb facs="#facs_163_r3l3" n="N002"/>
 <rs>und das Gewelib dabey genant das pinkenlugl 
@@ -23678,7 +23680,7 @@ oder wem Er die schafft macht oder geit</rs>
 Ⓥ<rs type="von">Fridreich Sachs</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB5611Ⓞ<rs type="objekt">sein haus</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kienmarkcht ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst Hansen des Kottauer haus</rs>
 <lb/>
@@ -23696,7 +23698,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kienmarkcht ze Wienn</rs>
 <rs type="von">Fridreich Sachs</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB5611">sein haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen <surplus>s</surplus> am Kienmarkcht ze Wienn</rs> <lb facs="#facs_163_r3l13" n="N002"/>
 <rs type="neben">zenagst Hansen des Kottauer haus</rs> 
 
@@ -24715,7 +24717,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Hanns Perman purger ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein padstuben genant die Hunttin
+DB6030Ⓞ<rs type="objekt">sein padstuben genant die Hunttin
 <lb/>mitsambt dem haws dapey und alles das darczu gehoret</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 <lb/>
@@ -24738,7 +24740,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 <rs type="von">Hanns Perman purger ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein padstuben genant die Hunttin <lb facs="#facs_183_r2l11" n="N002"/>
+<rs type="objekt" ref="#DB6030">sein padstuben genant die Hunttin <lb facs="#facs_183_r2l11" n="N002"/>
 mitsambt dem haws dapey und alles das darczu gehoret</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor ze Wienn</rs> 
 <lb facs="#facs_183_r2l12" n="N003"/>
@@ -26972,7 +26974,7 @@ furbas ledichleich und <lb facs="#facs_194_r2l53" n="N008"/>freileich zehaben</r
 <rs>und ir baider erben
 <lb/>oder welches under in baiden das ander uberlebt</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB6029Ⓞ<rs type="objekt">sein haus</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenegst dem Mauthaus</rs>
 <lb/>
@@ -26999,7 +27001,7 @@ seiner <lb facs="#facs_195_r2l4" n="N003"/>Snur</rs>
 <rs>und ir baider erben 
 oder welches under in baiden das ander uberlebt</rs> 
 
-<rs type="objekt">sein <lb facs="#facs_195_r2l5" n="N004"/>haus</rs> 
+<rs type="objekt" ref="#DB6029">sein <lb facs="#facs_195_r2l5" n="N004"/>haus</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor ze Wienn</rs> 
 <rs type="neben">zenegst dem Mauthaus</rs> 
 
@@ -28012,7 +28014,7 @@ furbaser ledichleich und freileich zuhaben und allen irn frumen <lb facs="#facs_
 verkaufⒺ<rs type="ereignis">habent verkaufft
 <lb/>mit willen und wissen des obgenant Rats</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haws</rs>
+DB6019Ⓞ<rs type="objekt">ain haws</rs>
 Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor auf dem graben zu Wienn</rs>
 Ⓝ<rs type="neben">zenegst Hannsen von Friesach haus an aim tail</rs>
 Ⓝ<rs type="neben">und an dem andern tail zenegst Ulreichs des Munsser haus</rs>
@@ -28048,7 +28050,7 @@ der In von dem Rate der Stat zu <lb facs="#facs_200_r5l6" n="N004"/>Wienn mit le
 <rs type="ereignis" ref="#verkauf">habent verkaufft 
 mit willen <lb facs="#facs_200_r5l7" n="N005"/>und wissen des obgenant Rats</rs> 
 
-<rs type="objekt">ain haws</rs> 
+<rs type="objekt" ref="#DB6019">ain haws</rs> 
 <rs type="lage" ref="#Stadtgraben #vor_Stubentor">gelegen vor Stubentor auf dem graben zu <lb facs="#facs_200_r5l8" n="N006"/>Wienn</rs> 
 <rs type="neben">zenegst Hannsen von Friesach haus an aim tail</rs> 
 <rs type="neben">und an dem andern tail <lb facs="#facs_200_r5l9" n="N007"/>zenegst Ulreichs des Munsser haus</rs> 
@@ -28579,7 +28581,7 @@ bei den PredigernⓁ<rs type="lage">gelegen bey den Predigern ze Wienn</rs>
 Ⓥ<rs type="von">Hanns pretmaister der pewtler</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB1070Ⓞ<rs type="objekt">ain haus</rs>
 WiltwerkerstraßeⓁ<rs type="lage">gelegen in der Wildwercherstrass ze Wienn</rs>
 Ⓝ<rs type="neben">zenegst weilent des prunnhauser haus</rs>
 <lb/>
@@ -28605,7 +28607,7 @@ WiltwerkerstraßeⓁ<rs type="lage">gelegen in der Wildwercherstrass ze Wienn</r
 <rs type="von">Hanns pretmaister der pewtler</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB1070">ain haus</rs> 
 <rs type="lage" ref="#Wiltwerkerstraße">gelegen in der Wildwer- <lb facs="#facs_202_r2l27" n="N002"/>cherstrass ze Wienn</rs> 
 <rs type="neben">zenegst weilent des prunnhauser haus</rs> 
 
@@ -29069,7 +29071,7 @@ er vollen gewalt</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
 DB0047Ⓞ<rs type="objekt">ain haus</rs>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenegst des Hawnolten haus</rs>
 <lb/>
 38 tl.Ⓟ<measure type="preis">umb xxxviii tl. d.</measure>
@@ -29585,7 +29587,7 @@ er vollen gwalt</rs>
 Ⓥ<rs type="von">Hawg von Regenspurgk und Kathrey sein hausfraw</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-DB5327Ⓞ<rs type="objekt">Ir haus</rs>
+DB5035Ⓞ<rs type="objekt">Ir haus</rs>
 JudengasseⓁ<rs type="lage">gelegen in der Judengassen ze Wienn</rs>
 ⓔ<rs type="ereignis">daz weilent Schauln des Juden gewesen ist</rs>
 Ⓝ<rs type="neben">an aim tail zenagst der hanfussin haus</rs>
@@ -29609,7 +29611,7 @@ besitzerⒽ<rs type="note">obtinuit folio 11</rs>
 <rs type="von">Hawg von Regenspurgk und Kathrey sein hausfraw</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt" ref="#DB5327">Ir haus</rs> 
+<rs type="objekt" ref="#DB5035">Ir haus</rs> 
 <rs type="lage" ref="#Judengasse">gelegen <lb facs="#facs_206_r3l2" n="N002"/>in der Judengassen ze Wienn</rs> 
 <rs type="ereignis">daz weilent Schauln des Juden gewesen ist</rs> 
 <rs type="neben">an aim <lb facs="#facs_206_r3l3" n="N003"/>tail zenagst der hanfussin haus</rs> 
@@ -29794,7 +29796,7 @@ obtinuit ipsa Elizabet folio 102 libro <lb facs="#facs_206_line_1634133824853_61
 Ⓥ<rs type="von">Hanns Angervelder Rudolffs des Angervelder seligen Sun</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB6035Ⓞ<rs type="objekt">ain haus</rs>
 Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor auf dem Graben ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst Niclass des Stirlings haus</rs>
 <lb/>
@@ -29813,7 +29815,7 @@ Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor auf dem Grabe
 <rs type="von">Hanns Angervelder Rudolffs des Angervelder seligen Sun</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain <lb facs="#facs_206_r3l37" n="N002"/>haus</rs> 
+<rs type="objekt" ref="#DB6035">ain <lb facs="#facs_206_r3l37" n="N002"/>haus</rs> 
 <rs type="lage" ref="#Stadtgraben #vor_Stubentor">gelegen vor Stubentor auf dem Graben ze Wienn</rs> 
 <rs type="neben">zenagst Niclass <lb facs="#facs_206_r3l38" n="N003"/>des Stirlings haus</rs> 
 
@@ -31625,7 +31627,7 @@ nach <lb facs="#facs_214_r3l24" n="N004"/>lautt ains brieffs</rs>
 Ⓥ<rs type="von">Hainreich phlenczl</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB5712Ⓞ<rs type="objekt">sein haus</rs>
 FischerstiegeⓁ<rs type="lage">gelegen an der Vischerstieg</rs>
 Ⓝ<rs type="neben">zenagst Hannsen des Weissen haus</rs>
 <lb/>
@@ -31643,7 +31645,7 @@ FischerstiegeⓁ<rs type="lage">gelegen an der Vischerstieg</rs>
 <rs type="von">Hainreich phlenczl</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB5712">sein haus</rs> 
 <rs type="lage" ref="#Fischerstiege">gelegen an der Vischerstieg</rs> 
 <rs type="neben">zenagst <lb facs="#facs_214_r3l29" n="N002"/>Hannsen des Weissen haus</rs> 
 
@@ -31805,7 +31807,7 @@ und seinen erben</rs>
 <lb/>all drey Ulreichs tuchscherer geschefftleut</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">desselben Ulreichs haus</rs>
+DB5441Ⓞ<rs type="objekt">desselben Ulreichs haus</rs>
 Kienmarkt, KürsenhausⓁ<rs type="lage">gelegen am Kyenmarkcht</rs>
 Ⓝ<rs type="neben">zwischen des Kursenhaus
 <lb/>und Ulreichs haus auf der press</rs>
@@ -31825,7 +31827,7 @@ Kienmarkt, KürsenhausⓁ<rs type="lage">gelegen am Kyenmarkcht</rs>
 all drey Ulreichs tuchscherer geschefftleut</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">desselben Ulreichs <lb facs="#facs_215_r4l10" n="N003"/>haus</rs> 
+<rs type="objekt" ref="#DB5441">desselben Ulreichs <lb facs="#facs_215_r4l10" n="N003"/>haus</rs> 
 <rs type="lage" ref="#Kienmarkt #Kürsenhaus">gelegen am Kyenmarkcht</rs> 
 <rs type="neben">zwischen des Kursenhaus 
 und Ulreichs haus <lb facs="#facs_215_r4l11" n="N004"/>auf der press</rs> 
@@ -32619,7 +32621,7 @@ und seinen <lb facs="#facs_217_r2l43" n="N006"/>erben</rs>
 Ⓥ<rs type="von">Hanns Herwort</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus
+DB5637Ⓞ<rs type="objekt">ain haus
 <lb/>daz In von sein vater Ulreichen Herwortn dem Statschreiber anerstorben ist</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kyenmarkt</rs>
 Ⓝ<rs type="neben">zenegst des Stosser haus</rs>
@@ -32660,7 +32662,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kyenmarkt</rs>
 Ⓥ<rs type="von">Hanns Hekchl Burger in der Newnstat</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB5622Ⓞ<rs type="objekt">sein haus</rs>
 KienmarktⓁ<rs type="lage">gelegen an dem Kyenmarkt</rs>
 Ⓝ<rs type="neben">zenagst Wilhalms des Merttinger haus</rs>
 <lb/>
@@ -32678,7 +32680,7 @@ KienmarktⓁ<rs type="lage">gelegen an dem Kyenmarkt</rs>
 <rs type="von">Hanns Hekchl Burger in der Newnstat</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB5622">sein haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen an <lb facs="#facs_218_r1l12" n="N002"/>dem Kyenmarkt</rs> 
 <rs type="neben">zenagst Wilhalms des Merttinger haus</rs> 
 
@@ -33825,7 +33827,7 @@ und seinen erben</rs>
 <lb/>all funf ausrichter und volfurer des gescheffts So weilent Ott der Weiss dem got gnad getan hat</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus
+DB5645Ⓞ<rs type="objekt">ain haus
 <lb/>das des egenant Otten des Weissen gewesen ist</rs>
 Gässlein zu unser lieben Frau, RathausⓁ<rs type="lage">gelegen gegen dem Rathaus uber an dem Egk als man zu unser frawn geet</rs>
 Ⓝ<rs type="neben">zenegst unser frawn haus pharrhof an ainem tail</rs>
@@ -33857,7 +33859,7 @@ und Wolfhart von <lb facs="#facs_223_r3l10" n="N004"/>Pusewl Burger daselbs
 all funf ausrichter und volfurer des gescheffts So weilent <lb facs="#facs_223_r3l11" n="N005"/>Ott der Weiss dem got gnad getan hat</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">ain haus 
+<rs type="objekt" ref="#DB5645">ain haus 
 das des <lb facs="#facs_223_r3l12" n="N006"/>egenant Otten des Weissen gewesen ist</rs> 
 <rs type="lage" ref="#Gässlein_zu_unser_lieben_Frau #Rathaus">gelegen gegen dem Rathaus uber an <lb facs="#facs_223_r3l13" n="N007"/>dem Egk als man zu unser frawn geet</rs> 
 <rs type="neben">zenegst unser frawn haus pharrhof <lb facs="#facs_223_r3l14" n="N008"/>an ainem tail</rs> 
@@ -34179,7 +34181,7 @@ bei den PredigernⓁ<rs type="lage">
 Ⓥ<rs type="von">Hanns Otinger der kramer ze Wienn hat ver und Magdalen sein hausfraw</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haus</rs>
+DB5441Ⓞ<rs type="objekt">Ir haus</rs>
 KienmarktⓁ<rs type="lage">gelegen Am Kienmarkt</rs>
 Ⓝ<rs type="neben">zwischen dem Kursen haus und Ulreichs haus auf der press</rs>
 <lb/>
@@ -34198,7 +34200,7 @@ KienmarktⓁ<rs type="lage">gelegen Am Kienmarkt</rs>
 <rs type="von">Hanns Otinger der kramer ze Wienn hat ver und Magdalen sein hausfraw</rs> <lb facs="#facs_225_r1l4" n="N002"/>
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">Ir haus</rs> 
+<rs type="objekt" ref="#DB5441">Ir haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen Am Kienmarkt</rs> 
 <rs type="neben">zwischen dem Kursen <lb facs="#facs_225_r1l5" n="N003"/>haus und Ulreichs haus auf der press</rs> 
 
@@ -34472,7 +34474,7 @@ DB0006Ⓞ<rs type="objekt">ain haus
 <lb/>und yecz Wolfgangs des zimermans hausfrawn zu Walterstorff gewesen ist</rs>
 <lb/>
 Heiligengeistspital, NeuluckeⓁ<rs type="lage">gelegen In der Newlucken gegen dem Heiligengaist uber</rs>
-DB0012Ⓝ<rs type="neben">zenagst des hetler haus</rs>
+Ⓝ<rs type="neben">zenagst des hetler haus</rs>
 <lb/>
 <rs>daz wir fur xvi tl. d. dafur In dasselb haus von der egenant Kathrein gestanden ist
 <lb/>in der Burgerschrann ze Wienn mit dem Rechten erlangt und behabt haben
@@ -34500,7 +34502,7 @@ das frawn <lb facs="#facs_226_r3l20" n="N002"/>Kathrein weilent Lienharts des fu
 und yecz Wolfgangs des zimermans <lb facs="#facs_226_r3l21" n="N003"/>hausfrawn zu Walterstorff gewesen ist</rs> 
 
 <rs type="lage" ref="#Heiligengeistspital #Neulucke">gelegen In der Newlucken gegen dem Heiligengaist <lb facs="#facs_226_r3l22" n="N004"/>uber</rs> 
-<rs type="neben" ref="#DB0012">zenagst des hetler haus</rs> 
+<rs type="neben">zenagst des hetler haus</rs> 
 
 <rs>daz wir fur xvi tl. d. dafur In dasselb haus von <lb facs="#facs_226_r3l23" n="N005"/>der egenant Kathrein gestanden ist 
 in der Burgerschrann ze Wienn mit dem Rechten erlangt <lb facs="#facs_226_r3l24" n="N006"/>und behabt haben 
@@ -34579,7 +34581,7 @@ DB1006Ⓝ<rs type="neben">zenagst Steffans des Schoberleins haus</rs>
 Ⓥ<rs type="von">Bruder Hanns Grunwald prior dacz den Predigern ze Wienn und der Convent daselbs</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus das weilent Niclasen des Troppischen und Margreten seiner hausfrawn gewesen ist</rs>
+DB6051Ⓞ<rs type="objekt">ain haus das weilent Niclasen des Troppischen und Margreten seiner hausfrawn gewesen ist</rs>
 Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor auf dem Graben</rs>
 Ⓝ<rs type="neben">zenagst Seyfrids des Munsser haus</rs>
 <lb/>
@@ -34605,7 +34607,7 @@ Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor auf dem Grabe
 <rs type="von">Bruder Hanns Grunwald prior dacz den Predigern ze Wienn und der Convent <lb facs="#facs_227_r4l9" n="N002"/>daselbs</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">ain haus das weilent Niclasen des Troppischen und <lb facs="#facs_227_r4l10" n="N003"/>Margreten seiner hausfrawn gewesen ist</rs> 
+<rs type="objekt" ref="#DB6051">ain haus das weilent Niclasen des Troppischen und <lb facs="#facs_227_r4l10" n="N003"/>Margreten seiner hausfrawn gewesen ist</rs> 
 <rs type="lage" ref="#Stadtgraben #vor_Stubentor">gelegen vor Stubentor auf dem Graben</rs> <lb facs="#facs_227_r4l11" n="N004"/>
 <rs type="neben">zenagst Seyfrids des Munsser haus</rs> 
 
@@ -34680,8 +34682,8 @@ Item obtinuit folio 123</rs>
 Ⓥ<rs type="von">Hanns Warnhover Seifrids des Warnhover seligen Sun</rs>
 verkaufⒺ<rs type="ereignis">hat verkauft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain prantstat darauf ettwen ain haus und ain Mul genant der Slifstain gestanden ist</rs>
-WienflussⓁ<rs type="lage">gelegen in der Schefsrazz auf der Wienn</rs>
+DB6001Ⓞ<rs type="objekt">ain prantstat darauf ettwen ain haus und ain Mul genant der Slifstain gestanden ist</rs>
+ScheffstraßeⓁ<rs type="lage">gelegen in der Schefsrazz auf der Wienn</rs>
 Ⓝ<rs type="neben">zenagst des Amberger haus</rs>
 <lb/>
 25 tl.Ⓟ<measure type="preis">umb xxv tl. d.</measure>
@@ -34700,8 +34702,8 @@ WienflussⓁ<rs type="lage">gelegen in der Schefsrazz auf der Wienn</rs>
 <rs type="von">Hanns Warnhover Seifrids des Warnhover seligen Sun</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkauft</rs> 
 <lb facs="#facs_227_r4l24" n="N002"/>
-<rs type="objekt">ain prantstat darauf ettwen ain haus und ain Mul genant der Slifstain <lb facs="#facs_227_r4l25" n="N003"/>gestanden ist</rs> 
-<rs type="lage" ref="#Wienfluss">gelegen in der Schefsrazz auf der Wienn</rs> 
+<rs type="objekt" ref="#DB6001">ain prantstat darauf ettwen ain haus und ain Mul genant der Slifstain <lb facs="#facs_227_r4l25" n="N003"/>gestanden ist</rs> 
+<rs type="lage" ref="#Scheffstraße">gelegen in der Schefsrazz auf der Wienn</rs> 
 <rs type="neben">zenagst des Amberger <lb facs="#facs_227_r4l26" n="N004"/>haus</rs> 
 
 <measure type="preis" commodity="25 tl.">umb xxv tl. d.</measure> 
@@ -34731,7 +34733,7 @@ mit <lb facs="#facs_227_r4l28" n="N006"/>der egenant prantstat allen seinen frum
 <lb/>baid ausrichter und volfurer des geschefftz so weilnt Andre Hemerl getan hat</rs>
 verkaufⒺ<rs type="ereignis">habent verchauft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus
+DB5715Ⓞ<rs type="objekt">ain haus
 <lb/>das desselb Hemerleins gewesen ist</rs>
 FischerstiegeⓁ<rs type="lage">gelegen an der Vischerstieg ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst weilnt des Schern haus</rs>
@@ -34751,7 +34753,7 @@ FischerstiegeⓁ<rs type="lage">gelegen an der Vischerstieg ze Wienn</rs>
 baid ausrichter <lb facs="#facs_228_r2l2" n="N002"/>und volfurer des geschefftz so weilnt Andre Hemerl getan hat</rs> <lb facs="#facs_228_r2l3" n="N003"/>
 <rs type="ereignis" ref="#verkauf">habent verchauft</rs> 
 
-<rs type="objekt">ain haus 
+<rs type="objekt" ref="#DB5715">ain haus 
 das desselb Hemerleins gewesen ist</rs> 
 <rs type="lage" ref="#Fischerstiege">gelegen <lb facs="#facs_228_r2l4" n="N004"/>an der Vischerstieg ze Wienn</rs> 
 <rs type="neben">zenagst weilnt des Schern haus</rs> 
@@ -35197,7 +35199,7 @@ obtinuerunt folio 100 libro C</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft
 <lb/>an stat Annen Petern des sneider zu Enns seligen witib der ganczen gewalt e gehabt hat</rs>
 <lb/>
-Ⓞ<rs type="objekt">ainen halben stadel
+DB6040Ⓞ<rs type="objekt">ainen halben stadel
 <lb/>der sey von Hansen Abian Irm pruder seligen ist angeerbt
 <lb/>und mit Recht zugsprochen nach ains Grichtbriefs sag
 <lb/>des gegentail Conrat Abtstorffer und Margret die Kophdrechsls sein swester habent</rs>
@@ -35220,7 +35222,7 @@ vor StubentorⓁ<rs type="lage">ganczen gelegen vor stubentor</rs>
 <rs type="ereignis" ref="#verkauf">hat verchaufft <lb facs="#facs_231_r2l22" n="N002"/>
 an stat Annen Petern des sneider zu Enns seligen witib der ganczen gewalt <lb facs="#facs_231_r2l23" n="N003"/>e gehabt hat</rs> 
 
-<rs type="objekt">ainen halben stadel 
+<rs type="objekt" ref="#DB6040">ainen halben stadel 
 der sey von Hansen Abian Irm pruder seligen <lb facs="#facs_231_r2l24" n="N004"/>ist angeerbt 
 und mit Recht zugsprochen nach ains Grichtbriefs sag <lb facs="#facs_231_r2l25" n="N005"/>
 des gegentail Conrat Abtstorffer und Margret die Kophdrechsls sein swester <lb facs="#facs_231_r2l26" n="N006"/>habent</rs> 
@@ -35403,7 +35405,7 @@ ipse potestatem</rs>
 Ⓥ<rs type="von">Hanns Munsser Agnes seinr hausfraw</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">Ir haus</rs>
+DB6023Ⓞ<rs type="objekt">Ir haus</rs>
 Scheffstraße, StadtgrabenⓁ<rs type="lage">gelegen In der Scheffstrass ze Wienn auf dem Graben</rs>
 Ⓝ<rs type="neben">zenagst der umgerlin haus</rs>
 <lb/>
@@ -35428,7 +35430,7 @@ Scheffstraße, StadtgrabenⓁ<rs type="lage">gelegen In der Scheffstrass ze Wien
 <rs type="von">Hanns Munsser Agnes seinr hausfraw</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">Ir haus</rs> 
+<rs type="objekt" ref="#DB6023">Ir haus</rs> 
 <rs type="lage" ref="#Scheffstraße #Stadtgraben">gelegen In der <lb facs="#facs_232_r2l25" n="N002"/>Scheffstrass ze Wienn auf dem Graben</rs> 
 <rs type="neben">zenagst der umgerlin haus</rs> 
 
@@ -36775,7 +36777,7 @@ ipse potestatem</rs>
 Ⓥ<rs type="von">Hanns zingk der Junger</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">sein haus</rs>
+DB6013Ⓞ<rs type="objekt">sein haus</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass vor Stutentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst Lienharts des Lebenholczer haus an ainem tail</rs>
 Ⓝ<rs type="neben">und an dem andern tail gegen der Rosstrenck bey dem Pybersturn ze Wienn</rs>
@@ -36793,7 +36795,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass vor Stutentor ze Wien
 <rs type="von">Hanns zingk der Junger</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">sein haus</rs> 
+<rs type="objekt" ref="#DB6013">sein haus</rs> 
 <rs type="lage" ref="#Scheffstraße">gelegen in der Schefstrass vor Stutentor <lb facs="#facs_240_r2l22" n="N002"/>ze Wienn</rs> 
 <rs type="neben">zenagst Lienharts des Lebenholczer haus an ainem tail</rs> 
 <rs type="neben">und an dem andern <lb facs="#facs_240_r2l23" n="N003"/>tail gegen der Rosstrenck bey dem Pybersturn ze Wienn</rs> 
@@ -36879,7 +36881,7 @@ So sind Im <lb facs="#facs_240_r2l32" n="N006"/>dann die egenant lx tl. d. gencz
 <lb/>des andern</rs>
 <lb/>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
-Ⓞ<rs type="objekt">zway heuser
+DB5628Ⓞ<rs type="objekt">zway heuser
 <lb/>gelegen nebeneinander</rs>
 KienmarktⓁ<rs type="lage">in dem Gesslein als man von dem Silberpuhler an dem Kienmarkt geet</rs>
 Ⓝ<rs type="neben">zenagst Petern Trantwein des Angiesser haus</rs>
@@ -36923,7 +36925,7 @@ dafur Er sich auch <lb facs="#facs_241_r3l8" n="N006"/>genczleich hat angenomen
 des andern</rs> 
 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
-<rs type="objekt">zway heuser 
+<rs type="objekt" ref="#DB5628">zway heuser 
 gelegen nebeneinander</rs> <lb facs="#facs_241_r3l9" n="N007"/>
 <rs type="lage" ref="#Kienmarkt">in dem Gesslein als man von dem Silberpuhler an dem Kienmarkt geet</rs> 
 <rs type="neben">zenagst Petern <lb facs="#facs_241_r3l10" n="N008"/>Trantwein des Angiesser haus</rs> 
@@ -36960,7 +36962,7 @@ libro obligacionum C <lb facs="#facs_241_r3l21" n="N020"/>420</rs>
 Ⓥ<rs type="von">Hanns pair von Meczleinstorf</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB6013Ⓞ<rs type="objekt">sein haus</rs>
 Biberturm, vor StubentorⓁ<rs type="lage">gelegen gegen dem Pibersturn uber vor Stubentor</rs>
 Ⓝ<rs type="neben">zenagst Linharts Lehenholczer haus</rs>
 <lb/>
@@ -36984,7 +36986,7 @@ Biberturm, vor StubentorⓁ<rs type="lage">gelegen gegen dem Pibersturn uber vor
 <rs type="von">Hanns pair von Meczleinstorf</rs> 
 <rs type="ereignis" ref="#verkauf">hat verchaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB6013">sein haus</rs> 
 <rs type="lage" ref="#Biberturm #vor_Stubentor">gelegen gegen <lb facs="#facs_241_r3l23" n="N002"/>dem Pibersturn uber vor Stubentor</rs> 
 <rs type="neben">zenagst Linharts Lehenholczer haus</rs> 
 
@@ -37326,7 +37328,7 @@ Ging Si aber ab ee den Er so ist <lb facs="#facs_243_r1l15" n="N005"/>Im das vor
 Ⓥ<rs type="von">Hanns zirnast burger ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein drittail hauss</rs>
+DB5702Ⓞ<rs type="objekt">sein drittail hauss</rs>
 unter den SpenglernⓁ<rs type="lage">ganczes gelegen underm Spenglern
 <lb/>genant der lang Keler</rs>
 Ⓝ<rs type="neben">zenagst der Seyczer hof</rs>
@@ -37355,7 +37357,7 @@ unter den SpenglernⓁ<rs type="lage">ganczes gelegen underm Spenglern
 <rs type="von">Hanns zirnast burger ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein drittail hauss</rs> 
+<rs type="objekt" ref="#DB5702">sein drittail hauss</rs> 
 <rs type="lage" ref="#unter_den_Spenglern">ganczes gelegen <lb facs="#facs_243_r1l19" n="N002"/>underm Spenglern 
 genant der lang Keler</rs> 
 <rs type="neben">zenagst der Seyczer hof</rs> 
@@ -37959,7 +37961,7 @@ und Irn baiden erben</rs>
 <lb/>und Anna Larnczen des Hofleichs aus der Newnstat hausfraw</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain halbs haus</rs>
+DB5459aⓄ<rs type="objekt">ain halbs haus</rs>
 ⓔ<rs type="ereignis">das Sy von Ulreichen Wachsgiesser Irm vetter ist anerstorben</rs>
 <lb/>
 WürffelⓁ<rs type="lage">gancz gelegen am Egk bey der gassen als man zu unser frawn get
@@ -37986,7 +37988,7 @@ Margret Hannsen des Scharffenperger <lb facs="#facs_247_r1l10" n="N002"/>hausfra
 und Anna Larnczen des Hofleichs aus der Newnstat hausfraw</rs> <lb facs="#facs_247_r1l11" n="N003"/>
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">ain halbs haus</rs> 
+<rs type="objekt" ref="#DB5459a">ain halbs haus</rs> 
 <rs type="ereignis">das Sy von Ulreichen Wachsgiesser Irm vetter <lb facs="#facs_247_r1l12" n="N004"/>ist anerstorben</rs> 
 
 <rs type="lage" ref="#Würffel">gancz gelegen am Egk bey der gassen als man zu unser frawn <lb facs="#facs_247_r1l13" n="N005"/>get 
@@ -38576,7 +38578,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Hannreich Stornschacz der hautschuster</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB6033Ⓞ<rs type="objekt">sein haus</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor bey der Wienn</rs>
 Ⓝ<rs type="neben">zenagst Hannsen Gmunder des verber haus</rs>
 <lb/>
@@ -38596,7 +38598,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor bey der Wienn</rs>
 <rs type="von">Hannreich Stornschacz der hautschuster</rs> 
 <rs type="ereignis" ref="#verkauf">hat verchaufft</rs> 
 
-<rs type="objekt">sein haus</rs> <lb facs="#facs_251_r2l7" n="N002"/>
+<rs type="objekt" ref="#DB6033">sein haus</rs> <lb facs="#facs_251_r2l7" n="N002"/>
 <rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor bey der Wienn</rs> 
 <rs type="neben">zenagst Hannsen <lb facs="#facs_251_r2l8" n="N003"/>Gmunder des verber haus</rs> 
 
@@ -39065,7 +39067,7 @@ allen Irn frumen damit <lb facs="#facs_255_r2l8" n="N007"/>zeschaffen</rs>
 Ⓥ<rs type="von">Hanns Geresteiner burger zu Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB5629Ⓞ<rs type="objekt">sein haus</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kienmarkcht ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst den fleischpenkchen an aim tail</rs>
 Ⓝ<rs type="neben">und an dem andern zenagst Ulreichs des veldner haus</rs>
@@ -39087,7 +39089,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kienmarkcht ze Wienn</rs>
 <rs type="von">Hanns Geresteiner burger zu Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat <del>versa</del> verkaufft</rs> 
 
-<rs type="objekt">sein haus</rs> <lb facs="#facs_255_r2l12" n="N002"/>
+<rs type="objekt" ref="#DB5629">sein haus</rs> <lb facs="#facs_255_r2l12" n="N002"/>
 <rs type="lage" ref="#Kienmarkt">gelegen am Kienmarkcht ze Wienn</rs> 
 <rs type="neben">zenagst den fleischpenkchen <lb facs="#facs_255_r2l14" n="N003"/>an aim tail</rs> 
 <rs type="neben">und an dem andern zenagst Ulreichs des veldner <lb facs="#facs_255_r2l15" n="N004"/>haus</rs> 
@@ -40228,7 +40230,7 @@ mit dem egenant haus allen seinen frumen zeschaffen</rs>
 Ⓥ<rs type="von">Hanns Steger dizu den zeiten Burgermaister und kellermaister und der Rat gemain der Stat ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haws
+DB6036Ⓞ<rs type="objekt">ain haws
 <lb/>das In mit abgang frawn Margreten Hannsen Gmunder des verber hausfraun seligen
 <lb/>vormont und ledig worden ist</rs>
 <lb/>
@@ -40257,7 +40259,7 @@ vor Stubentor, WienflussⓁ<rs type="lage">gelegen vor Stubentor auf der Wienn</
 <rs type="von">Hanns Steger dizu den zeiten Burgermaister und kellermaister und der Rat gemain <lb facs="#facs_263_r3l3" n="N002"/>der Stat ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">ain haws 
+<rs type="objekt" ref="#DB6036">ain haws 
 das In mit abgang frawn <lb facs="#facs_263_r3l4" n="N003"/>Margreten Hannsen Gmunder des verber hausfraun seligen 
 vormont und ledig <lb facs="#facs_263_r3l5" n="N004"/>worden ist</rs> 
 
@@ -40470,7 +40472,7 @@ obtinuit residuum folio 452</rs>
 Ⓥ<rs type="von">Hainreich Pirchvelder burger ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haws</rs>
+DB5634Ⓞ<rs type="objekt">ain haws</rs>
 KienmarktⓁ<rs type="lage">gelegen an dem Kyenmarkt ze Wienn</rs>
 Ⓝ<rs type="neben">zunagst ‧‧ des Gewkramer haus</rs>
 <lb/>
@@ -40494,7 +40496,7 @@ KienmarktⓁ<rs type="lage">gelegen an dem Kyenmarkt ze Wienn</rs>
 <rs type="von">Hainreich Pirchvelder burger ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain haws</rs> <lb facs="#facs_264_r2l8" n="N002"/>
+<rs type="objekt" ref="#DB5634">ain haws</rs> <lb facs="#facs_264_r2l8" n="N002"/>
 <rs type="lage" ref="#Kienmarkt">gelegen an dem Kyenmarkt ze Wienn</rs> 
 <rs type="neben">zunagst ‧‧ des Gewkramer haus</rs> 
 
@@ -42037,7 +42039,7 @@ verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <rs>Hannsen dem Wurffel
 <lb/>und seinen erben</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain hofel
+DB6043Ⓞ<rs type="objekt">ain hofel
 <lb/>das hinden an desselben Wurffels haws stosset</rs>
 Stadtgraben, vor StubentorⓁ<rs type="lage">und ligt auf dem Statgraben vor Stubentor zeWienn</rs>
 <lb/>
@@ -42055,7 +42057,7 @@ Stadtgraben, vor StubentorⓁ<rs type="lage">und ligt auf dem Statgraben vor Stu
 <rs>Hannsen dem Wurffel 
 und seinen erben</rs> 
 <lb facs="#facs_273_r5l17" n="N003"/>
-<rs type="objekt">ain hofel 
+<rs type="objekt" ref="#DB6043">ain hofel 
 das hinden an desselben Wurffels haws stosset</rs> 
 <rs type="lage" ref="#Stadtgraben #vor_Stubentor">und ligt auf <lb facs="#facs_273_r5l18" n="N004"/>dem Statgraben vor Stubentor zeWienn</rs> 
 
@@ -42132,7 +42134,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Hanns Wurer vorsprech</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ainen halben tail seins hauss das nu ein prantstat ist
+DB6003Ⓞ<rs type="objekt">ainen halben tail seins hauss das nu ein prantstat ist
 <lb/>mitsambt dem ersten ort am keller daselbs da yecz die tur Inne stet</rs>
 Biberturm, ScheffstraßeⓁ<rs type="lage">gancz gelegen in der Schefstrass</rs>
 <lb/>
@@ -42153,7 +42155,7 @@ Biberturm, ScheffstraßeⓁ<rs type="lage">in der gassen als man in die Schefstr
 <rs type="von">Hanns Wurer vorsprech</rs> 
 <rs type="ereignis" ref="#verkauf">hat verchaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">ainen halben tail seins hauss <lb facs="#facs_274_r2l2" n="N002"/>das nu ein prantstat ist 
+<rs type="objekt" ref="#DB6003">ainen halben tail seins hauss <lb facs="#facs_274_r2l2" n="N002"/>das nu ein prantstat ist 
 mitsambt dem ersten ort am keller daselbs <lb facs="#facs_274_r2l3" n="N003"/>da yecz die tur Inne stet</rs> 
 <rs type="lage" ref="#Biberturm #Scheffstraße">gancz gelegen in der Schefstrass</rs> 
 
@@ -42179,7 +42181,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Hans Wurer vorsprech</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ain halben tail seins hauss
+DB6003Ⓞ<rs type="objekt">ain halben tail seins hauss
 <lb/>das nu ain prantstat ist</rs>
 <lb/>
 <rs>mitsambt dem hindern ort an dem keller daselbs da yecz kain tur in get
@@ -42200,7 +42202,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass</rs>
 <rs type="von">Hans Wurer vorsprech</rs> 
 <rs type="ereignis" ref="#verkauf">hat verchaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">ain halben tail seins hauss <lb facs="#facs_274_r2l10" n="N002"/>
+<rs type="objekt" ref="#DB6003">ain halben tail seins hauss <lb facs="#facs_274_r2l10" n="N002"/>
 das nu ain prantstat ist</rs> 
 
 <rs>mitsambt dem hindern ort an dem <lb facs="#facs_274_r2l11" n="N003"/>keller daselbs da yecz kain tur in get 
@@ -42373,7 +42375,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Jacob am Ort burger ze Wienn
 <lb/>verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ein haus</rs>
+DB6013Ⓞ<rs type="objekt">ein haus</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor In der Rozztrenkch ze Wienn</rs>
 Ⓝ<rs type="neben">zenechst des Eysnein Thomans haus</rs>
 <lb/>
@@ -42399,7 +42401,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor In der Rozztrenkch ze Wien
 <rs type="von">Jacob am Ort burger ze Wienn 
 verkaufft</rs> 
 
-<rs type="objekt">ein haus</rs> 
+<rs type="objekt" ref="#DB6013">ein haus</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor In der <lb facs="#facs_287_r1l7" n="N002"/>Rozztrenkch ze Wienn</rs> 
 <rs type="neben">ze- nechst des Eysnein Thomans haus</rs> 
 
@@ -42497,7 +42499,7 @@ und alles <lb facs="#facs_287_line_1649076380266_1026" n="N012"/>das damit tun u
 Ⓥ<rs type="von">Her Jacob lewbman dieczeit Korherr Allerheiligen Tumbkirchen dats sand Steffan ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haws</rs>
+DB5711Ⓞ<rs type="objekt">ain haws</rs>
 FischerstiegeⓁ<rs type="lage">gelegen an der Vischerstieg ze Wienn</rs>
 Ⓝ<rs type="neben">an ainem tail zenegst weilent des hemerleins haws</rs>
 Ⓝ<rs type="neben">und an dem andern tail zenegst der padstuben genant dats den Schewkchen</rs>
@@ -42526,7 +42528,7 @@ FischerstiegeⓁ<rs type="lage">gelegen an der Vischerstieg ze Wienn</rs>
 <rs type="von">Her Jacob lewbman dieczeit Korherr Allerheiligen Tumbkirchen dats sand Steffan ze Wienn</rs> <lb facs="#facs_287_r1l32" n="N002"/>
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain haws</rs> 
+<rs type="objekt" ref="#DB5711">ain haws</rs> 
 <rs type="lage" ref="#Fischerstiege">gelegen an der Vischerstieg ze Wienn</rs> 
 <rs type="neben">an ainem tail zenegst <lb facs="#facs_287_r1l33" n="N003"/>weilent des hemerleins haws</rs> 
 <rs type="neben">und an dem andern tail zenegst der padstuben genant <lb facs="#facs_287_line_1650897954890_4492" n="N004"/>dats den Schewkchen</rs> 
@@ -42558,7 +42560,7 @@ vor aller <lb facs="#facs_287_r1l42" n="N013"/>Irrung und hindernuzz</rs>
 Ⓥ<rs type="von">Jacob hantschuster purger ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB6033Ⓞ<rs type="objekt">ain haus</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenegst Hannsen von Grecz haus</rs>
 <lb/>
@@ -42579,7 +42581,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 <rs type="von">Jacob hantschuster purger ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB6033">ain haus</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor ze Wienn</rs> <lb facs="#facs_287_r1l46" n="N002"/>
 <rs type="neben">zenegst Hannsen von Grecz haus</rs> 
 
@@ -43072,7 +43074,7 @@ mit verkauffen verseczen und geben wem Sy wellent</rs>
 Ⓥ<rs type="von">Kunrat Kyembseer Jorg Hegenawer</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain halbs haws genant der Langkeller</rs>
+DB5702Ⓞ<rs type="objekt">ain halbs haws genant der Langkeller</rs>
 unter den SpenglernⓁ<rs type="lage">das ganczes gelegen ist under den spenglern
 <lb/>zenest der geistleichen hern von Mawrbach haws</rs>
 <lb/>
@@ -43121,7 +43123,7 @@ unter den SpenglernⓁ<rs type="lage">das ganczes gelegen ist under den spengler
 <rs type="von">Kunrat Kyembseer <lb facs="#facs_292_r2l5" n="N002"/>Jorg Hegenawer</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain halbs haws genant der Langkeller</rs> 
+<rs type="objekt" ref="#DB5702">ain halbs haws genant der Langkeller</rs> 
 <rs type="lage" ref="#unter_den_Spenglern">das ganczes gelegen ist <lb facs="#facs_292_r2l6" n="N003"/>under den spenglern 
 zenest der geistleichen hern von Mawrbach haws</rs> 
 
@@ -43237,7 +43239,7 @@ verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
 DB0006Ⓞ<rs type="objekt">ir haws</rs>
 NeuluckeⓁ<rs type="lage">gelegen In der Newlukchen</rs>
-DB0012Ⓝ<rs type="neben">zenegst Pilgreims des hettler haws</rs>
+Ⓝ<rs type="neben">zenegst Pilgreims des hettler haws</rs>
 <lb/>
 Ⓑ<rs type="belastung">davon man Jerleich dint
 <lb/>Otten von freising und seinen erben
@@ -43263,7 +43265,7 @@ DB0012Ⓝ<rs type="neben">zenegst Pilgreims des hettler haws</rs>
 
 <rs type="objekt" ref="#DB0006">ir haws</rs> 
 <rs type="lage" ref="#Neulucke">gelegen <lb facs="#facs_292_r2l43" n="N002"/>In der Newlukchen</rs> 
-<rs type="neben" ref="#DB0012">zenegst Pilgreims des hettler haws</rs> 
+<rs type="neben">zenegst Pilgreims des hettler haws</rs> 
 
 <rs type="belastung">davon man Jerleich dint 
 Otten <lb facs="#facs_292_r2l44" n="N003"/>von freising und seinen erben 
@@ -43652,7 +43654,7 @@ verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
 DB0005Ⓞ<rs type="objekt">ain haus</rs>
 Neulucke, vor KernertorⓁ<rs type="lage">gelegen vor Kernertor In der Newlucken ze Wienn</rs>
-DB0011aⓃ<rs type="neben">zenechst weilent Wernharts des Tencken haus</rs>
+Ⓝ<rs type="neben">zenechst weilent Wernharts des Tencken haus</rs>
 <lb/>
 20 tl.Ⓟ<measure type="preis">umb xx tl. d.</measure>
 Ⓐ<rs type="an">Symon dem Strudmer Elsbeten seiner hausfrawn</rs>
@@ -43671,7 +43673,7 @@ DB0011aⓃ<rs type="neben">zenechst weilent Wernharts des Tencken haus</rs>
 
 <rs type="objekt" ref="#DB0005">ain haus</rs> 
 <rs type="lage" ref="#Neulucke #vor_Kernertor">gelegen vor Kernertor <lb facs="#facs_294_r1l30" n="N002"/>In der Newlucken ze Wienn</rs> 
-<rs type="neben" ref="#DB0011a">zenechst weilent Wernharts des Tencken haus</rs> 
+<rs type="neben">zenechst weilent Wernharts des Tencken haus</rs> 
 
 <measure type="preis" commodity="20 tl.">umb xx tl. d.</measure> 
 <rs type="an">Symon <lb facs="#facs_294_r1l31" n="N003"/>dem Strudmer Elsbeten seiner hausfrawn</rs> 
@@ -43840,7 +43842,7 @@ und <lb facs="#facs_295_r2l14" n="N004"/>Irn erben</rs>
 Ⓥ<rs type="von">Jorg von Ernsprunn Burger ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB5604Ⓞ<rs type="objekt">sein haus</rs>
 KienmarktⓁ<rs type="lage">gelegen an dem Kyenmarkcht ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst Fridreichs Sachsen haus an aim tail</rs>
 Ⓝ<rs type="neben">und zenegst Simons Glaser haus an dem andern</rs>
@@ -43862,7 +43864,7 @@ KienmarktⓁ<rs type="lage">gelegen an dem Kyenmarkcht ze Wienn</rs>
 <rs type="von">Jorg von Ernsprunn Burger ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB5604">sein haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen an <lb facs="#facs_295_r2l20" n="N002"/>dem Kyenmarkcht ze Wienn</rs> 
 <rs type="neben">zenagst Fridreichs Sachsen haus an aim tail</rs> <lb facs="#facs_295_r2l21" n="N003"/>
 <rs type="neben">und zenegst Simons Glaser haus an dem andern</rs> 
@@ -44037,7 +44039,7 @@ JudengasseⓁ<rs type="lage">gelegen in der Judengassen ze Wienn</rs>
 <rs>Jorg Angervelder weilent Radleins des Angervelder Sun
 <lb/>hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">seinen hof mit seiner zugehorung</rs>
+DB0208Ⓞ<rs type="objekt">seinen hof mit seiner zugehorung</rs>
 WiedenⓁ<rs type="lage">gelegen auserthalben der widem
 <lb/>der weilent Hawnolts des schuchler gewesen ist
 <lb/>genant der (Zeckmayrin) hof</rs>
@@ -44062,7 +44064,7 @@ WiedenⓁ<rs type="lage">gelegen auserthalben der widem
 <rs>Jorg Angervelder weilent Radleins des Angervelder Sun 
 hat verkaufft</rs> 
 
-<rs type="objekt">seinen hof mit seiner zugehorung</rs> <lb facs="#facs_296_r2l2" n="N003"/>
+<rs type="objekt" ref="#DB0208">seinen hof mit seiner zugehorung</rs> <lb facs="#facs_296_r2l2" n="N003"/>
 <rs type="lage" ref="#Wieden">gelegen auserthalben der widem 
 der weilent Hawnolts des schuchler gewesen ist 
 genant der <unclear>Zeckmayrin</unclear> <lb facs="#facs_296_r2l3" n="N004"/>hof</rs> 
@@ -45299,7 +45301,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Jacob Rehwein</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB5625Ⓞ<rs type="objekt">ain haus</rs>
 ⓔ<rs type="ereignis">das Im Kristan hewn mitsambt andern seinen gutern ledichlichen geschafft hat
 <lb/>nach lautt seins gescheffts das in dem Stat puch ze Wienn geschriben stet</rs>
 <lb/>
@@ -45329,7 +45331,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kyenmarkt</rs>
 <rs type="von">Jacob Rehwein</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB5625">ain haus</rs> 
 <rs type="ereignis">das Im Kristan hewn mitsambt andern seinen <lb facs="#facs_303_r2l12" n="N002"/>gutern ledichlichen geschafft hat 
 nach lautt seins gescheffts das in dem Stat <lb facs="#facs_303_r2l13" n="N003"/>puch ze Wienn geschriben stet</rs> 
 
@@ -46106,7 +46108,7 @@ und Irn <lb facs="#facs_309_r2l9" n="N006"/>baiden erben</rs>
 Ⓥ<rs type="von">Bruder Jorg von Traisenmaw diczeit prior des klostser dacz den Predigern zu Wienn und der Convent daselbs</rs>
 verkaufⒺ<rs type="ereignis">habent verchaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haws das Irs Rechten vorfluchtigen gelt Niclasen Gawnestorffer des pinter gewesen ist</rs>
+DB6051Ⓞ<rs type="objekt">ain haws das Irs Rechten vorfluchtigen gelt Niclasen Gawnestorffer des pinter gewesen ist</rs>
 Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor auf dem Graben</rs>
 Ⓝ<rs type="neben">zenagst Seyfrids des Munsser haus</rs>
 <lb/>
@@ -46129,7 +46131,7 @@ Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor auf dem Grabe
 <rs type="von">Bruder Jorg von Traisenmaw diczeit prior des klostser dacz den Predigern zu <lb facs="#facs_309_r2l13" n="N002"/>Wienn und der Convent daselbs</rs> 
 <rs type="ereignis" ref="#verkauf">habent verchaufft</rs> 
 
-<rs type="objekt">ain haws das Irs <lb facs="#facs_309_r2l14" n="N003"/>Rechten vorfluchtigen gelt Niclasen Gawnestorffer des pinter gewesen <lb facs="#facs_309_r2l15" n="N004"/>ist</rs> 
+<rs type="objekt" ref="#DB6051">ain haws das Irs <lb facs="#facs_309_r2l14" n="N003"/>Rechten vorfluchtigen gelt Niclasen Gawnestorffer des pinter gewesen <lb facs="#facs_309_r2l15" n="N004"/>ist</rs> 
 <rs type="lage" ref="#Stadtgraben #vor_Stubentor">gelegen vor Stubentor auf dem Graben</rs> 
 <rs type="neben">zenagst Seyfrids des Munsser <lb facs="#facs_309_r2l16" n="N005"/>haus</rs> <del>umb</del> 
 
@@ -46677,7 +46679,7 @@ GreutⓁ<rs type="lage">gelegen im Grewt under ledern</rs>
 Ⓥ<rs type="von">Bruder Jorg von Trusenmaur prior und der Convent gmain zu den predignern ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ain haws
+DB6016Ⓞ<rs type="objekt">ain haws
 <lb/>das Seyfrids des Munsser gewesen ist</rs>
 Scheffstraße, StadtgrabenⓁ<rs type="lage">gelegen in der Schefstrass und stosset mit dem hindern tail auf dem Graben</rs>
 Ⓝ<rs type="neben">zenagst Jorgen des kochs haws an aim tail</rs>
@@ -46698,7 +46700,7 @@ Scheffstraße, StadtgrabenⓁ<rs type="lage">gelegen in der Schefstrass und stos
 <rs type="von">Bruder Jorg von Trusenmaur prior und der Convent gmain zu den <lb facs="#facs_312_r2l22" n="N002"/>predignern ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">ain haws 
+<rs type="objekt" ref="#DB6016">ain haws 
 das Seyfrids des Munsser <lb facs="#facs_312_r2l23" n="N003"/>gewesen ist</rs> 
 <rs type="lage" ref="#Scheffstraße #Stadtgraben">gelegen in der Schefstrass und stosset mit dem hindern tail <lb facs="#facs_312_r2l24" n="N004"/>auf dem Graben</rs> 
 <rs type="neben">zenagst Jorgen des kochs haws an aim tail</rs> 
@@ -47248,7 +47250,7 @@ und allen irn frumen <lb facs="#facs_331_r1l39" n="N023"/>damit zeschaffen verse
 <lb/>die vormaln Kunraten den Kunigswiser auch hat eleich gehabt</rs>
 Ⓔ<rs type="ereignis">hat verkaufftt</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haws</rs>
+DB6006Ⓞ<rs type="objekt">ain haws</rs>
 <lb/>
 <rs>das Sy und der vorgenant ir erer man Chunrat Kunigswiser gekaufft habent
 <lb/>In baiden miteinander oder welches under in baiden das ander al uberlebt
@@ -47283,7 +47285,7 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">das gelegen ist in der Scheffstra
 die vormaln Kunraten den Kunigswiser auch <lb facs="#facs_332_r2l2" n="N002"/>hat eleich gehabt</rs> 
 <rs type="ereignis">hat verkaufftt</rs> 
 
-<rs type="objekt">ain haws</rs> 
+<rs type="objekt" ref="#DB6006">ain haws</rs> 
 
 <rs>das Sy und der vorgenant ir erer man <lb facs="#facs_332_r2l3" n="N003"/>Chunrat Kunigswiser gekaufft habent 
 In baiden miteinander oder welches under <lb facs="#facs_332_r2l4" n="N004"/>in baiden das ander al uberlebt 
@@ -47639,7 +47641,7 @@ und allen irn frumen damit zeschaffen verkauffen verseczen <lb facs="#facs_334_r
 überschreibungⒺ<rs type="ereignis">hat gemacht und gegeben
 <lb/>demselben irm mann Pauln dem Spannagl</rs>
 <lb/>
-Ⓞ<rs type="objekt">ir haus
+DB6038Ⓞ<rs type="objekt">ir haus
 <lb/>das der egenant ir vater seliger und Kathrey sein hausfraw ir Muter mit gesambter hant gekaufft habent</rs>
 <lb/>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
@@ -47672,7 +47674,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 <rs type="ereignis" ref="#überschreibung">hat gemacht und gegeben 
 demselben irm mann Pauln dem Spannagl</rs> 
 
-<rs type="objekt">ir haus <lb facs="#facs_334_r3l20" n="N003"/>
+<rs type="objekt" ref="#DB6038">ir haus <lb facs="#facs_334_r3l20" n="N003"/>
 das der egenant ir vater seliger und Kathrey sein hausfraw ir Muter mit gesambter <lb facs="#facs_334_r3l21" n="N004"/>hant gekaufft habent</rs> 
 
 <rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor ze Wienn</rs> 
@@ -47725,7 +47727,7 @@ so sol es ir ledichleich <lb facs="#facs_334_r3l32" n="N015"/>gevallen</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft
 <lb/>mit willen gunst und wissen des Burgermaisters Richter und des Rats der Stat ze Wienn</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haws</rs>
+DB0204Ⓞ<rs type="objekt">ain haws</rs>
 Heumarkt, vor KernertorⓁ<rs type="lage">gelegen am Hewgries vor Kernertor ze Wienn</rs>
 Ⓝ<rs type="neben">zenegst weilent des Gaispekchen haus</rs>
 <lb/>
@@ -47764,7 +47766,7 @@ Heumarkt, vor KernertorⓁ<rs type="lage">gelegen am Hewgries vor Kernertor ze W
 <rs type="ereignis" ref="#verkauf">hat verkaufft 
 mit willen gunst und wissen <lb facs="#facs_335_r1l7" n="N002"/>des Burgermaisters Richter und des Rats der Stat ze Wienn</rs> 
 
-<rs type="objekt">ain haws</rs> 
+<rs type="objekt" ref="#DB0204">ain haws</rs> 
 <rs type="lage" ref="#Heumarkt #vor_Kernertor">gelegen am Hewgries <lb facs="#facs_335_r1l8" n="N003"/>vor Kernertor ze Wienn</rs> 
 <rs type="neben">zenegst weilent des Gaispekchen haus</rs> 
 
@@ -48889,7 +48891,7 @@ miteinander mit gesambter hand gekaufft habent</rs>
 <lb/>demselben Irm wirt</rs>
 <lb/>
 Ⓞ<rs type="objekt">Ir haus und hofstat hinden daran</rs>
-vor StubentorⓁ<rs type="lage">gelegen vor Stubentor bey dem Paradeis</rs>
+Greut, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor bey dem Paradeis</rs>
 Ⓝ<rs type="neben">zenagst Hannsen des Vischel haus</rs>
 <lb/>
 <rs>daz Ir Ir Muter Margreth Paulen von Guns hausfraw geschafft hat</rs>
@@ -48912,7 +48914,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor bey dem Paradeis</rs>
 demselben Irm wirt</rs> 
 
 <rs type="objekt">Ir <lb facs="#facs_340_r2l19" n="N002"/>haus und hofstat hinden daran</rs> 
-<rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor bey dem Paradeis</rs> 
+<rs type="lage" ref="#Greut #vor_Stubentor">gelegen vor Stubentor bey dem Paradeis</rs> 
 <rs type="neben">zenagst <lb facs="#facs_340_r2l20" n="N003"/>Hannsen des Vischel haus</rs> 
 
 <rs>daz Ir Ir Muter Margreth Paulen von Guns hausfraw <lb facs="#facs_340_r2l21" n="N004"/>geschafft hat</rs> 
@@ -49607,7 +49609,7 @@ vendidit purkrecht uxori <lb facs="#facs_343_r5l4" n="N011"/>folio 28</rs>
 <ab type="formular">
 Ⓥ<rs type="von">Kathrey Niclasen des Koppleins seligen witib hat Gegeben</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haus
+DB6036Ⓞ<rs type="objekt">Ir haus
 <lb/>daz Sy umb Ir aigenhafts gut gechaufft hat</rs>
 vor Stubentor, WienflussⓁ<rs type="lage">gelegen vor Stubentor auf der Wienn</rs>
 Ⓝ<rs type="neben">zenagst weilnt Herleins haus des hantschuster</rs>
@@ -49627,7 +49629,7 @@ vor Stubentor, WienflussⓁ<rs type="lage">gelegen vor Stubentor auf der Wienn</
 <lb facs="#facs_343_r6l19" n="N001"/>
 <rs type="von">Kathrey Niclasen des Koppleins seligen witib hat Gegeben</rs> 
 
-<rs type="objekt">Ir haus 
+<rs type="objekt" ref="#DB6036">Ir haus 
 daz Sy umb <lb facs="#facs_343_r6l20" n="N002"/>Ir aigenhafts gut gechaufft hat</rs> 
 <rs type="lage" ref="#vor_Stubentor #Wienfluss">gelegen vor Stubentor auf der Wienn</rs> 
 <rs type="neben">zenagst <lb facs="#facs_343_r6l21" n="N003"/>weilnt Herleins haus des hantschuster</rs> 
@@ -49653,7 +49655,7 @@ furbaser ledikleich <lb facs="#facs_343_r6l23" n="N005"/>allen irn frumen damit 
 <lb/>Hanns Widhart und Wilhalm gepruder die Schurffen Ir Sun</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">Ir haus</rs>
+DB6011Ⓞ<rs type="objekt">Ir haus</rs>
 Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor In der Schefstrass</rs>
 Ⓝ<rs type="neben">zu nagst Jacobs haus am Ort</rs>
 <lb/>
@@ -49671,7 +49673,7 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor In der Sche
 Hanns <lb facs="#facs_343_r6l27" n="N002"/>Widhart und Wilhalm gepruder die Schurffen Ir Sun</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">Ir <lb facs="#facs_343_r6l28" n="N003"/>haus</rs> 
+<rs type="objekt" ref="#DB6011">Ir <lb facs="#facs_343_r6l28" n="N003"/>haus</rs> 
 <rs type="lage" ref="#Scheffstraße #vor_Stubentor">gelegen vor Stubentor In der Schefstrass</rs> 
 <rs type="neben">zu nagst Jacobs haus <lb facs="#facs_343_r6l29" n="N004"/>am Ort</rs> 
 
@@ -50034,7 +50036,7 @@ SchweinemarktⓁ<rs type="lage">gancz gelegen am Sweinmarkt</rs>
 Ⓥ<rs type="von">Kathrey Hannsen des plodl hausfraw</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ain pranntstat darauf Eemaln ain Stadl gestanden ist</rs>
+DB6004Ⓞ<rs type="objekt">ain pranntstat darauf Eemaln ain Stadl gestanden ist</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen In der Schefstrass</rs>
 Ⓝ<rs type="neben">zenagst der Mul genant der Slifstain</rs>
 <lb/>
@@ -50055,7 +50057,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen In der Schefstrass</rs>
 <rs type="von">Kathrey Hannsen des plodl hausfraw</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">ain pranntstat darauf <lb facs="#facs_345_r4l34" n="N002"/>Eemaln ain Stadl gestanden ist</rs> 
+<rs type="objekt" ref="#DB6004">ain pranntstat darauf <lb facs="#facs_345_r4l34" n="N002"/>Eemaln ain Stadl gestanden ist</rs> 
 <rs type="lage" ref="#Scheffstraße">gelegen In der Schefstrass</rs> 
 <rs type="neben">zenagst der <lb facs="#facs_345_r4l35" n="N003"/>Mul genant der Slifstain</rs> 
 
@@ -50423,7 +50425,7 @@ Micheln <lb facs="#facs_347_r2l17" n="N005"/>des Hunczhaimer erben xv tl. d. ze 
 <lb/>und Junkfrawn Berblein Irer seiner tochter
 <lb/>die Er bey weilent Martha seiner hausfraw Kristans des Smids seligen tochter gehabt hat</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB5701Ⓞ<rs type="objekt">ain haus</rs>
 unter den SpenglernⓁ<rs type="lage">gelegen undern Spenglern bey dem Eysneingatern</rs>
 Ⓝ<rs type="neben">zenagst Micheln des Auflaufs zuhaus</rs>
 <lb/>
@@ -50457,7 +50459,7 @@ hat geben</rs>
 und Junkfrawn Berblein Irer seiner tochter 
 die Er bey <lb facs="#facs_348_r1l10" n="N004"/>weilent Martha seiner hausfraw Kristans des Smids seligen tochter gehabt hat</rs> 
 <lb facs="#facs_348_r1l12" n="N005"/>
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB5701">ain haus</rs> 
 <rs type="lage" ref="#unter_den_Spenglern">gelegen undern Spenglern bey dem Eysneingatern</rs> 
 <rs type="neben">zenagst Micheln <lb facs="#facs_348_r1l14" n="N006"/>des Auflaufs zuhaus</rs> 
 
@@ -51666,7 +51668,7 @@ und Irn paiden erben</rs>
 <rs>dem vorgenant Irm Mann Hannsen dem Holczer</rs>
 <lb/>
 DB0056Ⓞ<rs type="objekt">Ir haus und Garten daran</rs>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst Erharts haus von Emerstorf mit der obern seitten</rs>
 <lb/>
 Ⓑ<rs type="belastung">davon man Jerleich dint
@@ -52568,7 +52570,7 @@ verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
 DB0005Ⓞ<rs type="objekt">sein haws</rs>
 Neulucke, vor KernertorⓁ<rs type="lage">gelegen vor Kernertor in der Newlukchen ze Wienn</rs>
-DB0011aⓃ<rs type="neben">zenegst Wernharts des Genken haws und was darczu gehort</rs>
+Ⓝ<rs type="neben">zenegst Wernharts des Genken haws und was darczu gehort</rs>
 <lb/>
 20 tl.Ⓟ<measure type="preis">umb zwainczig phunt phenning</measure>
 <lb/>
@@ -52589,7 +52591,7 @@ DB0011aⓃ<rs type="neben">zenegst Wernharts des Genken haws und was darczu geho
 
 <rs type="objekt" ref="#DB0005">sein haws</rs> 
 <rs type="lage" ref="#Neulucke #vor_Kernertor">gelegen vor Kernertor in der New- <lb facs="#facs_359_r1l7" n="N002"/>lukchen ze Wienn</rs> 
-<rs type="neben" ref="#DB0011a">zenegst Wernharts des Genken haws und was darczu gehort</rs> 
+<rs type="neben">zenegst Wernharts des Genken haws und was darczu gehort</rs> 
 
 <measure type="preis" commodity="20 tl.">umb zwainczig <lb facs="#facs_359_r1l8" n="N003"/>phunt phenning</measure> 
 
@@ -53489,7 +53491,7 @@ Agnesen seiner hausfrawn</rs>
 <lb/>so Dorothe weilent Niclass des fluscharten seligen witib getan hat</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB5620Ⓞ<rs type="objekt">ain haus</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kyenmarkcht ze Wienn an dem egk</rs>
 Ⓝ<rs type="neben">gegen Hawnolts des Schuchler haus uber an aim tail</rs>
 Ⓝ<rs type="neben">und an dem andern zenagst Wilhalm des Merttinger haus</rs>
@@ -53510,7 +53512,7 @@ zu den zeiten all drey ausrichter und volfurer des gescheffts
 so Dorothe <lb facs="#facs_363_r2l27" n="N003"/>weilent Niclass des fluscharten seligen witib getan hat</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">ain haus</rs> <lb facs="#facs_363_r2l28" n="N004"/>
+<rs type="objekt" ref="#DB5620">ain haus</rs> <lb facs="#facs_363_r2l28" n="N004"/>
 <rs type="lage" ref="#Kienmarkt">gelegen am Kyenmarkcht ze Wienn an dem egk</rs> 
 <rs type="neben">gegen Hawnolts des Schuchler haus <lb facs="#facs_363_r2l29" n="N005"/>uber an aim tail</rs> 
 <rs type="neben">und an dem andern zenagst Wilhalm des Merttinger haus</rs> 
@@ -53544,7 +53546,7 @@ verkaufⒺ<rs type="ereignis">hat verkaufft
 <lb/>durch pawvelligkait</rs>
 <lb/>
 DB0056Ⓞ<rs type="objekt">Michels weilent Seifridts des pewrleins Suns haus und Garten hinden daran</rs>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor</rs>
 Ⓝ<rs type="neben">zenegst weilnt des Newkums haus</rs>
 <lb/>
 Ⓑ<rs type="belastung">servit ad sanctam Mariam Magdalenam i½ lb. Wachs</rs>
@@ -53653,7 +53655,7 @@ Neuer MarktⓁ<rs type="lage">daz ganczes gelegen ist an dem Newnmarkcht</rs>
 Ⓥ<rs type="von">Larencz Holczkewffel</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB5646Ⓞ<rs type="objekt">ain haus</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kyenmarkt mit aim tail</rs>
 Ⓝ<rs type="neben">zenegst Niclas Vannawer haus</rs>
 Ⓝ<rs type="neben">und stosst mit dem andern tail an desselben Vannawer Zuhaus</rs>
@@ -53682,7 +53684,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kyenmarkt mit aim tail</rs>
 <rs type="von">Larencz Holczkewffel</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB5646">ain haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen am Kyenmarkt mit aim <lb facs="#facs_364_r2l9" n="N002"/>tail</rs> 
 <rs type="neben">zenegst Niclas Vannawer haus</rs> 
 <rs type="neben">und stosst mit dem andern tail an desselben <lb facs="#facs_364_r2l10" n="N003"/>Vannawer Zuhaus</rs> 
@@ -53844,7 +53846,7 @@ von Irm obgenant vater Veiten dem Schuster aner¬ <lb facs="#facs_364_r2l33" n="
 Ⓥ<rs type="von">Lucey Berchtolts Amberger witib</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ainen Stadel</rs>
+DB6004Ⓞ<rs type="objekt">ainen Stadel</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen in der Scheffstrass</rs>
 Ⓝ<rs type="neben">zenagst der Mul genant der Slifstain</rs>
 <lb/>
@@ -53863,7 +53865,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Scheffstrass</rs>
 <rs type="von">Lucey Berchtolts Amberger witib</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">ainen Stadel</rs> 
+<rs type="objekt" ref="#DB6004">ainen Stadel</rs> 
 <rs type="lage" ref="#Scheffstraße">gelegen in der <lb facs="#facs_365_r3l6" n="N002"/>Scheffstrass</rs> 
 <rs type="neben">zenagst der Mul genant der Slifstain</rs> 
 
@@ -53989,7 +53991,7 @@ ut patet <lb facs="#facs_365_r2l6" n="N015"/>folio xxxi In Novo <lb facs="#facs_
 Ⓥ<rs type="von">Lucas Wiczinger</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB5634Ⓞ<rs type="objekt">sein haus</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kyenmarkcht</rs>
 Ⓝ<rs type="neben">zenegst des Gewkramer haus
 <lb/>daz weilent Hannsen des Staindel ist gewesen</rs>
@@ -54009,7 +54011,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kyenmarkcht</rs>
 <rs type="von">Lucas Wiczinger</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB5634">sein haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen am Kyenmarkcht</rs> 
 <rs type="neben">zenegst des Gew¬ <lb facs="#facs_365_r3l32" n="N002"/>kramer haus 
 daz weilent Hannsen des Staindel ist gewesen</rs> 
@@ -54435,7 +54437,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Larencz Lehner</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB0209Ⓞ<rs type="objekt">sein haus</rs>
 vor KernertorⓁ<rs type="lage">gelegen vor Kernertor</rs>
 Ⓝ<rs type="neben">gegen dem Heyligengaist uber</rs>
 Ⓝ<rs type="neben">zenagst Larenczen des KerIndhell haus</rs>
@@ -54447,16 +54449,16 @@ vor KernertorⓁ<rs type="lage">gelegen vor Kernertor</rs>
 ⓤ<rs type="floskel" subtype="Dokumentverweis">ut littera sonat</rs>
 1430-05-08 / Montag vor Pankratius (Fr 12.5.)Ⓓ<date>Actum an Montag vor Sand Pangreczen tag Anno etc. xxxᵐº</date>
 9 s. 6 d.ⓟ<measure type="gebühr">Summa viiii s. vi d.</measure>
+<lb/>
 verkaufⒽ<rs type="note">vendidit purkrecht folio 41</rs>
-besitzerⒽ<rs type="note">Item
-<lb/>obtinuit folio 42</rs>
+besitzerⒽ<rs type="note">Item obtinuit folio 42</rs>
 </ab>
 	<p facs="#facs_368_TextRegion_1650968092615_2979">
 <lb facs="#facs_368_r2l1" n="N001"/>
 <rs type="von">Larencz Lehner</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB0209">sein haus</rs> 
 <rs type="lage" ref="#vor_Kernertor">gelegen vor Kernertor</rs> 
 <rs type="neben">gegen dem Heyligengaist <lb facs="#facs_368_r2l2" n="N002"/>uber</rs> 
 <rs type="neben">zenagst Larenczen des KerIndhell haus</rs> 
@@ -54467,10 +54469,10 @@ besitzerⒽ<rs type="note">Item
 
 <rs type="floskel" subtype="Dokumentverweis">ut littera sonat</rs> 
 <date when="1430-05-08">Actum an Montag vor Sand Pangreczen <lb facs="#facs_368_r2l6" n="N007"/>tag <surplus>Actum</surplus> Anno etc. xxxᵐº</date> <lb facs="#facs_368_r2l7" n="N008"/>
-<measure type="gebühr" commodity="9 s. 6 d.">Summa viiii s. vi d.</measure> <lb facs="#facs_368_r1l1" n="N009"/>
+<measure type="gebühr" commodity="9 s. 6 d.">Summa viiii s. vi d.</measure> 
+<lb facs="#facs_368_r1l1" n="N009"/>
 <rs type="note">vendidit purkrecht folio 41</rs> <lb facs="#facs_368_line_1650968074810_2961" n="N010"/>
-<rs type="note">Item 
-obtinuit folio 42</rs>
+<rs type="note">Item obtinuit folio 42</rs>
 
 	</p>
 </div>
@@ -54802,7 +54804,7 @@ wirklich durchgestrichen? JA, Einschub, der doch nicht richtig war
 <lb/>alle drew Cristans aus dem Tal seligen kinder</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain halbs haws</rs>
+DB5622Ⓞ<rs type="objekt">ain halbs haws</rs>
 KienmarktⓁ<rs type="lage">ganczes gelegen am Kyenmarkt ze Wienn
 <lb/>genant des Rueschleins haws</rs>
 Ⓝ<rs type="neben">zenagst Fridreich des Gerunger haws an ainem tail</rs>
@@ -54828,7 +54830,7 @@ und Dyemut Ir <lb facs="#facs_369_r2l29" n="N002"/>Swester Hainreich des Nuendor
 alle drew Cristans aus <lb facs="#facs_369_r2l30" n="N003"/>dem Tal seligen kinder</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">ain halbs haws</rs> 
+<rs type="objekt" ref="#DB5622">ain halbs haws</rs> 
 <rs type="lage" ref="#Kienmarkt">ganczes gelegen <lb facs="#facs_369_r2l31" n="N004"/>am Kyenmarkt ze Wienn 
 genant des Rueschleins haws</rs> 
 <rs type="neben">zenagst Fridreich des Gerunger <lb facs="#facs_369_r2l32" n="N005"/>haws an ainem tail</rs> 
@@ -58144,7 +58146,7 @@ und <lb facs="#facs_385_r2l15" n="N005"/>die andern lvi tl. sullen dem kind wide
 Ⓥ<rs type="von">Mertt Leilacher der pekch und Elsbeth sein hausfraw</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haus</rs>
+DB6029Ⓞ<rs type="objekt">Ir haus</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor</rs>
 Ⓝ<rs type="neben">zenegst dem Mauthaus</rs>
 <lb/>
@@ -58167,7 +58169,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor</rs>
 <rs type="von">Mertt Leilacher der pekch und Elsbeth sein hausfraw</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">Ir haus</rs> 
+<rs type="objekt" ref="#DB6029">Ir haus</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen <lb facs="#facs_385_r2l21" n="N002"/>vor Stubentor</rs> 
 <rs type="neben">zenegst dem Mauthaus</rs> 
 
@@ -58437,7 +58439,7 @@ schenkungⒺ<rs type="ereignis">hat von aigem willen ledikleich ubergeben
 <lb/>seinem Bruder Stephann fugenstaler</rs>
 <lb/>
 <rs>allen seinen tail und rechten so er gehabt hat</rs>
-Ⓞ<rs type="objekt">an dem halben haus</rs>
+DB5617Ⓞ<rs type="objekt">an dem halben haus</rs>
 KienmarktⓁ<rs type="lage">gancz gelegen am Kyenmarkcht</rs>
 Ⓝ<rs type="neben">zenagst Hannsen Stosser haus</rs>
 <lb/>
@@ -58456,7 +58458,7 @@ KienmarktⓁ<rs type="lage">gancz gelegen am Kyenmarkcht</rs>
 seinem <lb facs="#facs_386_r2l20" n="N002"/>Bruder Stephann fugenstaler</rs> 
 
 <rs>allen seinen tail und rechten so er <lb facs="#facs_386_r2l21" n="N003"/>gehabt hat</rs> 
-<rs type="objekt">an dem halben haus</rs> 
+<rs type="objekt" ref="#DB5617">an dem halben haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gancz gelegen am Kyenmarkcht</rs> <lb facs="#facs_386_r2l22" n="N004"/>
 <rs type="neben">zenagst Hannsen Stosser haus</rs> 
 
@@ -59866,7 +59868,7 @@ Item habet purkrecht folio 195</rs>
 Ⓥ<rs type="von">Mert Roseinstain burger ze Stain</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haws</rs>
+DB5622Ⓞ<rs type="objekt">sein haws</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kienmarkcht zu Wienn</rs>
 Ⓝ<rs type="neben">zenagst des Merttinger haws</rs>
 Ⓝ<rs type="neben">und stosset hinden an des Wirsings haws</rs>
@@ -59887,7 +59889,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kienmarkcht zu Wienn</rs>
 <rs type="von">Mert Roseinstain burger ze Stain</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein haws</rs> <lb facs="#facs_392_r2l17" n="N002"/>
+<rs type="objekt" ref="#DB5622">sein haws</rs> <lb facs="#facs_392_r2l17" n="N002"/>
 <rs type="lage" ref="#Kienmarkt">gelegen am Kienmarkcht zu Wienn</rs> 
 <rs type="neben">zenagst des Merttinger <lb facs="#facs_392_r2l18" n="N003"/>haws</rs> 
 <rs type="neben">und stosset hinden an des Wirsings haws</rs> 
@@ -60031,7 +60033,7 @@ schenkungⒺ<rs type="ereignis">hat ubergeben
 <lb/>Irm Aidem Hainreich Pirchvelder</rs>
 <lb/>
 <rs>allen Irn tail und gerchtikait So sy hat</rs>
-Ⓞ<rs type="objekt">an dem haus</rs>
+DB5634Ⓞ<rs type="objekt">an dem haus</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kienmarkcht</rs>
 Ⓝ<rs type="neben">zenagst des Gewkramer haus</rs>
 <lb/>
@@ -60056,7 +60058,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kienmarkcht</rs>
 Irm Aidem Hainreich Pirchvelder</rs> 
 
 <rs>allen Irn tail und gerchtikait So sy <lb facs="#facs_393_r3l15" n="N003"/>hat</rs> 
-<rs type="objekt">an dem haus</rs> 
+<rs type="objekt" ref="#DB5634">an dem haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen am Kienmarkcht</rs> 
 <rs type="neben">zenagst des Gewkramer <lb facs="#facs_393_r3l16" n="N004"/>haus</rs> 
 
@@ -60283,7 +60285,7 @@ DB1056Ⓝ<rs type="neben">und stosset hinden an Hainreichs des Nadler haus</rs>
 <lb/>hat demselben Irm wirt Petern weginger
 <lb/>gemacht</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haus</rs>
+DB5613Ⓞ<rs type="objekt">Ir haus</rs>
 KienmarktⓁ<rs type="lage">gelegen an dem Kyenmarkt</rs>
 Ⓝ<rs type="neben">zenagst weilent der guten Kunradein haus</rs>
 <lb/>
@@ -60306,7 +60308,7 @@ KienmarktⓁ<rs type="lage">gelegen an dem Kyenmarkt</rs>
 hat demselben Irm wirt Petern weginger 
 gemacht</rs> 
 <lb facs="#facs_396_r2l2" n="N002"/>
-<rs type="objekt">Ir haus</rs> 
+<rs type="objekt" ref="#DB5613">Ir haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen an dem Kyenmarkt</rs> 
 <rs type="neben">zenagst weilent der guten Kunradein haus</rs> 
 
@@ -61231,7 +61233,7 @@ und seinen erben</rs>
 verkaufⒺ<rs type="ereignis">hat verchauft</rs>
 <lb/>
 DB0052Ⓞ<rs type="objekt">Ir haus</rs>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor</rs>
 Ⓝ<rs type="neben">zenagst des Rauscher haus</rs>
 <lb/>
 10 tl.Ⓟ<measure type="preis">umb x tl. d.</measure>
@@ -61331,7 +61333,7 @@ das sol das benant haus ledigklich haben</rs>
 <lb/>die emaln Micheln haider den pinter seligen auch elichen gehabt hat</rs>
 überschreibungⒺ<rs type="ereignis">hat gemacht</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haws</rs>
+DB6027Ⓞ<rs type="objekt">Ir haws</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst Steffans Heller des pinter haus</rs>
 <lb/>
@@ -61352,7 +61354,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 die emaln Micheln haider <lb facs="#facs_402_r2l12" n="N002"/>den pinter seligen auch elichen gehabt hat</rs> 
 <rs type="ereignis" ref="#überschreibung">hat gemacht</rs> 
 
-<rs type="objekt">Ir haws</rs> 
+<rs type="objekt" ref="#DB6027">Ir haws</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen <lb facs="#facs_402_r2l13" n="N003"/>vor Stubentor ze Wienn</rs> 
 <rs type="neben">zenagst Steffans Heller des pinter haus</rs> 
 
@@ -61734,7 +61736,7 @@ vor WerdertorⓁ<rs type="lage">gelegen vor Werdertor ze Wienn</rs>
 Ⓥ<rs type="von">Margret Erharts Haslperger des tuchscherer hausfraw</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">Ir haus</rs>
+DB6022Ⓞ<rs type="objekt">Ir haus</rs>
 Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen in der Schefstrass ze Wienn vor Stubentor am Egk
 <lb/>und haisst daz Mauthaus</rs>
 Ⓝ<rs type="neben">zenagst des Scheczleins und des alten Gschofen heuser</rs>
@@ -61760,7 +61762,7 @@ Scheffstraße, vor StubentorⓁ<rs type="lage">gelegen in der Schefstrass ze Wie
 <rs type="von">Margret Erharts Haslperger des tuchscherer hausfraw</rs> 
 <rs type="ereignis" ref="#verkauf">hat verchaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">Ir <lb facs="#facs_405_r2l6" n="N002"/>haus</rs> 
+<rs type="objekt" ref="#DB6022">Ir <lb facs="#facs_405_r2l6" n="N002"/>haus</rs> 
 <rs type="lage" ref="#Scheffstraße #vor_Stubentor">gelegen in der Schefstrass ze Wienn vor Stubentor am Egk 
 und <lb facs="#facs_405_r2l7" n="N003"/>haisst daz Mauthaus</rs> 
 <rs type="neben">zenagst des Scheczleins und des alten Gschofen heuser</rs> 
@@ -62318,7 +62320,7 @@ mit dem haws allen seinen frumen <lb facs="#facs_408_r2l27" n="N007"/>zeschaffen
 Ⓥ<rs type="von">Mert Weiskirher der pinter</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB6051Ⓞ<rs type="objekt">sein haus</rs>
 Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor auf dem graben</rs>
 Ⓝ<rs type="neben">zenagst Seyfrids des Munsser haws</rs>
 <lb/>
@@ -62338,7 +62340,7 @@ Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor auf dem grabe
 <rs type="von">Mert Weiskirher der pinter</rs> 
 <rs type="ereignis" ref="#verkauf">hat verchaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB6051">sein haus</rs> 
 <rs type="lage" ref="#Stadtgraben #vor_Stubentor">gelegen vor Stubentor <lb facs="#facs_408_r2l31" n="N002"/>auf dem graben</rs> 
 <rs type="neben">zenagst Seyfrids des Munsser haws</rs> 
 
@@ -62476,7 +62478,7 @@ mit dem egenant weingarten allen seinen frumen zeschaffen</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft</rs>
 <lb/>
 DB0050Ⓞ<rs type="objekt">Ir hinders hewsel und den garten daran</rs>
-#Alserstraße, unter den Lederern, vor SchottentorⓁ<rs type="lage">gelegen vor Schottenter undern Laden auf der Alss</rs>
+Alserstraße, unter den Lederern, vor SchottentorⓁ<rs type="lage">gelegen vor Schottenter undern Laden auf der Alss</rs>
 Ⓝ<rs type="neben">zenagst des Seydennater haws und garten</rs>
 Ⓝ<rs type="neben">und stosset mit dem vordern tail an Pauln des Ringkler haws</rs>
 <lb/>
@@ -62825,7 +62827,7 @@ mit dem haws <lb facs="#facs_411_r3l26" n="N010"/>allen seinen frumen zuschaffen
 Ⓥ<rs type="von">Margret Jorgen des Messrer hausfrau ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain halbs haws</rs>
+DB0209aⓄ<rs type="objekt">ain halbs haws</rs>
 <lb/>
 ⓔ<rs type="ereignis">das Ir Ir muter Ursula weilent Leupolts des Leitesperger hausfraw selige geschafft hat
 <lb/>ut liber Civitatis sonat</rs>
@@ -62856,7 +62858,7 @@ vor KernertorⓁ<rs type="lage">ganczes gelegen vor Kernertor gegen dem heiligen
 <rs type="von">Margret Jorgen des Messrer hausfrau ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain <lb facs="#facs_412_r2l2" n="N002"/>halbs haws</rs> 
+<rs type="objekt" ref="#DB0209a">ain <lb facs="#facs_412_r2l2" n="N002"/>halbs haws</rs> 
 
 <rs type="ereignis">das Ir Ir muter Ursula weilent Leupolts des Leitesperger <lb facs="#facs_412_r2l3" n="N003"/>hausfraw selige geschafft hat 
 ut liber Civitatis sonat</rs> 
@@ -63369,7 +63371,7 @@ verkaufⒺ<rs type="ereignis">habent verkaufft
 <lb/>an stat des yeczgenant Oswalts
 <lb/>der zu den zeiten unvogtper und zu seinen beschaiden Jaren nicht komen was dafur sy sich habent angenomen</rs>
 <lb/>
-Ⓞ<rs type="objekt">desselben Oswalts haws und gertlein daran das darczu gehort
+DB6021Ⓞ<rs type="objekt">desselben Oswalts haws und gertlein daran das darczu gehort
 <lb/>das In mit andern gutern an Rechter taylung gegen dem egenant seinem vater Hannsen dem Poben gevallen ist
 <lb/>aus den gutern So die vorgenant fraw Dorothe
 <lb/>dem benant Hannsen dem Poben irm mann und Oswalten irm Sun
@@ -63406,7 +63408,7 @@ nach <lb facs="#facs_415_r2l10" n="N005"/>Rat und wissen des obgenant Purgermais
 an stat des yeczgenant Oswalts 
 der zu den zeiten unvogtper und zu seinen beschaiden <lb facs="#facs_415_line_1625826316036_3194" n="N007"/>Jaren nicht komen was dafur sy sich habent angenomen</rs> 
 
-<rs type="objekt">desselben Oswalts haws <lb facs="#facs_415_r2l14" n="N008"/>und gertlein daran das darczu gehort 
+<rs type="objekt" ref="#DB6021">desselben Oswalts haws <lb facs="#facs_415_r2l14" n="N008"/>und gertlein daran das darczu gehort 
 das In mit andern gutern an Rechter taylung <lb facs="#facs_415_r2l15" n="N009"/>gegen dem egenant seinem vater Hannsen dem Poben gevallen ist 
 aus den gutern So <lb facs="#facs_415_r2l16" n="N010"/>die vorgenant fraw Dorothe 
 dem benant Hannsen dem Poben irm mann und Oswalten <lb facs="#facs_415_r2l17" n="N011"/>irm Sun 
@@ -64053,7 +64055,7 @@ und allen irn frumen <lb facs="#facs_418_r2l41" n="N009"/>damit zeschaffen verka
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
 <rs>allen Irn tail und Rechten so Sy gehabt habent</rs>
-Ⓞ<rs type="objekt">an dem halben haws</rs>
+DB5459bⓄ<rs type="objekt">an dem halben haws</rs>
 WürffelⓁ<rs type="lage">das ganczes gelegen ist an Weilent Niclas des Wurffels haws</rs>
 KürsenhausⓁ<rs type="lage">gen dem Kursenhaws uber
 <lb/>genant der Turn</rs>
@@ -64089,7 +64091,7 @@ und ich swester Ann die Waiczin Convent <lb facs="#facs_419_r4l4" n="N003"/>swes
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
 <rs>allen Irn tail und <lb facs="#facs_419_r4l5" n="N004"/>Rechten so Sy gehabt habent</rs> 
-<rs type="objekt">an dem halben haws</rs> 
+<rs type="objekt" ref="#DB5459b">an dem halben haws</rs> 
 <rs type="lage" ref="#Würffel">das ganczes gelegen ist an Weilent Niclas des <lb facs="#facs_419_r4l7" n="N005"/>Wurffels haws</rs> 
 <rs type="lage" ref="#Kürsenhaus">gen dem Kursenhaws uber 
 genant der Turn</rs> 
@@ -64285,7 +64287,7 @@ doch das er vollen gewalt hab</rs>
 <lb/>und ausrichter und volfurer des gescheffts so weilent Martha Michels des verber witib getan hat</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus
+DB6036Ⓞ<rs type="objekt">ain haus
 <lb/>das der egenant verber und Martha sein hausfraw
 <lb/>mit gesambter hand gekaufft haben</rs>
 vor Stubentor, WienflussⓁ<rs type="lage">gelegen vor Stubentor auf der Wienn</rs>
@@ -64306,7 +64308,7 @@ vor Stubentor, WienflussⓁ<rs type="lage">gelegen vor Stubentor auf der Wienn</
 und ausrichter und volfurer des gescheffts so weilent Martha <lb facs="#facs_420_r3l9" n="N002"/>Michels des verber witib getan hat</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain haus 
+<rs type="objekt" ref="#DB6036">ain haus 
 das der egenant verber <lb facs="#facs_420_r3l10" n="N003"/>und Martha sein hausfraw 
 mit gesambter hand gekaufft haben</rs> 
 <rs type="lage" ref="#vor_Stubentor #Wienfluss">gelegen vor Stubentor <lb facs="#facs_420_r3l11" n="N004"/>auf der Wienn</rs> 
@@ -64504,7 +64506,7 @@ St. Jakob, ViehhofⓁ<rs type="lage">gelegen hinder Sand Jacoben gegen dem Viech
 Ⓥ<rs type="von">Pruder Peter pryor des klosters daz den Weissenbrudern an der Herczogen hof und der Convent gemain daselbs</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-DB5111Ⓞ<rs type="objekt">Ir haus</rs>
+DB5152Ⓞ<rs type="objekt">Ir haus</rs>
 hinter St. PankrazⓁ<rs type="lage">gelegen hinder Sand Pangreczen</rs>
 Ⓝ<rs type="neben">zenegst Hainreichs plumler haus</rs>
 <lb/>
@@ -64524,7 +64526,7 @@ hinter St. PankrazⓁ<rs type="lage">gelegen hinder Sand Pangreczen</rs>
 <rs type="von">Pruder Peter pryor des klosters daz den Weissenbrudern an der Herczogen hof und der Convent <lb facs="#facs_421_r2l5" n="N002"/>gemain daselbs</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt" ref="#DB5111">Ir haus</rs> 
+<rs type="objekt" ref="#DB5152">Ir haus</rs> 
 <rs type="lage" ref="#hinter_St._Pankraz">gelegen hinder Sand Pangreczen</rs> 
 <rs type="neben">zenegst <lb facs="#facs_421_r2l6" n="N003"/>Hainreichs plumler haus</rs> 
 
@@ -65137,7 +65139,7 @@ und Ir <lb facs="#facs_423_r2l31" n="N004"/>baider erben</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
 DB0031Ⓞ<rs type="objekt">Ir haus</rs>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor</rs>
 Ⓝ<rs type="neben">zenegst Erharts griesser haus</rs>
 <lb/>
 Ⓑ<rs type="belastung">servit ad sanctam (lasatum) lx d. zu purkrecht</rs>
@@ -65257,7 +65259,7 @@ ut littera</rs>
 Ⓥ<rs type="von">Niclas Gawnestorffer der pinter</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB6049Ⓞ<rs type="objekt">sein haus</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor</rs>
 Ⓝ<rs type="neben">zenegst Ulreichs verber haus</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor</rs>
@@ -65275,8 +65277,8 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor</rs>
 <lb/>
 <rs>vendidit purkrecht folio 306
 <lb/>Item vendidit purkrecht folio 310
-<lb/>vendidit purkrecht libro C folio 451 Idem
 <lb/>vendidit purkrecht libro C folio 451
+<lb/>Idem vendidit purkrecht libro C folio 451
 <lb/>Item vendidit purkrecht folio 453</rs>
 </ab>
 	<p facs="#facs_424_TextRegion_1644219061014_1417">
@@ -65284,7 +65286,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor</rs>
 <rs type="von">Niclas Gawnestorffer der pinter</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB6049">sein haus</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor</rs> 
 <rs type="neben">zenegst <lb facs="#facs_424_r2l2" n="N002"/>Ulreichs verber haus</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor</rs> 
@@ -65302,8 +65304,8 @@ doch das derselb parchalher vollen <lb facs="#facs_424_r2l5" n="N005"/>gewalt ha
 <lb facs="#facs_424_r1l2" n="N008"/>
 <rs>vendidit purkrecht folio 306 <lb facs="#facs_424_r1l3" n="N009"/>
 Item vendidit purkrecht folio 310 <lb facs="#facs_424_r1l4" n="N010"/>
-vendidit purkrecht libro C folio 451 <lb facs="#facs_424_r1l5" n="N011"/>Idem 
-vendidit purkrecht libro C folio 451 <lb facs="#facs_424_r1l6" n="N012"/>
+vendidit purkrecht libro C folio 451 <lb facs="#facs_424_r1l5" n="N011"/>
+Idem vendidit purkrecht libro C folio 451 <lb facs="#facs_424_r1l6" n="N012"/>
 Item vendidit purkrecht folio 453</rs>
 
 	</p>
@@ -65599,7 +65601,7 @@ folio lxvi <lb facs="#facs_425_r2l5" n="N015"/>libro isto</rs>
 Ⓥ<rs type="von">Niclas Plumenstingl der Gurtler Stephans Plumenstingl Sun</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB5703Ⓞ<rs type="objekt">ain haus</rs>
 unter den GürtlernⓁ<rs type="lage">gelegen undern Gurtlern</rs>
 Ⓝ<rs type="neben">zenegst dem Langenkeller</rs>
 <lb/>
@@ -65616,7 +65618,7 @@ unter den GürtlernⓁ<rs type="lage">gelegen undern Gurtlern</rs>
 <rs type="von">Niclas Plumenstingl der Gurtler Stephans Plumenstingl Sun</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">ain <lb facs="#facs_425_r3l15" n="N002"/>haus</rs> 
+<rs type="objekt" ref="#DB5703">ain <lb facs="#facs_425_r3l15" n="N002"/>haus</rs> 
 <rs type="lage" ref="#unter_den_Gürtlern">gelegen undern Gurtlern</rs> 
 <rs type="neben">zenegst dem Langenkeller</rs> 
 
@@ -65755,7 +65757,7 @@ fur die gewendleich Schaczstewr davon geben sol</rs>
 Ⓥ<rs type="von">Niclas pocz der pinter und Kathrey sein hausfraw</rs>
 verkaufⒺ<rs type="ereignis">habent verchaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">Ir haws und gertl daran</rs>
+DB6021Ⓞ<rs type="objekt">Ir haws und gertl daran</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst dem Alten Mauthaus</rs>
 <lb/>
@@ -65772,7 +65774,7 @@ vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn</rs>
 <rs type="von">Niclas pocz der pinter und Kathrey sein hausfraw</rs> 
 <rs type="ereignis" ref="#verkauf">habent verchaufft</rs> 
 <lb facs="#facs_425_r3l43" n="N002"/>
-<rs type="objekt">Ir haws und gertl daran</rs> 
+<rs type="objekt" ref="#DB6021">Ir haws und gertl daran</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen vor Stubentor ze Wienn</rs> 
 <rs type="neben">zenagst dem <lb facs="#facs_425_r3l44" n="N003"/>Alten Mauthaus</rs> 
 
@@ -66338,7 +66340,7 @@ und seinen <lb facs="#facs_429_r2l5" n="N004"/>erben</rs>
 <lb/>volfurer des Gescheffts So Niclas waicz der fleischhacker bey dem Pybersturn getan hat</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus das des benant waiczen gewesen ist</rs>
+DB6026Ⓞ<rs type="objekt">ain haus das des benant waiczen gewesen ist</rs>
 Biberturm, LaurenzerinnenⓁ<rs type="lage">gelegen hinder sand Larenczen kloster bey dem Pybersturn</rs>
 Ⓝ<rs type="neben">zenagst des obgenant Niclasen vom Stain haus</rs>
 <lb/>
@@ -66359,7 +66361,7 @@ Biberturm, LaurenzerinnenⓁ<rs type="lage">gelegen hinder sand Larenczen kloste
 volfurer des Gescheffts So Niclas waicz <lb facs="#facs_429_r2l11" n="N002"/>der fleischhacker bey dem Pybersturn getan hat</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">ain haus das <lb facs="#facs_429_r2l12" n="N003"/>des benant waiczen gewesen ist</rs> 
+<rs type="objekt" ref="#DB6026">ain haus das <lb facs="#facs_429_r2l12" n="N003"/>des benant waiczen gewesen ist</rs> 
 <rs type="lage" ref="#Biberturm #Laurenzerinnen">gelegen hinder sand Larenczen kloster bey <lb facs="#facs_429_r2l13" n="N004"/>dem Pybersturn</rs> 
 <rs type="neben">zenagst des obgenant Niclasen vom Stain haus</rs> 
 
@@ -66384,7 +66386,7 @@ Item obtinuit folio 281</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
 DB0031Ⓞ<rs type="objekt">sein haus</rs>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst Erharts des Griesser haus</rs>
 <lb/>
 20 tl.Ⓟ<measure type="preis">umb xx tl. d.</measure>
@@ -66536,7 +66538,7 @@ und Irn baiden erben</rs>
 Ⓥ<rs type="von">Niclas von Eybitschicz</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">sein haus</rs>
+DB6008Ⓞ<rs type="objekt">sein haus</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrazz ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst des Amberger haus an aim tail</rs>
 Ⓝ<rs type="neben">und an dem andern zenagst Jacobs haws am Ort</rs>
@@ -66557,7 +66559,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrazz ze Wienn</rs>
 <rs type="von">Niclas von Eybitschicz</rs> 
 <rs type="ereignis" ref="#verkauf">hat verchaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">sein haus</rs> 
+<rs type="objekt" ref="#DB6008">sein haus</rs> 
 <rs type="lage" ref="#Scheffstraße">gelegen in der Schefstrazz <lb facs="#facs_430_r2l23" n="N002"/>ze Wienn</rs> 
 <rs type="neben">zenagst des Amberger haus an aim tail</rs> 
 <rs type="neben">und an dem andern zenagst <lb facs="#facs_430_r2l24" n="N003"/>Jacobs haws am Ort</rs> 
@@ -66636,7 +66638,7 @@ obtinuit folio 115 libro C</rs>
 <lb/>all drey Casparn prenner des ledrer seligen Geschefftleut</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB6035Ⓞ<rs type="objekt">ain haus</rs>
 Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ze Wienn auf dem Graben</rs>
 Ⓝ<rs type="neben">zenagst Niclasen des Stirling haus</rs>
 <lb/>
@@ -66656,7 +66658,7 @@ Hainreich der haiden und Mert <lb facs="#facs_430_r2l37" n="N002"/>fliehenaschen
 all drey Casparn prenner des ledrer seligen Geschefftleut</rs> 
 <rs type="ereignis" ref="#verkauf">habent <lb facs="#facs_430_r2l38" n="N003"/>verkaufft</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB6035">ain haus</rs> 
 <rs type="lage" ref="#Stadtgraben #vor_Stubentor">gelegen vor Stubentor ze Wienn auf dem Graben</rs> 
 <rs type="neben">zenagst Niclasen des Stirling <lb facs="#facs_430_r2l39" n="N004"/>haus</rs> 
 
@@ -66881,7 +66883,7 @@ nach laut der Grichtbrief und <lb facs="#facs_432_r2l15" n="N014"/>Anpotbrief di
 Ⓥ<rs type="von">Niclas von Eybeschitsch der furer</rs>
 schenkungⒺ<rs type="ereignis">hat ubergeben</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus und all seinen gerechtikait die Er daran gehabt hat</rs>
+DB6013Ⓞ<rs type="objekt">sein haus und all seinen gerechtikait die Er daran gehabt hat</rs>
 Biberturm, Rosstränke, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor gegen der Rosstrenkch und dem Pibersturn uber</rs>
 Ⓝ<rs type="neben">zenagst Lienharts des lehenholczer haus</rs>
 <lb/>
@@ -66902,7 +66904,7 @@ Biberturm, Rosstränke, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor ge
 <rs type="von">Niclas von Eybeschitsch der furer</rs> 
 <rs type="ereignis" ref="#schenkung">hat ubergeben</rs> 
 
-<rs type="objekt">sein haus und all seinen <lb facs="#facs_432_r2l17" n="N002"/>gerechtikait die Er daran gehabt hat</rs> 
+<rs type="objekt" ref="#DB6013">sein haus und all seinen <lb facs="#facs_432_r2l17" n="N002"/>gerechtikait die Er daran gehabt hat</rs> 
 <rs type="lage" ref="#Biberturm #Rosstränke #vor_Stubentor">gelegen vor Stubentor gegen der <lb facs="#facs_432_r2l18" n="N003"/>Rosstrenkch und dem Pibersturn uber</rs> 
 <rs type="neben">zenagst Lienharts des lehenholczer <lb facs="#facs_432_r2l19" n="N004"/>haus</rs> 
 
@@ -67782,7 +67784,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Niclas weydervelder der floczer ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ain haws das ettwenn ain prantstat gewesen ist</rs>
+DB6004Ⓞ<rs type="objekt">ain haws das ettwenn ain prantstat gewesen ist</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass</rs>
 Ⓝ<rs type="neben">zenagst der Mul genant der Slifstain</rs>
 <lb/>
@@ -67799,7 +67801,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass</rs>
 <rs type="von">Niclas weydervelder der floczer ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">ain haws das ettwenn <lb facs="#facs_438_r3l10" n="N002"/>ain prantstat gewesen ist</rs> 
+<rs type="objekt" ref="#DB6004">ain haws das ettwenn <lb facs="#facs_438_r3l10" n="N002"/>ain prantstat gewesen ist</rs> 
 <rs type="lage" ref="#Scheffstraße">gelegen in der Schefstrass</rs> 
 <rs type="neben">zenagst der Mul genant <lb facs="#facs_438_r3l11" n="N003"/>der Slifstain</rs> 
 
@@ -67897,7 +67899,7 @@ das sol mit dem egenant haws <lb facs="#facs_438_r3l28" n="N012"/>allen seinen f
 Ⓥ<rs type="von">Niclas von Eybanczschicz der Munsser ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haws</rs>
+DB6033Ⓞ<rs type="objekt">sein haws</rs>
 vor Stubentor, WienflussⓁ<rs type="lage">gelegen vor Stubentor bey der Wienn</rs>
 Ⓝ<rs type="neben">zenagst Hannsen Gmunder des verber haws</rs>
 <lb/>
@@ -67916,7 +67918,7 @@ vor Stubentor, WienflussⓁ<rs type="lage">gelegen vor Stubentor bey der Wienn</
 <rs type="von">Niclas von Eybanczschicz der Munsser ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt">sein <lb facs="#facs_439_r2l6" n="N002"/>haws</rs> 
+<rs type="objekt" ref="#DB6033">sein <lb facs="#facs_439_r2l6" n="N002"/>haws</rs> 
 <rs type="lage" ref="#vor_Stubentor #Wienfluss">gelegen vor Stubentor bey der Wienn</rs> 
 <rs type="neben">zenagst Hannsen Gmunder <lb facs="#facs_439_r2l7" n="N003"/>des verber haws</rs> 
 
@@ -67993,7 +67995,7 @@ mit dem haus allen seinen frumen zeschaffen</rs>
 Ⓥ<rs type="von">Niclas Wagner</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB6048Ⓞ<rs type="objekt">sein haus</rs>
 Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor aufm graben</rs>
 Ⓝ<rs type="neben">zenagst Seifrids des Munsser haus</rs>
 <lb/>
@@ -68015,7 +68017,7 @@ Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor aufm graben</
 <rs type="von">Niclas Wagner</rs> 
 <rs type="ereignis" ref="#verkauf">hat verchaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB6048">sein haus</rs> 
 <rs type="lage" ref="#Stadtgraben #vor_Stubentor">gelegen vor Stubentor aufm graben</rs> 
 <rs type="neben">zenagst <lb facs="#facs_439_line_1625831567450_4873" n="N002"/>Seifrids des Munsser haus</rs> 
 
@@ -68465,7 +68467,7 @@ verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
 DB0006Ⓞ<rs type="objekt">sein haus</rs>
 NeuluckeⓁ<rs type="lage">In der Newlukchen ze Wienn</rs>
-DB0012Ⓝ<rs type="neben">zenechst Pylgreims des Hetler haus</rs>
+Ⓝ<rs type="neben">zenechst Pylgreims des Hetler haus</rs>
 <lb/>
 16 tl.Ⓟ<measure type="preis">umb sechczechen pfunt Wienner pfenning</measure>
 Ⓐ<rs type="an">Jorgen dem Pretnagl ze Wienn und Agnesen seiner hausfrawn</rs>
@@ -68490,7 +68492,7 @@ DB0012Ⓝ<rs type="neben">zenechst Pylgreims des Hetler haus</rs>
 
 <rs type="objekt" ref="#DB0006">sein haus</rs> 
 <rs type="lage" ref="#Neulucke">In der Newlukchen ze <lb facs="#facs_450_r2l19" n="N002"/>Wienn</rs> 
-<rs type="neben" ref="#DB0012">ze- nechst Pylgreims des Hetler haus</rs> 
+<rs type="neben">ze- nechst Pylgreims des Hetler haus</rs> 
 
 <measure type="preis" commodity="16 tl.">umb sechczechen pfunt Wienner pfenning</measure> <lb facs="#facs_450_r2l20" n="N003"/>
 <rs type="an">Jorgen dem Pretnagl ze Wienn und Agnesen seiner hausfrawn</rs> 
@@ -68738,7 +68740,7 @@ und seinen erben</rs>
 Ⓥ<rs type="von">Ott Weiss und Hainreich Frankch baid des Rats und verweser des hauss zu Sand Jeronimus ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-DB6000Ⓞ<rs type="objekt">ainen Stadel</rs>
+DB6004Ⓞ<rs type="objekt">ainen Stadel</rs>
 ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass</rs>
 Ⓝ<rs type="neben">zenegst der Mul genant der Slifstain</rs>
 <lb/>
@@ -68760,7 +68762,7 @@ ScheffstraßeⓁ<rs type="lage">gelegen in der Schefstrass</rs>
 <rs type="von">Ott Weiss und Hainreich Frankch baid des Rats und verweser des hauss <lb facs="#facs_451_r1l28" n="N002"/>zu Sand Jeronimus ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt" ref="#DB6000">ainen Stadel</rs> 
+<rs type="objekt" ref="#DB6004">ainen Stadel</rs> 
 <rs type="lage" ref="#Scheffstraße">gelegen <lb facs="#facs_451_r1l29" n="N003"/>in der Schefstrass</rs> 
 <rs type="neben">zenegst der Mul genant der Slifstain</rs> 
 
@@ -68854,7 +68856,7 @@ schenkungⒺ<rs type="ereignis">hat abtreten und ubergeben
 <lb/>seinen kindern Oswalten Jorgen Clarn und Dorotheen
 <lb/>seiner leibgeding und alle seine Recht so er hat gehabt an den hernach genant Gutern vonerst</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB5630Ⓞ<rs type="objekt">ain haus</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kyenmarkt</rs>
 Ⓝ<rs type="neben">zenegst der Swemblin haus</rs>
 <lb/>
@@ -68892,7 +68894,7 @@ Greut, vor StubentorⓁ<rs type="lage">gelegen vor Stubentor in dem Grewtt
 seinen kindern Oswalten Jorgen <lb facs="#facs_452_r2l12" n="N002"/>Clarn und Dorotheen 
 seiner leibgeding und alle seine Recht so er hat ge- <lb facs="#facs_452_line_1625832133969_5275" n="N003"/>habt an den hernach genant Gutern vonerst</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB5630">ain haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen am Kyen¬ <lb facs="#facs_452_r2l15" n="N004"/>markt</rs> 
 <rs type="neben">zenegst der Swemblin haus</rs> 
 
@@ -69531,7 +69533,7 @@ und Irn baiden erben</rs>
 <lb/>
 <rs>sein lebteg zuhaben und Inczenemen xx tl. d. alle Jar</rs>
 <lb/>
-Ⓞ<rs type="objekt">auf seiner padstuben mit seiner zugehorng</rs>
+DB6030Ⓞ<rs type="objekt">auf seiner padstuben mit seiner zugehorng</rs>
 vor StubentorⓁ<rs type="lage">gelegen vor Stubentor genant der Hunttin</rs>
 <lb/>
 <rs>Also daz er dieselb xx tl. d. auf der benant padstuben alle Jar Innemen nuczen und niessen sol sein lebteg
@@ -69548,7 +69550,7 @@ hat seinem vettern Asprian <lb facs="#facs_456_r2l39" n="N002"/>dem hinkker gmac
 
 <rs>sein lebteg zuhaben und Inczenemen <lb facs="#facs_456_r2l41" n="N003"/>xx tl. d. alle Jar</rs> 
 
-<rs type="objekt">auf seiner padstuben mit seiner zugehorng</rs> 
+<rs type="objekt" ref="#DB6030">auf seiner padstuben mit seiner zugehorng</rs> 
 <rs type="lage" ref="#vor_Stubentor">gelegen vor <lb facs="#facs_456_r2l42" n="N004"/>Stubentor genant der Hunttin</rs> 
 
 <rs>Also daz er dieselb xx tl. d. auf der benant <lb facs="#facs_456_r2l43" n="N005"/>padstuben alle Jar Innemen nuczen und niessen sol sein lebteg 
@@ -71409,22 +71411,18 @@ innerhalb SchottentorⓁ<rs type="lage">gelegen Innerhalb Schottentor</rs>
 <div type="entry" n="466-1" xml:id="n_466-1">
 	<head type="note">466-1</head>
 <ab type="formular">
-3Ⓔ<rs type="ereignis"></rs>
 Ⓥ<rs type="von">Paul Wurffel zu den zeiten Burgermaister und der Rat gemain der Stat ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB6052Ⓞ<rs type="objekt">ain haus</rs>
 Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen auf dem Graben bey Sand Wolfgang vor Stubentor ze Wienn</rs>
 Ⓝ<rs type="neben">zenagst des Gresennawer Garten</rs>
 <lb/>
-1Ⓔ<rs type="ereignis">
-<lb/>daz weilent Seifrid frawnknecht Symendlein seinem diener geschafft hat
+<rs>daz weilent Seifrid frawnknecht Symendlein seinem diener geschafft hat
 <lb/>sicut liber Civitatis sonat</rs>
 <lb/>
-2Ⓔ<rs type="ereignis">
-<lb/>und daz derselb Symendl unverkumert hinder sein lassen hat</rs>
+<rs>und daz derselb Symendl unverkumert hinder sein lassen hat</rs>
 <lb/>
-3Ⓔ<rs type="ereignis"></rs>
 20 tl.Ⓟ<measure type="preis">umb xx tl. d.</measure>
 Ⓐ<rs type="an">Fridreichen dem Schopper und Elsbethen seiner hausfrawn
 <lb/>und Ir baider erben</rs>
@@ -71434,14 +71432,27 @@ Stadtgraben, vor StubentorⓁ<rs type="lage">gelegen auf dem Graben bey Sand Wol
 28 d.ⓟ<measure type="gebühr">Summa xxviii d.</measure>
 </ab>
 	<p facs="#facs_466_TextRegion_1644220380824_2163">
-		<lb facs="#facs_466_r3l3" n="N001"/>Paul Wurffel zu den zeiten Burgermaister und der Rat gemain der Stat ze Wienn
-		<lb facs="#facs_466_r3l4" n="N002"/>habent verkaufft ain haus gelegen auf dem Graben bey Sand Wolfgang vor
-		<lb facs="#facs_466_r3l5" n="N003"/>Stubentor ze Wienn zenagst des Gresennawer Garten daz weilent Seifrid
-		<lb facs="#facs_466_r3l6" n="N004"/>frawnknecht Symendlein seinem diener geschafft hat sicut liber Civitatis sonat
-		<lb facs="#facs_466_r3l7" n="N005"/>und daz derselb Symendl unverkumert hinder sein lassen hat umb xx tl. d.
-		<lb facs="#facs_466_r3l8" n="N006"/>Fridreichen dem Schopper und Elsbethen seiner hausfrawn und Ir baider erben
-		<lb facs="#facs_466_r3l9" n="N007"/>sicut littera sonat <date>Actum an Eritag nach Dorothee Anno etc. xxviiº</date>
-		<lb facs="#facs_466_r3l10" n="N008"/>Summa xxviii d.
+<lb facs="#facs_466_r3l3" n="N001"/>
+<rs type="von">Paul Wurffel zu den zeiten Burgermaister und der Rat gemain der Stat ze Wienn</rs> <lb facs="#facs_466_r3l4" n="N002"/>
+<rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
+
+<rs type="objekt" ref="#DB6052">ain haus</rs> 
+<rs type="lage" ref="#Stadtgraben #vor_Stubentor">gelegen auf dem Graben bey Sand Wolfgang vor <lb facs="#facs_466_r3l5" n="N003"/>Stubentor ze Wienn</rs> 
+<rs type="neben">zenagst des Gresennawer Garten</rs> 
+
+<rs>daz weilent Seifrid <lb facs="#facs_466_r3l6" n="N004"/>frawnknecht Symendlein seinem diener geschafft hat 
+sicut liber Civitatis sonat</rs> 
+<lb facs="#facs_466_r3l7" n="N005"/>
+<rs>und daz derselb Symendl unverkumert hinder sein lassen hat</rs> 
+
+<measure type="preis" commodity="20 tl.">umb xx tl. d.</measure> <lb facs="#facs_466_r3l8" n="N006"/>
+<rs type="an">Fridreichen dem Schopper und Elsbethen seiner hausfrawn 
+und Ir baider erben</rs> 
+<lb facs="#facs_466_r3l9" n="N007"/>
+<rs>sicut littera sonat</rs> 
+<date when="1427-02-11">Actum an Eritag nach Dorothee Anno etc. xxviiº</date> <lb facs="#facs_466_r3l10" n="N008"/>
+<measure type="gebühr" commodity="28 d.">Summa xxviii d.</measure>
+
 	</p>
 </div>
 
@@ -71892,7 +71903,7 @@ und Ir baider erben</rs>
 Ⓥ<rs type="von">Paul Wurffel Burgermaister und der Rat gemain der Stat ze Wienn</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-DB5012bcⓄ<rs type="objekt">zway heusel</rs>
+DB5012bⓄ<rs type="objekt">zway heusel</rs>
 Tiefer GrabenⓁ<rs type="lage">gelegen Im Teuffengraben und stossent an die Stetten</rs>
 Ⓝ<rs type="neben">zenegst des Gerstler zuhaus</rs>
 <lb/>
@@ -71911,7 +71922,7 @@ Tiefer GrabenⓁ<rs type="lage">gelegen Im Teuffengraben und stossent an die Ste
 <rs type="von">Paul Wurffel Burgermaister und der Rat gemain der Stat ze Wienn</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 <lb facs="#facs_467_r2l42" n="N002"/>
-<rs type="objekt" ref="#DB5012bc">zway heusel</rs> 
+<rs type="objekt" ref="#DB5012b">zway heusel</rs> 
 <rs type="lage" ref="#Tiefer_Graben">gelegen Im Teuffengraben und stossent an die Stetten</rs> 
 <rs type="neben">zenegst des Gerstler <lb facs="#facs_467_r2l43" n="N003"/>zuhaus</rs> 
 
@@ -72451,7 +72462,7 @@ DB0055Ⓞ<rs type="objekt">sein haus
 <lb/>daz hofel daran daz da stosst an seinen Stal
 <lb/>mitsambt dem hunerkobel auf demselben Stal als das mit plancken ausgeslagen ist</rs>
 <lb/>
-#Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor</rs>
+Alserstraße, vor SchottentorⓁ<rs type="lage">gelegen vor Schottentor</rs>
 Ⓝ<rs type="neben">zenegst des Rauscher haus an aim tail</rs>
 Ⓝ<rs type="neben">und an dem andern zenegst dem andern seinem haus</rs>
 <lb/>
@@ -73329,7 +73340,7 @@ Alex teufl et uxor habent zedulam</rs>
 Ⓥ<rs type="von">Peter Stengl ze Wienn Anna uxor</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB5625Ⓞ<rs type="objekt">ain haus</rs>
 KienmarktⓁ<rs type="lage">gelegen am Kyenmarkt</rs>
 Ⓝ<rs type="neben">zenagst weilent Hainreichs des Leinwater haus</rs>
 Ⓝ<rs type="neben">und an dem andern tail zenagst Petern des weginger haus</rs>
@@ -73356,7 +73367,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kyenmarkt</rs>
 <rs type="von">Peter Stengl ze Wienn Anna uxor</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB5625">ain haus</rs> 
 <rs type="lage" ref="#Kienmarkt">gelegen am <lb facs="#facs_474_r2l26" n="N002"/>Kyenmarkt</rs> 
 <rs type="neben">zenagst weilent Hainreichs des Leinwater haus</rs> 
 <rs type="neben">und an dem <lb facs="#facs_474_r2l27" n="N003"/>andern tail zenagst Petern des weginger haus</rs> 
@@ -73711,7 +73722,7 @@ und Irn baiden erben</rs>
 Ⓥ<rs type="von">Pernhart Schuster</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB1001aⓄ<rs type="objekt">sein haus</rs>
+DB1002Ⓞ<rs type="objekt">sein haus</rs>
 Herzoghof, LederhofⓁ<rs type="lage">gelegen Im Lederhof an der Herczogen hof ze Wienn</rs>
 DB1003Ⓝ<rs type="neben">zenagst Niclas des huter haus</rs>
 <lb/>
@@ -73733,7 +73744,7 @@ DB1003Ⓝ<rs type="neben">zenagst Niclas des huter haus</rs>
 <rs type="von">Pernhart Schuster</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt" ref="#DB1001a">sein haus</rs> 
+<rs type="objekt" ref="#DB1002">sein haus</rs> 
 <rs type="lage" ref="#Herzoghof #Lederhof">gelegen Im Lederhof an der <lb facs="#facs_477_r5l4" n="N002"/>Herczogen hof ze Wienn</rs> 
 <rs type="neben" ref="#DB1003">zenagst Niclas des huter haus</rs> 
 
@@ -73865,7 +73876,7 @@ ipse potestatem</rs>
 <lb/>die Emaln Petern von Piestingk den kramer seligen auch Eleich gehabt hat</rs>
 verkaufⒺ<rs type="ereignis">habent verkaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">ain haus</rs>
+DB5613Ⓞ<rs type="objekt">ain haus</rs>
 <lb/>
 <rs>daz die vorgenant Margret und der egenant Peter von piestingk Ir erer man
 <lb/>mitgesambter hant gekaufft</rs>
@@ -73891,7 +73902,7 @@ KienmarktⓁ<rs type="lage">gelegen am Kyenmarkt</rs>
 die Emaln Petern von Piestingk den <lb facs="#facs_478_r2l22" n="N002"/>kramer seligen auch Eleich gehabt hat</rs> 
 <rs type="ereignis" ref="#verkauf">habent verkaufft</rs> 
 
-<rs type="objekt">ain haus</rs> 
+<rs type="objekt" ref="#DB5613">ain haus</rs> 
 
 <rs>daz <lb facs="#facs_478_r2l23" n="N003"/>die vorgenant Margret und der egenant Peter von piestingk Ir erer man <lb facs="#facs_478_r2l24" n="N004"/>
 mitgesambter hant gekaufft</rs> 
@@ -74207,7 +74218,7 @@ v½ Wienner phenning an sand Michels tag ze Gruntdinst</rs>
 Ⓥ<rs type="von">Paul Stokchel von Rabcz</rs>
 verkaufⒺ<rs type="ereignis">hat verkaufft</rs>
 <lb/>
-DB5012bcⓄ<rs type="objekt">sein zway hewsl</rs>
+DB5012bⓄ<rs type="objekt">sein zway hewsl</rs>
 Hohe Brücke, Tiefer GrabenⓁ<rs type="lage">nebeinander gelegen in dem Tewffengraben niderhalb der Hohenprugk under der Stetten</rs>
 Ⓝ<rs type="neben">zenagst des Gerstler zuhaus an ainer seitten</rs>
 Ⓝ<rs type="neben">und an der andern seitten zenagst Thomans zerer des Goldslaher haus</rs>
@@ -74228,7 +74239,7 @@ Hohe Brücke, Tiefer GrabenⓁ<rs type="lage">nebeinander gelegen in dem Tewffen
 <rs type="von">Paul Stokchel von Rabcz</rs> 
 <rs type="ereignis" ref="#verkauf">hat verkaufft</rs> 
 
-<rs type="objekt" ref="#DB5012bc">sein zway hewsl</rs> 
+<rs type="objekt" ref="#DB5012b">sein zway hewsl</rs> 
 <rs type="lage" ref="#Hohe_Brücke #Tiefer_Graben">nebeinander gelegen <lb facs="#facs_480_r2l15" n="N002"/>in dem Tewffengraben niderhalb der Hohenprugk under der Stetten</rs> <lb facs="#facs_480_r2l16" n="N003"/>
 <rs type="neben">zenagst des Gerstler zuhaus an ainer seitten</rs> 
 <rs type="neben">und an der andern seitten <lb facs="#facs_480_r2l17" n="N004"/>zenagst Thomans zerer des Goldslaher haus</rs> 
@@ -74752,7 +74763,7 @@ und Irn baiden erben</rs>
 Ⓥ<rs type="von">Paul kramer von prespurg</rs>
 verkaufⒺ<rs type="ereignis">hat verchaufft</rs>
 <lb/>
-Ⓞ<rs type="objekt">sein haus</rs>
+DB5441Ⓞ<rs type="objekt">sein haus</rs>
 Kienmarkt, KürsenhausⓁ<rs type="lage">gelegen am Kienmarkcht</rs>
 Ⓝ<rs type="neben">zwischen dem Kursenhaus</rs>
 Ⓝ<rs type="neben">und Ulreichs haus auf der press</rs>
@@ -74772,7 +74783,7 @@ Kienmarkt, KürsenhausⓁ<rs type="lage">gelegen am Kienmarkcht</rs>
 <rs type="von">Paul kramer von prespurg</rs> 
 <rs type="ereignis" ref="#verkauf">hat verchaufft</rs> 
 
-<rs type="objekt">sein haus</rs> 
+<rs type="objekt" ref="#DB5441">sein haus</rs> 
 <rs type="lage" ref="#Kienmarkt #Kürsenhaus">gelegen am <lb facs="#facs_483_r1l23" n="N002"/>Kienmarkcht</rs> 
 <rs type="neben">zwischen dem Kursenhaus</rs> 
 <rs type="neben">und Ulreichs haus auf der <lb facs="#facs_483_r1l24" n="N003"/>press</rs> 
