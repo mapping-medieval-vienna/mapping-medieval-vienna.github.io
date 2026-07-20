@@ -27,6 +27,13 @@ Die Edition umfasst das Kaufbuch E und Gewerbuch ("Gewährbuch") C, D und E. Das
 
 Die Digitalisate der Grundbücher wurden uns vom Wiener Stadt- und Landesarchiv (WStLA) unter der Lizenz CC BY-NC-ND 4.0 zur Verfügung gestellt.
 
+
 ## Die Anordnung der Einträge
 
 Kaufbuch E / E2 ist nach dem Anfangsbuchstaben des Verkäufer-Vornamens (_Agnes hat verkaufft_) und dann nach dem Jahr der Eintragung eingeteilt. Gewerbuch C ist fortlaufend chronologisch nach Jahren sortiert. In Gewerbuch D wurde die Struktur des Kaufbuchs nach Anfangsbuchstaben übernommen. Durch den Charakter der Gewerbücher ergibt sich eine Anordnung nach Empfänger-Vornamen (_Anna ist nucz und gewer bracht worden_). Weil die Schreiber gleich am Anfang abschätzen mussten, wieviel Platz für jeden Buchstaben benötigt wird, erwies sich diese Rubrizierung als unpraktisch: Bei manchen Anfangsbuchstaben mussten mehrmals neue Lagen eingebunden werden, bei anderen blieben viele Seiten leer. Gewerbuch E ist deshalb wieder chronologisch nach Jahr sortiert.
+
+(für Suchmaschinen: Listen aller Seiten in 
+[KB-E](info.html?p=suchmaschinen/liste-KB-E), 
+[KB-E2 / GB-C](info.html?p=suchmaschinen/liste-KB-E2_GB-C), 
+[GB-D](info.html?p=suchmaschinen/liste-GB-D), 
+[GB-E](info.html?p=suchmaschinen/liste-GB-E))

@@ -17,6 +17,10 @@ Diese Website wird über GitHub Pages gehostet, einen Dienst der GitHub, Inc. (8
 Weitere Informationen zum Datenschutz bei GitHub finden Sie unter:  
 https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
 
+## Google
+
+Wir haben die Website manuell bei Google angemeldet. Als Nebeneffekt erhalten wir eine Übersicht, wie häufig die Website über Google gefunden wurde. Die Übersicht ist vollständig anonym. 
+
 ## Bildserver
 
 Die auf dieser Website eingebundenen Faksimile-Bilder werden von einem Server der Freien Universität Berlin bereitgestellt (`https://img.typed.fu-berlin.de/iiif/2/`). Bei Bildabrufen werden technisch bedingt IP-Adressen übertragen. Es gelten die Datenschutzbestimmungen der Freien Universität Berlin:  
