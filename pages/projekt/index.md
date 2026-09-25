@@ -3,6 +3,7 @@
 Im Projekt _Mapping Medieval Vienna_ wurden die Wiener Kauf- und Gewerbücher des 15. Jahrhunderts transkribiert und ausgewegertet. Das Projekt wurde 2021 bis 2025 <a href="https://gepris.dfg.de/gepris/projekt/460256739">durch die DFG gefördert</a> und ist am Friedrich-Meinecke-Institut der Freien Universität angesiedelt. Geleitet wird das Projekt von Prof. **Thomas Ertl**. Wissenschaftliche Mitarbeiter sind **Julian Helmchen** (Transkription der Texte, Monographie über die Grundbücher) und **Wolfgang Schmidle** (Nachbearbeitung der Texte, Auswertung, Website). Unsere wichtigsten Kooperationspartner waren unsere Kolleg:innen in Wien (Universität, Wien Museum und Wiener Stadt- und Landesarchiv) sowie die FUB-IT (ehemals Center für Digitale Systeme, CeDiS) der Freien Universität Berlin. 
 
 Die Auswertung der Daten ist noch nicht abgeschlossen.
+Ein Zwischenbericht wird Anfang 2027 in einem Band _Economies of Space_ der Reihe [Itinera](https://schwabe.ch/produkttypen/reihen/itinera/) (Beihefte zur Schweizerischen Zeitschrift für Geschichte) erscheinen.
  
 ## Die Wiener Grundbücher
 
